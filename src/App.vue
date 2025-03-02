@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <template v-if="showNavbar">
+      <Navbar />
+    </template>
+    <v-main>
+      <router-view /><!-- This will display the content for each tab -->
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/NavBar.vue';
+import {
+  computed
+} from 'vue';
+import {
+  useRoute
+} from 'vue-router';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+  },
+  setup() {
+    const route = useRoute();
+    const showNavbar = computed(() => !['/login', '/register'].includes(route.path));
+    return {
+      showNavbar
+    };
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>

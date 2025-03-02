@@ -1,0 +1,1144 @@
+[
+    {
+        "Nom": "APAISEMENT",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "Spéciale",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En touchant la créature concernée, le clerc luiinsuffle du courage, augmentant ainsi son jet de protection de + 4 contre les attaques magiques provoquant la peur. Si là créature a déjà été affectée par un sort de peur et a raté son jet de protection, le sort permet un autre jet de protection avec un bonus de + 1 pour chaque niveau du clerc, c'est-à-dire + 2 pour un clerc de niveau 2, + 3 pour un clerc de niveau 3, etc. Une « pro- plus vite possible et le plus loin possible du clerc, et ce, pendant 1 sound par niveau du clerc. Un sort d'épouvante peut être annulé par son inverse, et vice versa. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "AQUAGENÈSE",
+        "Niveau": 1,
+        "Portee": "1”",
+        "Duree": "Permanente",
+        "Zone_effet": "750 litres maximum",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 round",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc peut créer 15 litres d'eau par niveau qu'il atteint ; soit 30 | au niveau 2, 45 | au niveau 3, etc. L'eau est claire et potable (elle ressemble à de l'eau de pluie). L'inverse du sort, destruction de l'eau, fait disparaître l'eau sans aucune trace (telles des vapeurs), pour une même quantité par niveau du clerc. L'eau créée dure jusqu'à évaporation naturelle, ou jusqu'à ce qu'elle soit utilisée. L'eau peut être créée dans un endroit qui pourra contenir jusqu'à 0,75 m3. Le sort demande au moins une goutte d'eau, ou une pincée de poussière, comme composante matérielle : la goutte pour la création, la poussière pour la destruction. On ne peut pas créer de l'eau à l'intérieur d'une chose vivante. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "BÉNÉDICTION",
+        "Niveau": 1,
+        "Portee": "6”",
+        "Duree": "6 rounds de combat",
+        "Zone_effet": "5x 5”",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc augmente le moral descréatures amicales de + 1. De plus, cela augmente leurs « probabilités de toucher » de + 1. Cependant, ce sort n'agit que sur ceux qui ne sont pas encore engagés dans un combat. Ce sort peut être inversé par le clerc, malédiction, qui le lance alors sur ses ennemis, ceux-ci voient donc baisser leur moral et leurs « probabilités de toucher » de — 1. Le lanceur de sort déter- mine à quelle portée il lance son sort (maximum 6”), il affectera alors les créatures se trouvant dans une zone de 5” x5”. En plus des composantes verbales et somatiques, ce sort nécessite de l'eau bénite, ou maudite pour l'inverse.",
+        "Type": "(Conjuration/Appel) Réversible"
+    },
+    {
+        "Nom": "DÉTECTION DE LA MAGIE",
+        "Niveau": 1,
+        "Portee": "3”",
+        "Duree": "1 tour",
+        "Zone_effet": "1” de large, 3” de long",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le clerc détecte les émanations magiques sur une largeur de 1” et une longueur de 9” dans la direction qu'il regarde. Le clerc peut se tourner de 60 degrés par round. Les murs de pierre de 30 cm et plus d'épaisseur, une épaisseur de métal de 3 cm et plus ou une épaisseur de bois de 90 cm et plus empêchent le sort de fonctionner. Pour lancer ce sort, le clerc a besoin de son symbole religieux. DÉTECTION DU MAL (Divination) Réversible *# Composantes : V, S, M Temps d'incantation : 1 roumd ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "DÉTECTION DU MAL",
+        "Niveau": 1,
+        "Portee": "12”",
+        "Duree": "1 tour + 1/2 tour/niveau",
+        "Zone_effet": "1” de large",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet de découvrir les émanations du mal, ou du bien si le sort est inversé, de toute créature ou tout objet. Par exemple,un alignement mauvais ou un objet maudit mauvais irradiera une aura maléfique, mais pas un piège ou une vipère. La durée de ce sort est de 1 tour +1/2 tour/niveau ; donc, un clerc de niveau 1 pourra détecter le mal pendant1 tour 1/2, un clerc de niveau 2 pendant 2 tours, etc. Le sort a une zone d'effetde 1” de large, et le clerc doit faire face à l'endroit, l'objet ou La créatune qu'il examine. Pour lancer ce sort, le clerc a besoin de son symbole bémi (ou maudit), qu'il tient devant lui.",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "INJONCTION",
+        "Niveau": 1,
+        "Portee": "1”",
+        "Duree": "1 round",
+        "Zone_effet": "Une créature",
+        "Composantes": "V",
+        "Temps_incantation": "1 segment",
+        "Jet_protection": "Spécial",
+        "Explication": "Ce sort autorise le clerc à donner un ordre d'un seul mot. L'injonction doit être prononcée dans une langue que la créature peut comprendre. Cette dernière obéira du mieux qu'elle peut si l'ordre donné est clair et univoque. Par exemple : « Suicide » sera considéré comme un nom et non un verbe, donc n'aura aucun effet. L'injonction « Meurs » fera tomber la victime en catalepsie pour un round, mais elle se relèvera ensuite sans problème. Les injonctions typiques sont : arrête, reviens, fuis, donne, etc. Les morts-vivants ne sont pas affectés par ce sort. Les créatures ayant une intelligence de 13 ou plus, et les créatures ayant 6 dés de vie ou plus (ou niveaux d'expérience), sont autorisées à lancer un jet de protection contre la magie. (Les créatures avec 13 ou plus d'intelligence ET 6 dés de vie ou plus n'ont PAS 2 jets de protection) ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "LUMIÈRE",
+        "Niveau": 1,
+        "Portee": "12”",
+        "Duree": "6tours + 1 tour/niveau",
+        "Zone_effet": "Sphère de 2” de rayon",
+        "Composantes": "V, S",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort provoque une excitation des molécules qui se mettent alors à briller. La lumière créée est semblable à celle d'une torche, et éclaire une zone de 4” de diamètre. La lumière dure 6 tours (1 heure) plus 1 tour/niveau du clerc, à moins que le clerc annule cette lumière d'un mot. Ce sort est réversible, créant alors une zone de ténèbres dans les mêmes conditions, sauf en ce qui concerne la durée, qui est alors la moitié du sort normal. Si le sort lumière est lancé sur une créature, la résistance à la magie éventuelle et un jet de protection sont autorisés. Un succès indique que la zone de lumière se crée derrière la créature visée, plutôt que sur elle. Dans tous les autres cas, le sort prend effet là où le clerc le désire, tant qu'il n'y a pas d'obstacles entre lui et la portée du sort. Le clerc peut lancer son sort dans les airs, sur une pierre, du métal, du bois, etc. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "PROTECTION CONTRE LE MAL",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "3 rounds/niveau",
+        "Zone_effet": "Créature touchée.",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, il agit comme si une armure magique protégeait le destinataire. La protection entoure la créature touchée à 30 cm de distance, la protégeant des contacts corporels des créatures enchantées ou invoquées, tels que chasseurs invisibles, démons, diables, diablotins, djinns, élémentaux, éfrits, esprits des eaux, maîtres des vents, quasits, salamandres, serviteurs aériens, sorcières des ténèbres et xorns. Le destinataire est également protégé contre les animaux et monstres invoqués. De plus, toute attaque tentée par des créatures mauvaises subit un malus de — 2 à la « probabilité de toucher » la créature protégée, et tout jet de protection éventuel en résultant se fait à + 2. Ce sort peut être inversé pour devenir alors une protection contre le bien, bien qu'il garde à distance également les créatures enchantées mauvaises. Pour lancer ce sort, le clerc doit tracer un cercle de 90 cm de diamètre sur le sol, avec de l'eau bénite pour la protection contre le mal et avec du sang pour la protection contre le bien, ou alors en utilisant de l'encens allumé ou des vapeurs de fumier, selon qu'il veut se protéger du mal ou du bien. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "PURIFICATION DE L'EAU ET DES ALIMENTS",
+        "Niveau": 1,
+        "Portee": "3”",
+        "Duree": "3 rounds/niveau",
+        "Zone_effet": "23 dm3/niveau dans une surface de 1” de côté",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "ce sort permet de purifier toute nourriture et toute eau polluée, moisie, pourrie, empoisonnée. L'inverse du sort corruptionde l'eau et des aliments rend la nourriture impropre à la consommation et l'eau polluée et non-potable ; l'inverse profane même l'eau bénite. L'eau maudite est altérée par une purification de l'eau. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "RESISTANCE AU FROID",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé sur une créature par un clerc, son corps est préservé du froid. Le bénéficiaire peut résister ainsi à des températures de — 18 °Celsius, même nu. Les froids plus intenses, comme ceux créés par une épée de froid une tempête de glace, un bâtonnet de froid, ou un souffle de dragon blanc, autorisent un jet de protection à + 3, avec la moitié des dommages subis si ce jet de protection est raté, et le quart seulement si ce jet de protection est réussi. La résistance dure 1 tour par niveau d'expérience du clerc. Ce sort nécessite comme composante maté- rielle une pincée de soufre. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "SANCTUAIRE",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "2 rounds + 1 round/niveau",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Quand un clerc lance un sort sanctuaire, tout adversaire doit lancer un jet de protection contre la magie. Si le jet de protection est raté, l'adversaire ignorera totalement le clerc et attaquera quelqu'un d'autre. Si le jet de protection est réussi, le clerc pourra être sujet aux attaques de cet adversaire, incluant les probabilités de toucher, les jets de protection éventuels et les dégâts. A noter que ce sort n'empêche pas les effets des sorts de zone (boule de feu, tempête de glace, etc.). Pendant la période de protection que donne ce sort, le clerc ne peut faire aucune action offensive, mais il peut utiliser des sorts non-violents, des sorts qui ne représentent pas une agression; il peut par exemple guérir les blessures de quelqu'un, ou lancer une bénédiction, un augure, un cantique, une lumière pour éclairer (pas sur un adversaire !), etc. La composante matérielle de ce sort est le symbole religieux du clerc ainsi qu'un petit miroir en argent. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "SOINS MINEURS",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Personnage touché",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En posant ses mains sur une créature, le clerc peut redonner de 3 à 8 points de vie à cette créature blessée (1D6+2). Ces soins ne peuvent guérir les créatures sans enveloppe corporelle, ni les morts-vivants, ni les créatures uniquement touchées par des armes en fer, en argent ou magiques. L'inverse de ce sort, blessures mineures, agit de la même manière. Si une personne évite le contact des mains du clerc, celui-ci doit lancer une « probabilité de toucher » pour voir s'il a pu poser ses mains sur sa victime pour infliger une blessure. Un sort de soins mineurs est permanent tant que la personne guérie ne subit pas de nouveaux dommages ; il faut alors la soigner de nouveau. Le sort blessures mineures cause de 1 à 8 points de dommages. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "AUGURE",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "N/A",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "2 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "Le clerc qui lance ce sort tente de deviner si l'acte que lui et ses amis vont entreprendre dans le futur immédiat (3 tours maximum) sera bénéfique ou maléfique pour le groupe. Les chances de base de bien deviner sont de 70 % + 1 % pour chaque. niveau du clerc lançant le sort, c-à-d. 71 % au niveau 1, 72 % au niveau 2, etc. L'arbitre déterminera tout ajustement dû à certaines conditions particulières, s'il y a lieu. Par exemple, considérons un groupe désirant détruire un sceau mystérieux fermant une porte. L'augure est déterminé pour savoir si la destruction du sceau sera bénéfique ou maléfique pour le groupe. La composante matérielle de ce sort est un jeu de baguettes serties de gemmes, des os de dragon ou des objets similaires, ou alors des feuilles d'infusion encore humides et placées dans le récipient qui à servi à cette infusion. Si cette méthode est utilisée, une perle écrasée d'au moins 100 PO doit être ajoutée à la boisson avant qu'elle ne soit consommée. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "CANTIQUE",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "Le temps du chant",
+        "Zone_effet": "3” de rayon",
+        "Composantes": "V, S",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, c'est-à-dire en chantant, le clerc provoque un regain d'énergie sur lui et ses amis, tandis qu'il amoindrit la force de ses ennemis. Une fois que les incantations du sort sont achevées, les attaques, les dommages et les jets de protection des amis du clerc obtiennent un bonus de + 1, alors que ceux de ses ennemis subissent un malus de — 1. Ce bonus/malus continue tant que le clerc chante et qu'il reste immobile. Une interruption provoquée par une attaque réussie contre le cterc, un sort de silence ou même le fait de bousculer le clerc fait que le sort est annulé. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "CHARME-SERPENTS",
+        "Niveau": 2,
+        "Portee": "3”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, une force hypnotique est créée qui calme un ou plusieurs serpents ; ceux-ci se dressent alors et se contentent d'osciller doucement et lentement. Si les serpents sont charmés en situation de torpeur, la durée du sort est de 3 à 6 tours (d4+ 2) ; si les serpents sont éveillés mais pas agressifs ni affamés, le charme durera de 1 à 3 tours ; si les serpents sont affamés et/ou agressifs, le sort durera de 5 à 8 rounds de combat (d4 + 4). Un clerc peut charmer des serpents dont les points de vie sont moindre ou égaux aux siens. En moyenne, un clerc de niveau 1 peut charmer des serpents dont le total de points de vie est d'environ 4 ou 5 points de vie ; un clerc de niveau 2, 9 points de vie environ ; un clerc de niveau 3, 13 ou 14 points de vie environ. Les points de vie peuvent représenter un seul serpent ou plusieurs, mais le nombre total des points de ve ne peut excéder ceux du clerc qui lance le sort. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "DÉTECTION DES CHARMES",
+        "Niveau": 2,
+        "Portee": "3”",
+        "Duree": "1 tour",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Annule",
+        "Explication": "Quand il est lancé par un clerc, ce sort détecte si une personne ou un monstre est oui ou non sous l'influence d'un charme. Jusqu'à 10 créatures peuvent être examinées avant que le sort ne soit plus effectif. L'inverse du sort, dissimulation des charmes, protège d'une telle détection, mais une seule créature peut être alors protégée. ",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "DÉTECTION DES PIÈGES",
+        "Niveau": 2,
+        "Portee": "3”",
+        "Duree": "3 tours",
+        "Zone_effet": "1” de large",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand un clerc lance ce sort, tous les pièges — normalement cachés ou magiques — de nature magique ou mécanique lui deviennent visibles. Ce sort est directionnel et le lanceur de sort doit faire face vers la direction désirée afin de déterminer si un piège se trouve dans cette direction. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "LANGAGE ANIMAL",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Un animal dans un rayon de 3” autour du clerc",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En employant ce sort, le clerc obtient le pouvoir de parler à tout animal à sang froid ou chaud, du moment que cet animal possède un esprit (il est par exemple impossible de parler à une amibe). Le clerc est donc capable de poser des questions, de recevoir et comprendre les réponses et, d'une manière générale, d'être en bons termes avec l'animal. Même si le penchant de l'animal est opposé à l'alignement du clerc (mauvais/bon, bon/mauvais), il ne l'attaquera pas pendant la durée du sort, non plus que les autres animaux de la même famille qui sont avec lui. Si l'animal est neutre ou de la même moralité que le clerc (mauvais/mauvais, bon/bon), il est possible que cet animal et ses pareils accordent leurs faveurs et même leurs services au clerc. Cette possibilité sera déterminée par l'arbitre, qui consultera une table de réaction, basée sur le charisme, et prenant en compte les actions que commet le clerc envers l'animal. Ce sort ne permet pas de parler aux monstres, mais aux animaux traditionnels, tels que chats, chiens, éléphants, ours, singes, etc. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "MARTEAU SPIRITUEL",
+        "Niveau": 2,
+        "Portee": "3”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Un ennemi",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Spécial",
+        "Explication": "En invoquant son dieu, le clerc lançant ce sort crée un champ de force qui a vaguement la forme d'un marteau. Cette force en a la taille et, aussi longtemps que le clerc ce concentre, cette force frappe n'importe quel ennemi se trouvant dans la portée du sort. Le champ de force frappe comme une arme magique avec un bonus de + 1 par tranche de 3 niveaux que le clerc a atteints uniquement en ce qui concerne les créatures ne pouvant être touchées que par arme magique ; néanmoins, le marteau spirituel n'a aucun bonus pour toucher, ni aux dégâts. Ses dégâts sont les suivants : 1 à 6 contre les créatures de taille humaine ou moins, 1 à 4 contre les créatures de plus grande taille. De plus, le marteau frappe exactement au même niveau que le clerc, comme si le clerc tenait le marteau lui-même. Dès que le clerc cesse sa concentra- tion, le marteau disparaît. Si le clerc est derrière un ennemi, le champ de force frappe avec les bonus applicables, et avec les malus pour l'ennemi (bouclier et dextérité en moins sur sa classe d'armure). La composante matérielle de ce sort est un marteau de guerre normal que le clerc doit lancer sur son ennemi tout en récitant une prière à son dieu. Le marteau disparaît quand le sort est lancé. ",
+        "Type": "(Invocation)"
+    },
+    {
+        "Nom": "PARALYSIE",
+        "Niveau": 2,
+        "Portee": "6”",
+        "Duree": "4 rounds + 1 round/niveau",
+        "Zone_effet": "1 à 3 créatures",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Ce sort permet d'immobiliser sur place 1 à 3 humains ou créatures humanoïdes (voir ci-dessous) pour 5 rounds de combat ou plus. Le niveau du clerc lançant ce sort correspond à la durée plus 4 rounds. Si ce sort est dirigé contre 3 personnes, chacune des trois obtient un jet de protection normal ; si seulement 2 personnes sont visées, leur jet de protection subit un malus de — 1 ; si le clerc ne veut paralyser qu'une seule personne, le jet de protection de cette dernière subit un malus de — 2. Les personnes réussissant leur jet de protection ne ressentent absolument rien. Les créatures affectées par ce sort sont : demi-elfes, demi-orques, dryades, elfes, esprits follets, génies des eaux, gnolls, gnomes, gobelins, hobgobelins, hommes lézards, humains, kobolds, lutins, nains, orques, petites-gens, pixies et troglodytes. Le clerc a besoin d'une petite tige droite et rigide en métal. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "PERCEPTION DES ALIGNEMENTS",
+        "Niveau": 2,
+        "Portee": "1”",
+        "Duree": "1 tour",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au clerc de connaître exactement l'alignement d'une personne : humaine, semi-humaine ou non-humaine. Jusqu'à 10 personnes peuvent être ainsi examinées. L'inverse de ce sort, confusion des alignements, cache totalement l'alignement d'une personne pendant 1 tour, et si un nouveau sort de perception des alignements est lancé ensuite sur cette personne, dans la limite de la durée, il sera inefficace. L'inverse peut cacher l'alignement d'une personne pendant un tour, 2 per- Sonnes pendant 5 rounds, etc. Certains objets magiques annulent le pouvoir de ce sort. ",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "RÉSISTANCE AU FEU",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "quand ce sort est lancé, la personne touchée est capable de résister à des chaleurs importantes : brûlures ou canicule. Elle peut même supporter des chaleurs importantes, tels que des feux magiques brülants, des incendies, des braises incandescentes, de l'huile bouillante en grande quantité, des épées flamboyantes, des tempêtes de feu, des boules de feu, des nuées de météores ou le souffle de dragons rouges. Cependant, la personne considérée subira quand même des dommages, mais moindre que ceux qui ne bénéficient pas du sort. Si le jet de protection est réussi, la victime ne subira que le quart des dégâts ; si le jet de protection est raté, elle subira la moitié des dégâts. De plus, le jet de protection lancé obtient un bonus de + 3. La résistance dure pendant 1 tour pour chaque niveau d'expérience atteint par le clerc qui lance le sort. Le lanceur du sort a besoin d'une goutte de mercure comme composante matérielle. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "RETARDEMENT DU POISON",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "1 heure/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 segment",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé sur une personne empoisonnée, il ralentit très sensiblement les effets du poison. Il peut même redonner la vie à un individu mort par empoisonnement s'il est lancé sur la victime dans un laps de temps en tours égal ou inférieur au niveau d'expérience du clerc ; par exemple, une personne empoisonnée et morte depuis un maximum de 10 tours pourra être sauvée temporairement par un clerc d'au moins niveau 10. Si ce sort ne neutralise pas le poison, il empêche cependant de subir des dégâts importants. La victime, cependant, perdra 1 point de vie par tour, sans jamais pourtant descendre en dessous de 1 point de vie. Les composantes matérielles de ce sort sont le symbole religieux du clerc et une gousse d'ail qu'il doit écraser et répandre sur les pieds nus de la victime. ",
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "SILENCE SUR 5 MÈTRES",
+        "Niveau": 2,
+        "Portee": "12”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Sphère de 9m de diamètre",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc crée une zone de silence. Tout bruit est stoppé, donc aucune conversation n'est possible, les sorts ayant une composante verbale ne peuvent être lancés et aucun bruit ne sortira de cette zone. Ce sort peut être lancé dans les airs ou sur un objet, ou même sur une créature ; si cette créature se déplace, la zone de silence se déplace avec elle. Si la créature n'est pas consentante, elle a droit à un jet de protection et, s'il est réussi, la zone de silence se crée derrière elle et ne se déplace donc pas avec elle. Le sort dure 2 rounds par niveau du clerc, c'est-à-dire 2 rounds au 1er niveau, 4 au 2e niveau, etc. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "CATALEPSIE",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "1 tour + 1 round/niveau",
+        "Zone_effet": "Une personne",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "2 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Excepté ci-dessus, ce sort est le même que le sort de niveau 3 de magicien catalepsie (voir). A noter que tout Personnage Joueur peut être affecté par ce sort, quelque soit son niveau. Les composantes matérielles de ce sort sont une pincée de poussière d'un cimetière et lesymbole religieux du clerc. ",
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "DÉSENVOÜTEMENT",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Spécial",
+        "Explication": "En lançant ce sort, un clerc est normalement capable de lever une malédiction, qu'elle soit sur un objet, sur une personne ou sous la forme d'une présence indésirable et mauvaise. Ce sort n'affecte pas les armes, les armures ou encore les boucliers maudits par exemple ; néanmoins ce sort permet à la personne portant un tel objet maudit de s'en débarrasser. L'inverse de ce sort, envoûtement, n'est pas permanent ; il dure pendant 1 tour pour chaque niveau d'expérience du clerc qui le lance. L'inverse quand il est lancé sur une personne a 50 % de chances d'amener une de ses caractéristiques (tirée au hasard par le MD) à 3 ; a 25 % de chances d'altérer les « probabilités de toucher » et les jets de protection de la victime d'un malus de — 4 ; ou a 25 % de chances de lui faire lâcher une fois sur 2 (50 %), par tour, ce qu'elle tient dans les mains (ou ne fera rien si elle n'a rien dans les mains). Un clerc peut inventer son propre envoûtement mais il devra être similaire à ceux cités ci-dessus. Dans ce cas, il est préférable de consulter l'arbitre. La victime d'un envoûtement doit être touchée par le clerc. Si elle l'est, elle a droit à un jet de protection qui, s'il est réussi, annule les effets de cette malédiction.  ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "DISSIPATION DE LA MAGIE",
+        "Niveau": 3,
+        "Portee": "6”",
+        "Duree": "Permanente",
+        "Zone_effet": "Cube de 3” d'arête",
+        "Composantes": "V, S",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand un clerc lance ce sort, il neutralise ou annule les magies suivantes : il détruit les potions magiques (elles sont considérées comme étant de niveau 12) ; il annule les effets des sorts lancés sur des personnes ou des objets ; il contre le lancement de sorts lancés dans la zone d'effet. Par contre, il ne peut dissiper la magie contenue dans les parchemins, les anneaux magiques, les baguettes, bâtonnets et bâtons, les objets magiques divers, les armes magiques, les boucliers et armures magiques Les chances de base de réussir une dissipation de la magie sont de 50 %. Pour chaque niveau d'expérience du clerc supérieur à celui de la créature qui a créé la magie ou au niveau d'efficacité de l'objet duquel la magie est issue, les chances de base augmentent de 5 %. Pour chaque niveau du clerc inférieur au niveau d'expérience/efficacité de la créature/objet, la chance est réduite de 2 %. Ce sort peut être très efficace contre les créatures charmées ou séduites. C'est automatique pour annuler la magie lancée par le clerc lui-même. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "GLYPHE DE GARDE",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente jusqu'à décharge",
+        "Zone_effet": "2,25 m3/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "Spécial",
+        "Jet_protection": "Spécial",
+        "Explication": "Une glyphe de garde est une inscription puissante, tracée magiquement, pour se garder des créatures hostiles, pour les empècher de passer, d'entrer ou d'ouvrir quelque chose. Il peut être utilisé pour garder un petit pont, le pas d'une porte, un coffre. Quand le sort est lancé, le clerc trace des lignes légèrement brillantes devant le lieu ou l'objet à protéger. Quand le sort est terminé, la marque devient invisible, mais toute créa- ture touchant la zone gardée sans prononcer le nom du glyphe sera la victime de la magie de ce glyphe, magie qu'aura lui-même instaurée le clerc selon les pouvoirs qu'il possède. La victime a droit à un jet de protection qui, s'il est réussi, réduit les effets de la magie de moitié (1/2) ou les annule selon ladite magie placée dans le glyphe. Pour chaque 0,3 m x 0,3 m de zone à protéger, un segment est nécessaire pour tracer le glyphe, plus un segment initial pour préparer la zone. Une surface maximum de 1,50 m x 1,50 m par niveau du clerc peut être protégée. Le clerc doit encenser l'endroit à protéger et si cette zone excède 4,50 m3, il doit la saupoudrer également de poudre de diamant d'une valeur d'au moins 2000 po. Les glyphes les plus courants infligent une décharge électrique, ou des dégâts de feu, causant la perte de 2 points de vie par niveau du clerc, rendent aveugle, paralysent ou même drainent un niveau d'énergie si le clerc est assez puissant. ",
+        "Type": "(Abjuration-Évocation)"
+    },
+    {
+        "Nom": "GUÉRISON DE LA CÉCITÉ",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "En touchant la créature aveugle, le clerc peut lui rendre la vue. Il peut guérir pratiquement toutes les formes de cécité. L'inverse du sort, cécité, rend aveugle une victime, mais le clerc doit alors réussir une « probabilité de toucher » et la victime a droit à un jet de protection qui, si il est réussi, annule les effets du sort. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "GUÉRISON DES MALADIES",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le clerc peut guérir pratiquement toutes les maladies, dont les maladies bactérielles, virales ou parasitaires, en posant sa main sur la créature malade. La maladie disparaît ensuite rapidement, le malade retrouvant un état normal dans une période allant de 1 tour à une semaine (cela dépend de la gravité de la maladie et de son état d'évolution au moment de la guérison). L'inverse du sort, contamination, provoque une maladie chez la créature touchée ; mais pour infliger cette maladie, le clerc doit toucher sa victime et donc réussir une « probabilité de toucher » ; la victime a alors droit à un jet de protection qui, s'il est réussi, annule les effets du sort. Si le jet de protection est raté, la maladie commencera à affecter la victime dans une période de 1 à 6 tours, ce qui lui causera la perte de 1 point de vie par tour et 1 point de force par heure, jusqu'à ce qu'elle n'ait plus que 10 % de ses points de vie originels et 10 % de sa force ; arrivé à ce stade, la victime malade est faible et virtuellement impuissante. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "LOCALISATION D'OBJETS",
+        "Niveau": 3,
+        "Portee": "6” +1”/niveau",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort aide à localiser un objet connu ou familier. Le clerc lance le sort, tourne lentement sur lui-même et sait quand il se trouve dans la direction de l'objet à découvrir, tant que cet objet se trouve dans la portée du sort. Ce sort demande, comme composante matérielle, une pierre aimantée. On peut localiser des objets tels que : un bijou, un outil, une arme ou même une échelle ou un escalier. En inversant ce sort, dissimulation d'objet, le clerc peut cachet un objet d'une telle détection, d'une sélection par boule de cristal ou des moyens similaires. Aucune application du sort ne peut jouer sur un être vivant. ",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "LUMIÈRE ÉTERNELLE",
+        "Niveau": 3,
+        "Portee": "12”",
+        "Duree": "Permanente",
+        "Zone_effet": "Sphère de 6” de rayon",
+        "Composantes": "V, S",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est similaire au sort lumière excepté qu'il dure jusqu'à ce qu'il soit annulé par les sorts ténèbres éternelles ou dissipation de la magie. La lumière créée est très vive (pratiquement comme en plein soleil). Le sort peut être lancé sur un objet, dans les airs ou sur une créature. Dans ce dernier cas, la lumière se crée et affecte l'espace à 30 cm derrière la créature si la victime a réussi son jet de protection. Ce sort aveuglera si le jet de protection est raté. L'inverse du sort crée une obscurité totale. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "MANNE",
+        "Niveau": 3,
+        "Portee": "1”",
+        "Duree": "Permanente",
+        "Zone_effet": "27 dm3/niveau",
+        "Composantes": "V, S",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le clerc fait apparaître de l'eau et de la nourriture. Les aliments créés sont très nourrissants et pour chaque niveau que le clerc a, il peut alimenter 3 créatures de taille humaine, ou une créature de la taille d'un cheval, et ce pour une journée entière. Pour chaque niveau que le clerc a, il peut créer 27 dm3 de nourriture et/ou d'eau, c-à-d. 54 dm3 au niveau 2, 81 dm au niveau 3, 108 dm3 au niveau 4 ; ou alors, le clerc peut créer nourriture et eau en quantités égales : 27 dm3 d'aliments et 27 dm3 d'eau au niveau 2, etc. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "NÉCRO-ANIMATION",
+        "Niveau": 3,
+        "Portee": "1”",
+        "Duree": "Permanente",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "A partir des os et des corps humains morts, ce sort crée les plus bas et plus faibles des morts-vivants, les squelettes et les zombies. Le sort anime ces restes, qui obéissent alors au clerc qui a lancé le sort. Les morts-vivants suivront le clerc ou défendront une place désignée par lui (ou alors attaqueront une créature spécifique). Le sort animera les monstres jusqu'à ce qu'ils soient détruits, ou jusqu'à ce que la magie soit dissipée (voir le sort dissipation de la magie). Le clerc peut animer un squelette ou un zombie pour chaque niveau d'expérience qu'il a atteint. Ainsi, un clerc de niveau 2 peut animer 2 de ces créatures, un clerc niveau 3, 3 morts-vivants, etc. L'acte d'animer les morts n'est pas bon en soi, et doit être usé avec précaution par les clercs de bonne moralité. Comme composantes matérielles, ce sort demande une goutte de sang, un morceau de chair humaine et une pincée d'os en poudre ou une écharde d'os. ",
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "NÉCROMANCIE",
+        "Niveau": 3,
+        "Portee": "1”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc peut poser plusieurs questions à une créature morte depuis une période de temps précise et recevoir les réponses selon la connaissance du mort. Le clerc doit être capable de converser dans la langue de la créature morte. Le temps depuis lequel la créature est morte est un facteur, car seuls les clercs puissants peuvent par- ler avec des personnes décédées depuis longtemps. De la même manière, le nombre de questions et le temps requis pour y répondre dépendent aussi du niveau du clerc. Ce dernier a besoin de son symbole religieux ; il doit aussi brûler de l'encens au-dessus du corps, des restes ou de la partie concernés. (voir table Nécromancie)",
+        "Tableau": {
+            "titles": [
+                "Niveau d'expérience",
+                "Temps maximum écoulé depuis la mort",
+                "Temps de questions",
+                "Nombre de questions"
+            ],
+            "data": [
+                [
+                    "6e et moins",
+                    "1 semaine",
+                    "1 round",
+                    "2"
+                ],
+                [
+                    "6e et 8e",
+                    "1 mois",
+                    "3 round",
+                    "3"
+                ],
+                [
+                    "9e au 12e",
+                    "1 semaine",
+                    "1 tour",
+                    "4"
+                ],
+                [
+                    "13e au 15e",
+                    "1 semaine",
+                    "2 tours",
+                    "5"
+                ],
+                [
+                    "16e au 20e",
+                    "1 semaine",
+                    "3 tours",
+                    "6"
+                ],
+                [
+                    "21e et plus",
+                    "1 semaine",
+                    "6 tours",
+                    "7"
+                ]
+            ]
+        },
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "PRIÈRE",
+        "Niveau": 3,
+        "Portee": "0",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "6” de rayon",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort donne les mêmes effets que le sort cantique, en ce qui concerne le bonus de + 1 pour les amis et — 1 pour les ennemis sur les « probabilités de toucher » et les jets de protection. Cependant, le clerc peut entreprendre autre chose une fois que la prière est terminée (c'est-à-dire l'incantation). Le clerc a besoin de son symbole religieux en argent, son chapelet de prières ou alors un objet similaire ayant la même utilisation. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "ABAISSEMENT DES EAUX",
+        "Niveau": 4,
+        "Portee": "12”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "1'x 1”/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc provoque une dépression, un abaissement de l'eau ou d'un liquide similaire dans la zone d'effet. Cette baisse est de 5 % par niveau d'expérience du clerc, c'est-à-dire 40 % au niveau 8, 45 % au niveau 9, etc. De même, la zone d'effet augmente avec le niveau du clerc : 8” x 8” au niveau 8, 9” x 9' au niveau 9, etc. Les composantes matérielles de ce sort sont le symbole religieux du clerc et une pincée de poussière. L'inverse du sort, gonflement des eaux, fait revenir l'eau ou le liquide à son état normal, plus 30 cm par niveau du clerc. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "BÂTONS A SERPENTS",
+        "Niveau": 4,
+        "Portee": "3”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "27 m°",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le clerc est capable de transformer unbâton en serpent pour chaque niveau d'expérience qu'il a atteint ; c-à-d. un clerc de niveau 9 pourra changer 9 bâtons en 9 serpents. Ces serpents attaquent sur l'ordre du clerc. Il doit y avoir, bien sûr, des bâtons ou des objets en bois similaires (torches, lances de fantassin, etc) pour être transformés en serpents. Les objets magiques comme les bâtons et lances magiques de fan- tassin ne sont pas affectées. Seuls les morceaux de bois qui se trouvent dans la zone d'effet seront transformés. Il y a 5 % de chances par niveau du clerc que chaque serpent soit venimeux. Un clerc de niveau 11 aura donc 55 % de trans- former un bâton en serpent venimeux. Les effets durent 2 rounds par niveau du clerc. Les composantes matérielles de ce sort sont un petit morceau d'écorce et plusieurs écailles de serpent. L'inverse, serpents à bâtons, a donc l'effet contraire, pour la même durée, ou annule les effets du bâtons à serpents ceci en rapport avec le niveau du clerc (c-à-d. un clerc niveau 10 lançant le sort inversé pourra transformer 10 serpents en bâtons). ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "CONTRE-POISON",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée ou 27dm3 de substance/2 niveaux",
+        "Composantes": "V, S",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Le clerc peut, avec ce sort, désintoxiquer toute créàture ou toute substance touchée de n'importe quel poison. Un adversaire, tel qu'un reptile ou serpent venimeux (ou même l'arme enduite de poison de l'adversaire), non-consentant à la désintoxication devra être touché par le clerc (« probabilité de toucher » réussie). Les effets du sort sont permanents seulement sur le poison existant dans la créature touchée au moment du contact, c.-à-d. que les créatures secrétant un nouveau poison ne seront pas désintoxiquées de façon permanente. L'inverse du sort, empoisonnement, demande aussi un toucher réussi de la part du clerc et la victime est autorisée à lancer un jet de protection. Si le jet de protection est raté, la victime est tuée par le poison. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "DÉTECTION DES MENSONGES",
+        "Niveau": 4,
+        "Portee": "3”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Une personne",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand le clerc lance ce sort, le bénéficiaire est immédiatement capable de savoir si la vérité a été dite. Le sort dure un round par niveau du clerc. De la poussière d'or est nécessaire pour le lancer. L'inverse du sort, dissimulation des mensonges, fait que les mensonges paraissent crédibles ou simplement annule les pouvoirs d'une détection des mensonges. La composante matérielle du sort inversé est de la poussière de laiton",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "DIVINATION",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Similaire au sort augure, le sort divination est utilisé pour obtenir des informations sur une zone. Cette zone peut-être un petit bois, une grande bâtisse ou une partie d'un niveau de donjon. Dans tous les cas, l'endroit concerné doit être connu du clerc. Ce sort donne des informations sur la force relative des créatures qui s'y trouvent, sur l'importance des richesses et sur les chances éventuelles de s'attirer le courroux d'êtres surpuissants, surnaturels bons ou mauvais si la zone est envahie ou attaquée. Les chances de base pour réussir une divination sont de 60 % + 1% par niveau du clerc (le MD peut introduire certains ajustements s'il y a des cas particuliers). Si le résultat n'est pas correct, le clerc obtiendra des informations erronées. Les composantes matérielles de ce sort sont le sacrifice d'une créature; de l'encens et le symbole religieux du clerc. Si une divination puissante est tentée, il faut faire des dons de pierres précieuses ou même d'objets magiques. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "EXORCISME",
+        "Niveau": 4,
+        "Portee": "1",
+        "Duree": "Permanente",
+        "Zone_effet": "Une créature ou un objet",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1-100+ tour(s)",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort annule toute possession d'un objet ou d'une créature par une forme extérieure ou surnaturelle. Cela inclut le contrôle d'une créature par une force contenue dans un objet, la possession par le sort métempsycose, la possession démoniaque, les envoûtements et même les charmes ; ce sort est en fait basé sur le même principe que le sort dissipation de la magie. Un objet envoûté qui subit un exorcisme fait que la force vitale de la créature concernée retourne totalement dans son enveloppe matérielle (voir MANUEL DES MONSTRES, Démon). Une fois commencé, le sort ne doit pas être interrompu, sinon ses effets sont annulés. La chance de base de succès est représentée par le jet d'un d100, donnant donc un chiffre de 1 % à 100 %. À chaque tour de l'exorcisme, le dé est lancé et si la chance de base, ou moins, est obtenue le sort est réussi. La chance de base est modifiée de — 1 % par niveau de différence entre le niveau de la force à exorciser et le niveau d'expérience du clerc, de + 1 % dans le cas inverse. Le MD peut ajuster cette chance selon des cas particuliers, s'il y a lieu. Les composantes matérielles pour ce sort sont le symbole religieux du clerc et de l'eau bénite (maudite pour les clercs mauvais). Une relique ou un objet religieux puissant peut augmenter la chance de réussite de 1 % à 50 %, selon la puissance de l'objet. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "LANGAGE DES PLANTES",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "7 rounds/niveau",
+        "Zone_effet": "Cercle de 6” de diamètre",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "AUcun",
+        "Explication": "Quand ce sort est lancé, le clerc est capable de converser, dans des termes très rudimentaires, avec toute sorte de végétaux vivants. Ainsi, le clerc peut demander à des plantes si une personne est passée, leur demander de faciliter un passage, leur demander d'enchevêtrer des créatures, etc. Ce sort n'autorise pas le clerc à faire bouger les plantes non-mobiles. Tout végétal dans la zone d'effet est sous le contrôle du clerc. Les composantes matérielles de ce sort sont une goutte d'eau, une pincée de bouse et une flamme. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "LANGUES",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "1 tour",
+        "Zone_effet": "Zone 6” de diamètre",
+        "Composantes": "V,S",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort autorise le clerc à parler la langue de toute créature se trouvant dans la zone d'effet, que ce soit une langue raciale ou un langage d'alignement. L'inverse du sort, incompréhension, annule ce sort ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "PROTECTION CONTRE LE MAL SUR 3 METRES",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Sphère de 6m de diamètre",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Le globe de protection de ce sort est identique à celui du sort de niveau 1, protection contre le mal, sauf qu'il affecte une zone plus importante. La durée du sort est également plus importante. Pour lancer ce sort, le clerc doit tracer un cercle de 6 m de diamètre, utiliser de l'eau bénite ou du sang, de l'encens allumé ou des vapeurs de fumier selon l'alignement du clerc et selon que le sort est lancé normalement ou inversé. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "SOINS MAJEURS",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est une version plus puissante du sort deniveau 1 soins mineurs (voir). En posant ses mains sur la créature blessée, le clerc peut redonner de 3 à 17 points de vie (2d8 + 1). Ce sort affecte seulement les créatures dont la liste est donnée dans le sort soins mineurs. L'inverse du sort, blessures majeures, agit de façon similaire au sort blessures mineures. Le clerc doit lancer une probabilité de toucher et, si elle est réussie, la victime subit de 3 à 17 points de dégâts. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "CHANGEMENT DE PLAN",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée (spéciale)",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le clerc se déplace ou envoie une autre personne sur un autre plan d'existence. Le destinataire du sort reste sur ce nouveau plan jusqu'à ce qu'il en parte par un moyen similaire. Si plusieurs personnes forment un cercle en se tenant par la main, 7 personnes maximum peuvent ainsi changer de plan en même temps. La composante matérielle de ce sort est une petite baguette fourchue de métal, la taille et le métal de cette baguette décidant sur quel plan la ou les personnes affectées vont aller. (Le MD déterminera les détails concernant le plan d'arrivée). Une créature non-consentante doit être touchée par le clerc, de plus, cette créature a droit à un jet de protection qui, s'il est réussi, annule les effets du sort. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "COMMUNION",
+        "Niveau": 5,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le clerc peut entrer en contact avec son dieu, ou ses agents, et demander des informations sous la forme de questions auxquelles il ne sera répondu que par « oui » où « non ». Le clerc est autorisé à poser une question pour chacun de ses niveaux d'expérience. Les réponses données seront correctes. Il est probable que l'arbitre limitera le nombre de communion à 1 par aventure, 1 par semaine ou même 1 par mois, car les dieux n'apprécient pas les dérangements trop fréquents. Les composantes matérielles de ce sort sont le symbole religieux du clerc, de l'eau bénite/maudite et de de l'encens. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "DISSIPATION DU MAL",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Un clerc, avec ce sort, oblige les créatures marquées de nature mauvaise ou les monstres enchantés et ceux commettant des actes mauvais à retourner sur leur plan d'existence. Voici des exemples de telles créatures : chasseurs invisibles, démons, diables, djinns, efrits, élémentaux et serviteurs aériens. Ce sort dure 1 round/niveau, et pendant que le sort est effectif, toutes les créatures pouvant être affectées subissent un malus de — 7 sur leurs « probabilités de toucher » le clerc. L'inverse du sort, dissipation du bien, agit contre les créatures invoquées et enchantées d'alignement bon ou envoyées pour aider la cause du bien. Les composantes matérielles de ce sort sont le symbole religieux du clerc et de les bénite/maudite. ",
+        "Type": "(Abjuration) Réversible"
+    },
+    {
+        "Nom": "EXPIATION",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Une personne",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est utilisé par un clerc pour annuler la responsabilité d'une personne envers un acte inconnu ou non-désiré. Il peut également annuler les effets d'un changement magique d'alignement. La personne concernée doit être sincèrement repentante ou pas sous l'influence de sa propre volonté pour pouvoir être repentante. Le MD jugera ce sort dans ce sens, notant toute utilisation antérieure de ce sort sur la personne concernée. Un méfait délibéré ou un acte commis en pleine conscience et par sa propre volonté ne peut pas être sujet au sort expiation. Les composantes matérielles de ce sort sont le symbole religieux du clerc, som chapelet de prières, ainsi que de l'encens à faire brûler. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "FLÉAU D'INSECTES",
+        "Niveau": 5,
+        "Portee": "36”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Nuage de 36” de diamètre et 6” de haut",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé par un clerc, une horde d'insectes rampants, sauteurs et volants se forme en un épais nuage. Ces insectes obscurcissent la vue, la limitant à 3”. Les créatures à l'intérieur de ce nuage subissent 1 point de dégât par round, à cause des piqûres et morsures multiples, et ceci sans considération de la classe d'armure. Le MD lancera un jet sous le moral pour les créatures ayant moins de 5 dés de vie. Si ce jet est raté, ces créatures fuiront le plus rapidement possible droit devant elles jusqu'à ce qu'elles soient à plus de 24” du nuage d'insectes. Les créatures avec 2 dés de vie ou moins auront cette réaction de façon automatique. Une fumée épaisse et abondante éloignera les insectes. Le feu aura le même eftet. Un mur de feu en forme d'anneau éloignera les insectes de son champ d'action, mais une boule de feu éparpillera simplement ces insectes à l'endroit de l'explosion pendant un tour. La foudre et le froid ou la glace agissent de la même manière. Le nuage persiste pendant 1 tour par niveau que le clerc a atteint, puis il se disperse. Le nuage se forme à l'endroit où le clerc le désire, jusqu'à un maximum de 36” ; cet endroit où le clerc lance son sort représente le centre du nuage d'insectes. Ensuite, le nuage ne bouge plus ; il ne sort plus de sa zone d'effet. Ce sort peut être contré par le sort dissipation de la magie lancé sur le centre du nuage. Un cube de force (un objet magique spécifique) peut éloigner les insectes d'une personne se trouvant au centre du nuage, mais l'invisibilité n'offre aucune protection. Les composantes matérielles de ce sort sont quelques grains de sucre, des amandes et de la matière grasse. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "PILIER DE FEU",
+        "Niveau": 5,
+        "Portee": "6”",
+        "Duree": "1 segment",
+        "Zone_effet": "Pilier de 3” de haut et 1” de diamètre",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Divise les dégats par 2",
+        "Explication": "Quand un clerc lance ce sort, une colonne de feu se forme à l'endroit voulu par lui. Chaque créature se trouvant dans cette zone doit lancer un jet de protection. Si le jet de protection est raté, les créatures subissent de 6 à 48 points de vie de dégâts (6d8). Si ce jet de protection est réussit, les dégâts subits ne sont que de 3 à 24 points de vie (348). La composante matérielle de ce sort est une pincée de soufre. ",
+        "Type": "(Évocation)"
+    },
+    {
+        "Nom": "QUETE RELIGIEUSE",
+        "Niveau": 5,
+        "Portee": "6”",
+        "Duree": "Jusqu'à accomplissement",
+        "Zone_effet": "Une créature",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Ce sort permet au clerc de demander à la personne visée de lui rendre un service et de revenir voir le clerc en question pour lui prouver que ce service a été rendu. Cela peut être, par exemple, la récupération d'un objet de valeur, le sauvetage ou la libération d'une personne connue, la libération d'une créature, la prise d'une place forte, l'élimination d'une personne, etc. Si la quête n'est pas accomplie par retard, mensonge ou inaction volontaire, la personne affectée perd 1 point sur ses jets de protection pour chaque jour d'une telle action et ce malus dure tant que cette quête n'est pas accomplie ou que le clerc l'annule lui-même. (Il existe certaines circonstances qui peuvent suspendre temporairement une quête, et d'autres qui l'annulent : le Maître du Donjon vous donnera les informations et détails nécessaires). La composante matérielle est le symbole religieux du clerc. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "RAPPEL A LA VIE",
+        "Niveau": 5,
+        "Portee": "3”",
+        "Duree": "Permanente",
+        "Zone_effet": "Une personne",
+        "Composantes": "V,S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Spécial",
+        "Explication": "Quand un clerc lance ce sort, il peut redonner vie à un demi-elfe, un gnome, un humain, un nain ou un petite-gens. Le temps écoulé depuis la mort de la personne est très important, car le clerc ne peut rappeler à la vie des personnes que jusqu'à un certain point, la limite de temps étant de 1 jour par niveau du clerc ; c'est-à-dire qu'un clerc niveau 9 pourra rédonner vie à une personne morte depuis 9 jours maximum. Le corps de la victime doit être en bon état, ou alors les parties manquantes seront aussi manquantes sur le ressuscité. De plus, la personne qui revient à la vie doit lancer un jet de résistance aux traumatismes (voir CARACTÉRISTIQUES DU PERSONNAGE, Constitution). La personne ressuscitée par ce sort est faible et doit se reposer un jour entier au lit pour chaque jour de sa mort. Le geste que doit faire le clerc (c-à-d. la composante somatique) est de pointer son doigt. L'inverse de ce sort, destruction de la vie, autorise la victime à lancer un jet de protection ; si ce jet de protection est réussi, cette victime subit des dégâts égaux à ceux que peut provoquer le sort blessures majeures, à savoir de 3 à 17 points de vies (248 + 1). Si le jet de protection est raté, la victime meurt. Un clerc mauvais peut utiliser cet inverse sans problème de conscience ; un clerc bon doit l'utiliser avec beaucoup de précautions, étant absolument certain que la victime du sort est mauvaise et que son élimination est indispensable. A noter que les morts-vivants, sauf les squelettes, créés dans la même limite de temps que ce sort sont affectés par lui. Ils sont alors ressuscités s'ils réussissent leur jet de résistance aux traumatismes.Si ce jet de résistance est raté, ils deviennent de simples morts. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "SOIN ULTIME",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est une version très puissante du sort soins mineurs. Le clerc appose ses mains sur la créature blessée et lui redonne de 6 à 27 points de vie (3d8 + 3). Le sort n'affecte pas les créatures citées dans l'explication du sort soins mineurs. L'inverse du sort, blessure ultime, agit de la même façon que les inverses des autres sorts de soin ; il demande une probabilité de toucher réussie de la part du clerc et inflige de 6 à 27 points de dégâts (3d8 + 3). ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "VISION RÉELLE",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Portée de vue sur 12”",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand le clerc lance ce sort, toute chose dans lazone d'effet apparaît comme ce qu'elle est vraiment. Les portes secrètes deviennent visibles pour le clerc, la place des choses déplacées devient évidente, les choses invisibles, éthérées et astrales deviennent visibles également. Les choses métamorphosées, et transformées magiquement, apparaissent sous leur vrai jour. Même une aura projetée par une créature devient crème est faite d'une poudre de champignons très rares, de safran et de graisse. L'inverse du sort, vision erronée, fait que la personne affectée voit les choses comme elles ne sont pas réellement, ce qui est cher devenant sans valeur, le rugue devenant lisse, la beauté devant laide. La crème pour l'inverse du sort est faite d'huile, de poudre de pavot et d'essence d'orchidée rose. Pour les deux sorts, la crème doit être vieille de 1 à 6 mois. ",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "ANIMATION DES OBJETS",
+        "Niveau": 6,
+        "Portee": "3”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "27 dm3/niveau",
+        "Composantes": "V,S",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort puissant permet au clerc d'animer des objets avec un semblant de vie. L'objet, ou les objets animés, attaque ce que, celui que (ou ceux que) le clerc désigne. L'objet animé peut être fait de n'importe quelle matière : bois, métal, pierre, cuir, céramique, verre, etc. La vitesse de mouvement de l'objet dépend de ses moyens de propulsion et de son poids. Une grande table en bois est lourde; mais ses pieds peuvent lui donner de la vitesse ; une couverture peut simplement glisser et ramper ; une jarre peut rouler. Ainsi, un grand piédestal en pierre bougera très lentement, une statue en pierre un peu plus vite, en bois encore plus et un objet léger ira très vite (le piédestal, 1”/round ; la statue de pierre, 4”/round ; une statue de bois, 8”/round ; un objet en ivoire léger, 12”/round). Les mouvements glissants et rampants se font à la vitesse de 1” à 2” par round, alors que les objets qui peuvent rouler le font à la vitesse de 3” à 6” par round. Les dégâts causés par un objet animé dépendent de sa taille et de son matériau. Les objets légers et souples peuvent seulement obstruer la vue, gêner, étouffer, etc. Les objets légers mais durs peuvent causer de 1 à 2 points de dégâts, ou alors gêner et faire trébucher comme le font les objets légers et souples. Les objets durs de poids moyen peuvent frapper pour des dégâts de 2 à 8 points de vie (2d4). Les grands objets lourds peuvent causer de 3 à 12, 4 à 16 ou même 5 à 20 points de dégâts. La fréquence d'attaque de ces objets dépend des moyens de mouvement qu'ils peuvent posséder, de leurs protubérances, appendices et moyens d'attaque qu'ils peuvent avoir. Cela va de 1 attaque par round de combat à 1 attaque tous les 5 rounds de combat. La classe d'armure des objets animés dépend de la matière qui les constitue et de leur vitesse. Les dommages dépendent du type d'arme employé par l'objet et de ce qui est frappé. Une arme aiguisée et coupante est efficace contre le cuir, le bois, les tissus et les matériaux similaires ; les armes lourdes et contondantes sont efficaces contre le bois, la pierre, le métal. L'arbitre déterminera tous ces facteurs, ainsi que les dégâts que peuvent occasionner les objets animés. Le clerc peut animer 27 dm3 par niveau d'expérience ; ainsi, un clerc niveau 14 pourra animer 378 dm3 c'est-à-dire une grande statue, une couverture, 3 chaises ou une douzaine de pots de taille moyenne. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "BARRIÈRE DE LAMES",
+        "Niveau": 6,
+        "Portee": "3”",
+        "Duree": "3 rounds/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Le clerc lançant ce sort crée un mur de lames tournoyantes, aiguisées comme des lames de rasoirs. Ce mouvement extrêmement rapide se fait autour d'un axe. Toute créature qui tente de passer à travers cette barrière subit des dégâts allant de 8 à 64 points de vie (8d8). La barrière reste pendant 3 round pour chaque niveau que le clerc a atteint. Cette barrière peut couvrir une surface minimum de 2,25 m2 (1,5 m x 1,5 m), et un maximum de 36 m2 (6mx6m) en intérieur et 324 m2 (18mx18m) à l'extérieur. ",
+        "Type": "(Évocation)"
+    },
+    {
+        "Nom": "GUÉRISON",
+        "Niveau": 6,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort très puissant permet au clerc de guérir la maladie et les blessures qu'a pu subir quelqu'un. II guérit les maladies sous toutes leurs formes. Il guérit aussi de la cécité et redonne tous les points de vie perdus, sauf 1d4. Il annule le sort débilité mentale. Naturellement, ce sort n'est plus efficace sur les blessures et maladies ultérieures. L'inverse du sort, traumatisme, inflige une maladie à la victime et lui fait perdre tous ses points de vie, sauf de 1 à 4 (1d4). Pour l'inverse, le clerc doit réussir sa probabilité de toucher. Pour les créatures qui ne peuvent pas être affectées par ce sort, voir le sort soins mineurs. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "INVOCATION DES ANIMAUX",
+        "Niveau": 6,
+        "Portee": "3”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au clerc d'invoquer, d'appeler un ou plusieurs mammifères à l'endroit où il le désire, dans le but d'attaquer ses ennemis. Les animaux invoqués restent au service du clerc pendant 2 rounds par niveau du clerc, ou jusqu'à ce que le clerc soit tué. Le clerc peut appeler un ou plusieurs mammifères dont le total de dés de vie ne doit pas excéder ceux du clerc lui-même ; par exemple, un clerc de niveau 12 peut invoquer un mammifère de 12 dés de vie, 2 mammifères de 6 dés de vie chacun, etc. Pour chaque + 1 (point de vie) sur les dés de vie de la créature, comptez 1/4 de dé de vie; c'est-à-dire qu'une créature avec 4+ 3 dés de vie est comptée comme ayant 4 3/4 dés de vie. La (les) créature(s) invoquée(s) attaquera(ront) immanquablement l'(les) ennemi(s) du clerc qui a lancé le sort. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "LANGAGE DES MONSTRES",
+        "Niveau": 6,
+        "Portee": "3” de rayon",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "",
+        "Composantes": "V,S",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand il est lancé, ce sort permet de parler avec tout type de créature ayant un moyen de communication. La créature concernée comprendra l'intention du clerc et comprendra ce qu'il dit. Le Maître de Donjon lancera un dé de réaction pour la créature concernée. Toutes les créatures du même type que le clerc a choisies, et se trouvant dans la portée du sort, peuvent parler avec le clerc. Le sort dure 1 round par niveau du clerc, et tant que le sort est effectif, la conversation peut prendre place, si le monstre le désire. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "LITHOMANCIE",
+        "Niveau": 6,
+        "Portee": "Au toucher",
+        "Duree": "1 tour",
+        "Zone_effet": "0,75 m3 de pierre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand un clerc lance ce sort, il peut faire parler les pierres ; celles-ci lui disent qui ou quoi les a touchées, ce qu'elles cachent ou ce qu'il y a derrière elles. Les pierres feront des descriptions complètes si on leur demande. Les composantes matérielles de ce sort sont une goutte de mercure et un peu d'argile. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "ORIENTATION",
+        "Niveau": 6,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "3 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "Par ce sort, le clerc est capable de trouver la route la plus courte et la plus directe pour l'emmener là où il le désire, que ce soit pour entrer ou sortir d'un endroit. Cet endroit peut être extérieur ou souterrain ; cela peut être même un labyrinthe. Cette connaissance dure tant que dure le sort, c'est-à-dire 1 tour pour chaque niveau d'expérience du clerc qui lance le sort. Ce sort permet au clerc et à ceux qui sont avec lui de sortir du sort labyrinthe en un round. La composante matérielle de ce sort est un jeu d'objets divinatoires de ceux appréciés par le clerc : en os, en ivoire, sous forme de bâtonnets ou de runes gravées. L'inverse du sort, fausse route, fait que la créature touchée est incapable de trouver sa route, pendant la durée du sort, bien qu'il puisse être guidé. ",
+        "Type": "(Divination) Réversible"
+    },
+    {
+        "Nom": "RAPPEL",
+        "Niveau": 6,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V",
+        "Temps_incantation": "1 segment",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au clerc de revenir instantanément à son sanctuaire dès que le mot est prononcé. Le sanctuaire doit être précisé à l'avance par le clerc. Il peut être à n'importe quelle distance mais l'endroit doit être connu, que ce soit sous terre ou sur terre. Le transport par rappelest absolument sûr. Le clerc peut transporter, en plus de lui-même, un poids de 250 po par niveau qu'il a atteint. Ainsi, un clerc niveau 15 pourra transpor- ter en plus 3 750 po (375 livres). Ce surplus peut être de l'équipement, un trésor où une autre personne. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "SÉPARATION DES EAUX",
+        "Niveau": 6,
+        "Portee": "2”/niveau",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le clerc peut détourner unequantité d'eau ou tout autre liquide, qui formera ainsi une dépression. La longueur et la profondeur de la dépression dépendent du niveau du clerc ; le clerc peut créer une dépression de 90 cm de profondeur, 30 cm de large sur 2” de long (6 m en intérieur ou 18 m en extérieur) par niveau qu'il a atteint. Ainsi, un clerc niveau 12 créera un passage de 10,8 m de profondeur, 3,60 m de large sur 24” de long (72 m ou 216 m) pendant toute la durée du sort ou à moins que le clerc lui-même l'annule (voir dissipation de la magie). La composante matérielle de ce sort est le symbole religieux du clerc. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "SERVITEUR AÉRIEN",
+        "Niveau": 6,
+        "Portee": "1”",
+        "Duree": "1 jour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort invoque un serviteur aérien invisible (voir Règles AVANCÉES de DONJONS & DRAGONS, MANUEL DES MONSTRES), qui réalisera ce qu'a demandé le clerc dans son sort. La créature ne combat pas mais obéit au clerc qui lui a demandé de retrouver et ramener l'objet ou la créature qu'il lui décrit. Bien sûr, l'objet, ou la créature, recherché doit avoir une enveloppe physique pour pouvoir être ramené au clerc. Le clerc devra avoir toujours en tête les conséquences que pourrait apporter le fait d'empêcher le serviteur aérien d'accomplir sa tâche. Le sort et ses effets durent au maximum 1 jour par niveau que le clerc a atteint. Le serviteur aérien retourne sur son propre plan, quand le sort est fini, quand la quête est achevée, quand le clerc meurt ou quand le clerc annule sa demande. Le clerc doit se protéger avec le sort protection contre le mal où alors se placer à l'intérieur d'un cercle magique, d'un triangle thaumaturgique ou d'un penta- grame quand il invoque un serviteur aérien ; son symbole religieux peut aussi le protéger. Le risque encouru est que la créature invoquée tue le clerc qui a lancé le sort et retourne ensuite sur son plan d'existence. Un serviteur aérien attaque toujours par surprise quand il est en mission, et obtient l'avantage de 4 rounds de combat pour lui, ceci à moins que la créature recherchée ne soit capable de détecter l'invisibilité. A ce moment, un d6 est lancé : 1 = 1 round, 2 = 2 rounds, 3 = 3 rounds, 4 = 4 rounds, un 5 et un 6 indiquent que la créature n'est pas du tout surprise et donc que le serviteur aérien n'a l'avantage d'aucun round. À chaque round, le serviteur doit lancer une probabilité de toucher, et quand une de ces tentatives est réussie, cela veut dire que le serviteur aérien a agrippé sa victime ou attrapé l'objet qu'il recherche et qu'il doit ramener au clerc. Si c'est une créature qu'il doit ramener, la force du serviteur est comparée à celle de la créature visée. Si la créature n'a pas une valeur en force précise et mesurable, il faut lancer le nombre de dés de vie du serviteur et de la créature visée ; le total le plus élevé correspond à la plus grande force. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "CONTRÔLE DU CLIMAT",
+        "Niveau": 7,
+        "Portee": "0",
+        "Duree": "4-48 heures",
+        "Zone_effet": "10 à 40 km2",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au clerc de changer le climat de la zone dans laquelle il se trouve. Le temps d'incantation est de 1 tour mais il faut de 1 à 4 tours pour que les effets du changement se fassent sentir. Ce sort ne permet pas de changer la température de façon importante. Les possibilités de changement du climat dépendent des conditions climatiques précédant le lancement du sort (voir tableau). Les 3 aspects du temps (nuages/précipitation, température et vent) peuvent être contrôlés mais seulement comme ci-dessus. Par exemple, un temps clair, chaud avec vent léger pourra devenir nuages clairsemés, très chaud et calme. En aucun cas, on ne pourra avoir de contradictions — un brouillard épais avec en même temps un vent très fort. Plusieurs sorts de contrôle du climat peuvent être lancés, mais pas en même temps, seulement à la suite les.uns des autres. Les composantes matérielles de ce sort sont le symbole religieux du clerc et son chapelet de prières, ou tout objet similaire. Évidem- ment, ce sort peut fonctionner uniquement là où il y a des conditions climati- ques appropriées. ",
+        "Tableau": [
+            [
+                "TEMPS CLAIR",
+                "TEMPS TRES CHAUD",
+                "CALME"
+            ],
+            [
+                "Très clair",
+                "Chaleur",
+                "Calme plat"
+            ],
+            [
+                "Nuages clairsemés",
+                "Canicule",
+                "Brise très légère"
+            ],
+            [
+                "PARTIELLEMENT NUAGEUX",
+                "TEMPS CHAUD",
+                "VENT LEGER"
+            ],
+            [
+                "Clair",
+                "Forte chaleur",
+                "Calme"
+            ],
+            [
+                "Nuageux",
+                "Douceur",
+                "Vent fort"
+            ],
+            [
+                "Brouillard/Pluie légère/Grêle faible",
+                "TEMPS DOUX",
+                "VENT FORT"
+            ],
+            [
+                "Givre/Neige légère",
+                "Chaleur",
+                "Vent léger"
+            ],
+            [
+                "NUAGEUX",
+                "Fraicheur",
+                "Vent très fort"
+            ],
+            [
+                "Partiellement nuageux",
+                "TEMPS FRAIS",
+                "VENT TRES FORT"
+            ],
+            [
+                "Nuages importants",
+                "Douceur",
+                "Vent fort"
+            ],
+            [
+                "Brouillard épars",
+                "Très froid",
+                "Tempête"
+            ],
+            [
+                "Grosse pluie/grêle importante",
+                "",
+                "TEMPÊTE"
+            ],
+            [
+                "Neige abondante/givre épais",
+                "",
+                "Vent très fort"
+            ],
+            [
+                "",
+                "",
+                "Ouragan - Typhon"
+            ]
+        ],
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "MARCHE DES VENTS",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "6 tours/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort donne la possibilité au clerc, et parfois à une ou deux autres personnes, de transformer son corps en vapeurs nuageuses. Un vent magique souffle alors et transporte le clerc là où il le désire, à une vitesse maximum de 60”/tour ou minimum de 6”/tour. Le sort dure autant de temps que le clerc le désire jusqu'à un maximum de 6 tours par niveau du lanceur du sort. Pour chaque tranche de 8 niveaux d'expérience que le clerc a atteint avec un maximum de 24 niveaux, il peut transformer une autre personne et la transporter ; il peut le faire avec deux autres personnes s'il a atteint le niveau nécessaire. Les personnes transformées ne sont pas invisibles mais apparaissent comme brumeuses et presque transparentes. Si elles sont habillées de blanc, il y a 80 % de chances qu'on les confonde avec des petits nuages, de la brume ou des vapeurs. Les composantes matérielles de ce sort sont du feu et de l'eau bénite/maudite. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PAROLE SACRÉE/MAUDITE",
+        "Niveau": 7,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "3” de rayon",
+        "Composantes": "V",
+        "Temps_incantation": "1 segment",
+        "Jet_protection": "Aucun",
+        "Explication": "La prononciation d'une parole sacrée (ou maudite) a un pouvoir énorme. Elle éloigne les créatures mauvaises (ou bonnes) en les forçant à retourner sur leur plan d'existence. De plus, ce sort affecte d'autres créatures de différents alignements (voir tableau). Les créatures affectées doivent se trouver dans la zone d'effet (6” de diamètre) dont le centre est le clerc lui-même. ",
+        "Tableau": {
+            "titles": [
+                "Dés de vie ou niveau de la créature",
+                "Généraux",
+                "Mouvement",
+                "Probabilité de toucher",
+                "Sorts"
+            ],
+            "data": [
+                [
+                    "moins de 4",
+                    "mort",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                [
+                    "4 à 7",
+                    "paralysie (1d4 tour(s))",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                [
+                    "8 à 11",
+                    "étourdi (2d4 rounds)",
+                    "-50%",
+                    "-4",
+                    "-"
+                ],
+                [
+                    "12 et plus",
+                    "surdité (1d4 round(s))",
+                    "-25%",
+                    "-2",
+                    "-50% d'échec"
+                ]
+            ]
+        },
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "RÉGÉNÉRATION",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "3 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, les membres d'un corps (doigts, orteils, pieds, mains, bras, jambes, queues ou même les têtes d'une créature multi-céphale), les os, les organes se reforment. Le temps que prend la régénération est d'un round si le membre amputé touche le corps, de 2 à 8 tours dans les autres cas. L'inverse, flétrissement, fait que le membre ou l'organe touché se flétrit et devient inutilisable en un round, se séparant du corps ensuite en 2d4 tours, tombant en poussière. Comme d'habitude, le clerc doit toucher sa victime. Les composantes matérielles de ce sort sont un objet de prière et de l'eau bénite/maudite. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "RESTAURATION",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V,S",
+        "Temps_incantation": "3 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le niveau d'énergie de vie de la créature touchée est augmenté de 1. Cela implique bien sûr que cette créature a perdu auparavant un niveau d'énergie par un monstre ou une force. Ainsi, si un personnage de niveau 10 a été touché par un nécrophage et est descendu au niveau 9, le sort restauration peut le ramener au nombre de points d'expérience nécessaire pour lui redonner son 10° niveau, et lui redonner un dé de vie additionnel, ainsi que ses fonctions à ce niveau. Le sort est efficace seulement s'il est lancé pendant la période de 1 jour par niveau d'expérience du clerc, par rapport au moment où la victime a perdu un niveau d'expérience. L'inverse du sort, perte d'énergie, draine un niveau d'énergie chez la victime (voir les morts-vivants comme les spectres, nécrophages, vampires). Il faut que le clerc touche sa victime pour lui ôter un niveau. Le sort restauration redonne l'intelligence aux personnes qui ont été affectées par le sort débilité mentale (voir). ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "RÉSURRECTION",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Personne touchée",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le clerc peut redonner vie et force complète à une personne morte. La personne peut être morte depuis 10 années cumulatives par niveau du clerc ; donc un clerc de niveau 19 peut ressusciter une personne morte depuis 190 ans. Voir le sort rappel à la vie pour les limitations quant aux personnes pouvant être ressuscitées. L'inverse du sort, anéantissement, fait que la victime touchée par le clerc meurt immédiatement et tombe en poussière. Les composantes matérielles sont le symbole religieux du clerc et de l'eau bénite/maudite. Le fait de lancer ce sort oblige le clerc à se reposer un nombre de jours égal aux niveaux d'expérience de la personne ressuscitée ou détruite. Ce repos doit se faire au lit et doit être total. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "SEUIL",
+        "Niveau": 7,
+        "Portee": "3”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Premièrement, il crée une connexion ultradimensionnelle entre le plan d'existence sur lequel se trouve le clerc et le plan sur lequel demeure un être spécifique d'un grand pouvoir, le résultat permettant à cet être de passer simplement par le passage créé de son plan à celui du clerc. Deuxièmement, la prononciation de ce sort attire l'attention de l'habitant sur l'autre plan. Quand il lance ce sort, le clerc doit nommer le démon, diable, demi-dieu, dieu ou tout être similaire qu'il désire voir utiliser le seuil de passage pour venir l'aider. Il y a 100 % de chances que quelque chose franchisse le seuil. Les actions de l'être qui vient dépendent de beaucoup de facteurs, incluant l'alignement du clerc, la nature de ceux qui sont avec lui, où de ceux qui s'opposent à lui ou le menacent. Le Maître de Donjon déterminera les éléments en présence et agira en conséquence. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "SORT ASTRAL",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S",
+        "Temps_incantation": "3 tours",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le clerc peut projeter son corps astral dans le Plan astral, quittant ainsi son enveloppe physique et ses possessions matérielles, en les laissant sur le Plan Matériel Primaire (le plan sur lequel se trouvent l'univers entier et tous les univers parallèles). Seuls certains objets magiques qui ont des existences multi-plans peuvent être emportés dans le P/an Astral. Comme le Plan Astral touche le premier niveau des Plans Extérieurs, le clerc peut voyager astralement vers n'importe lequêl de ces Plans Extérieurs qu'il désire. Le clerc quitte alors le Plan Astral et forme un corps sur le plan d'existence qu'il a choisi. Il est aussi possible de voyager astralement sur le Plan Matériel Primaire avec ce sort, mais un second corps ne peut pas se former sur ce plan. En règle générale, une personne projetée astralement ne peut être vue que par des créatures sur le Plan Astral. À tout moment, le corps astral est connecté au corps matériel par un cordon d'argent ; si ce cordon est cassé, la personne meurt astralement et matériellement, mais généralement seule une force psychique (le vent psychique) peut casser ce cordon. Quand un second corps est formé, le cordon reste attaché invisiblement au nouveau corps et le cordon retourne simplement au corps matériel quand le clerc revient sur le Plan Matériel Primaire, le corps matériel sortant alors de son état d'animation suspendue. Bien que pouvant agir sur le Plan Astral, les personnes projetées ne peuvent pas affecter les créatures non-astrales. Le sort dure jusqu'à ce que le clerc y mette fin ou jusqu'à ce qu'il soit annulé par un autre moyen (dissipation de la magie où destruction du corps matériel du clerc sur le Plan Matériel Primaire). Le clerc peut emmener avec lui jusqu'à 5 personnes, ces 5 personnes devant être reliées à lui en cercle. Ces compagnons de voyages sont dépendants du clerc et peuvent être abandonnés. Le voyage peut être lent ou rapide, selon le désir du clerc. La destination ultime où le clerc arrive peut être sujette à une conceptualisation de sa part (voir APPENDICE IV LES PLANS D'EXISTENCE CONNUS pour plus d'informations sur le Plan Astral et la projection astrale). ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "SYMBOLE",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V,S,M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Le clerc qui lance ce sort inscrit un symbole dansles airs où sur n'importe quelle surface, à son choix. Le symbole brille pendant 1tour pour chaque niveau d'expérience que le clerc a atteint. Le symbole utilisé peut être choisi par le clerc au moment du lancement du sort, parmi ces 3 possibilités : DÉSESPOIR Les créatures qui voient ce symbole tombent dans un désespoir profond et/ou se rendent aux captures ou attaques, à moins qu'elles ne réussissent leur jet de protection contre la magie. Les effets de ce symbole durent de 3 à 12 tours (3d4). SOUFFRANCE Les créatures affectées ont un malus de — 4 sur leurs « probabilités de toucher » et de — 2 sur leur caractéristique de dextérité dû à une souffrance intense, et ce pour 2 à 20 tours (2410) sauf si leur jet de protection est réussi. PERSUASION Les créatures qui voient ce symbole deviennent du même alignement que le clerc et deviennent amicaux à son égard, pendant 1 à 20 tours (1d20) sauf bien sûr si leur jet de protection est réussi. Les composantes matérielles de ce sort sont du mercure et du phosphore tvoir le sort de magicien de niveau 8 symbole). ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "TREMBLEMENT DE TERRE",
+        "Niveau": 7,
+        "Portee": "12”",
+        "Duree": "1 round",
+        "Zone_effet": "1/2” de diamètre/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, un tremblement localisé de forte intensité secoue le sol. Ce tremblement affecte tous les types de ter- rains. La secousse est terminée au bout d'un round. La végétation, les cons- tuctions et les créatures y vivant sont touchées par ce sort. La zone d'effet est circulaire, le diamètre de cette zone étant'de 1/2” par niveau d'expérience du clerc, donc un clerc de niveau 20 affectera une zone circulaire de 10” de diamètre. Les composantes matérielles pour ce sort sont une pincée de poussière, un petit caillou et une motte de terre. ",
+        "Tableau": {
+            "titles": [
+                "TERRAIN",
+                ""
+            ],
+            "data": [
+                [
+                    "Grottes/souterrains",
+                    "Le toit s'effondre"
+                ],
+                [
+                    "Falaises",
+                    "La paroi s'effondre provoquant un glissement de terrain"
+                ],
+                [
+                    "Sol",
+                    "Des crevasses se forment, les créatures y tombent et peuvent être tués comme suit: petite taille 1 sur 1d4, taille moyenne 1 sur 1d6, taille Géante 1 sur 1d8."
+                ],
+                [
+                    "Marais",
+                    "L'eau sécoule hors des dépressions avec formation de boue sur les terrains alentours"
+                ],
+                [
+                    "Tunnels",
+                    "Les tunnels s'effondrent"
+                ]
+            ]
+        },
+        "Tableau2": {
+            "titles": [
+                "VEGETATION",
+                ""
+            ],
+            "data": [
+                [
+                    "Petites tailles",
+                    "Pas d'effet"
+                ],
+                [
+                    "Arbres",
+                    "1 sur 3 est déraciner et s'écroule"
+                ]
+            ]
+        },
+        "Tableau3": {
+            "titles": [
+                "CONSTRUCTIONS",
+                ""
+            ],
+            "data": [
+                [
+                    "Toute structure",
+                    "Subissent de 5 à 60 (5d12) points de dégâts structurels ; celles qui subissent des dommages maximums tombent en ruine."
+                ]
+            ]
+        },
+        "Tableau4": {
+            "titles": [
+                "CONSTRUCTIONS",
+                ""
+            ],
+            "data": [
+                [
+                    "Voir ci-dessus",
+                    ""
+                ]
+            ]
+        },
+        "Type": "(Altération)"
+    }
+]

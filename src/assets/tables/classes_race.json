@@ -1,0 +1,92 @@
+{
+    "clerc": {
+        "demi-elfe": true,
+        "demi-orque": true,
+        "elfe": false,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "druide": {
+        "demi-elfe": true,
+        "demi-orque": false,
+        "elfe": false,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "guerrier": {
+        "demi-elfe": true,
+        "demi-orque": true,
+        "elfe": true,
+        "gnome": true,
+        "humain": true,
+        "nain": true,
+        "petites-gens": true
+    },
+    "paladin": {
+        "demi-elfe": false,
+        "demi-orque": false,
+        "elfe": false,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "ranger": {
+        "demi-elfe": true,
+        "demi-orque": false,
+        "elfe": false,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "magicien": {
+        "demi-elfe": true,
+        "demi-orque": false,
+        "elfe": true,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "illusionniste": {
+        "demi-elfe": false,
+        "demi-orque": false,
+        "elfe": false,
+        "gnome": true,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    },
+    "voleur": {
+        "demi-elfe": true,
+        "demi-orque": true,
+        "elfe": true,
+        "gnome": true,
+        "humain": true,
+        "nain": true,
+        "petites-gens": true
+    },
+    "assassin": {
+        "demi-elfe": true,
+        "demi-orque": true,
+        "elfe": true,
+        "gnome": true,
+        "humain": true,
+        "nain": true,
+        "petites-gens": false
+    },
+    "moine": {
+        "demi-elfe": false,
+        "demi-orque": false,
+        "elfe": false,
+        "gnome": false,
+        "humain": true,
+        "nain": false,
+        "petites-gens": false
+    }
+}

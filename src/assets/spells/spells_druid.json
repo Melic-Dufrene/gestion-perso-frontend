@@ -1,0 +1,1146 @@
+[
+    {
+        "Nom": "AMITIÉ ANIMALE",
+        "Niveau": 1,
+        "Portee": "1”",
+        "Duree": "Permanente",
+        "Zone_effet": "Un animal",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 tours",
+        "Jet_protection": "Annule",
+        "Explication": "Avec ce sort, le druide est capable de convaincre tout animal qui a au moins une intelligence « animale » (mais pas plus d'une semi-intelligence) qu'il est disposé à être son ami. Si l'animal rate son jet de protection contre la magie dès que le druide commence à lancer son sort, il attend tranquillement que celui-ci ait fini. Ensuite, il suivra le druide ; il est capable d'apprendre 3 « ordres » par point d'intelligence qu'il possède (ces ordres sont de ceux qu'on peut apprendre à un chien ou à un autre animal familier du même type, c'est-à-dire qu'ils ne doivent pas être compliqués). L'apprentissage d'un tel «ordre» doit être achevé en une semaine, et l'apprentissage de tous les ordres doit être fait en 3 mois maximum, après avoir trouvé l'animal. Pendant la période d'apprentissage, l'animal ne bles- sera pas le druide, mais s'il est laissé seul pendant plus de 3 jours, il reviendra à la vie sauvage et agira en conséquence. Le druide peut lancer ce sort pour attirer jusqu'à 2 dés de vie d'animaux par niveau d'expérience qu'il possède. Cela veut donc dire que le druide ne peut attirer plus de deux fois son nombre de niveau d'expérience en dés de vie d'animaux: Seuls les animaux neutres peuvent être attirés, amadoués et entraînés. Les composantes matérielles sont du gui et un peu de nourriture appropriée pour attirer l'animal. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "AURA FÉÉRIQUE",
+        "Niveau": 1,
+        "Portee": "8”",
+        "Duree": "4 rounds/niveau",
+        "Zone_effet": "3,60m linéaires/niveau dans un rayon de 4”",
+        "Composantes": "V",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": " Aucun",
+        "Explication": "Quand le druide lance ce sort, il surligne la silhouette d'un objet ou d'une créature avec une lumière brillante pâle. L'entourage complet dépend du nombre de mètres linéaires, 3,60 m par niveau (environ un homme de 1,80 m ou 2 kobolds de 90 cm). Si le druide est assez puissant, plusieurs objets ou créatures peuvent être surlignés, mais le druide ne peut passer à un deuxième objet que quand il a achevé de surligner complètement le premier. Les créatures silhouettées (y compris celles qui sont invisibles) sont visibles à 8” dans l'obscurité et à 4” si l'observateur est près d'une source lumineuse brillante. Les créatures surlignées sont plus faciles à frapper, ainsi les opposants obtiennent un bonus de + 2 sur leurs probabilités de toucher. Une aura féérique peut être bleue, verte ou violette selon le mot employé par le druide en lançant le sort. Une aura féérique n'est pas dangereuse pour la créature ainsi entourée. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "DÉTECTION DE LA MAGIE",
+        "Niveau": 1,
+        "Portee": "0",
+        "Duree": "12 rounds",
+        "Zone_effet": "1' de large, 4” de long",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Excepté ci-dessus, ce sort est le même que le sort de niveau 1 de clerc détection de la magie. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "DÉTECTION DES PIÈGES SYLVESTRES",
+        "Niveau": 1,
+        "Portee": "0",
+        "Duree": "4 rounds/niveau",
+        "Zone_effet": "1” de large, 4” de long",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le druide est capable de détecter les collets et les fosses dans la zone d'effet indiquée, et donc de les éviter. Sous terre, seules les fosses seront détectées, pas les autres formes de pièges. En extérieur, le sort détecte toutes les sortes de pièges : les collets, les pièges à projectiles, les fosses, etc. Le sort dure pendant 4 rounds par niveau du druide, c-à-d. 4 rounds au 1er niveau, 8 rounds au 2e niveau, 12 rounds au 3e niveau, etc. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "ENCHEVÊTREMENT",
+        "Niveau": 1,
+        "Portee": "8”",
+        "Duree": "1 tour",
+        "Zone_effet": "4” de diamètre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": "1/2",
+        "Explication": "Avec ce sort, le druide provoque une importante et ultra-rapide poussée des plantes dans la zone d'effet, pour enchevêtrer les créatures qui s'y trouvent. L'herbe, les mauvaises herbes, les buissons et même les arbres se développent, s'entremêlent et s'enroulent autour des créatures, les immobilisant ainsi pour la durée du sort. Si une créature réussit son jet de protection, elle est ralentie à 50 % pendant la durée du sort.",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "INVISIBILITÉ AUX ANIMAUX",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "1 tour + 1 round/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, la créature touchée devient totalement indétectable aux yeux des animaux normaux ayant une intelligence inférieure à 6. Les animaux normaux incluent les variétés géantes, mais excluent ceux possédant des habilités ou pouvoirs magiques. La personne affectée par ce sort est capable de marcher parmi les animaux ou de passer entre eux, comme s'il n'existait pas. Par exemple, il peut se tenir à côté de lions affamés ou d'un tyrannosaur rex sans qu'il soit remarqué. Cependant un palefroi de la nuit, un cerbère ou un loup des glaces remarquera certainement l'individu. La composante matérielle de ce sort est du houx avec lequel le druide doit se frotter. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "LANGAGE ANIMAL",
+        "Niveau": 1,
+        "Portee": "0",
+        "Duree": "",
+        "Zone_effet": "2 rounds/niveau",
+        "Composantes": "",
+        "Temps_incantation": "Un type d'animal",
+        "Jet_protection": "dans un rayon de 4” autour du",
+        "Explication": "druideComposantes : V, S Temps d'incantation : 3 segments Jet de protection : Aucun Explication/Description : excepté ci-dessus, ce sort est le même que le sort de niveau 2 de clerc langage animal. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "LOCALISATION DES ANIMAUX",
+        "Niveau": 1,
+        "Portee": "0",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "2” de large, 2” de long/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide peut déterminer la direction et la distance où se trouvent les animaux cherchés, ceci dans la zone d'effet ; le druide peut rechercher n'importe quel animal, mais il doit se concentrer sur le type d'animal qu'il recherche. II fait face à une direction, pense à l'animal concerné et, ainsi, sait si cet animal se trouve dans la zone d'effet. Le druide ne peut examiner qu'une direction par round, c-à-d. seulement 2” de large. Le sort dure 1 round par niveau d'expérience du druide et la distance est de 2” de long par niveau d'expérience du druide. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "PASSAGE SANS TRACE",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le destinataire peut marcher sur n'importe quel type de terrain (boue, neige, poussière, etc.) sans laisser aucune trace ni odeur. Ainsi, le pistage d'une personne touchée par ce pouvoir est impossible. Les composantes matérielles de ce sort sont une feuille de gui (qui doit être brülée et dont les cendres seront éparpillées) et une aiguille de pin ou d'un autre conifère. Note : la zone, sur laquelle le destinataire du sort marche, irradie une aura de magie, pendant 6 à 36 tours (6d6) après le passage de cette personne. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "PRÉVISION DU TEMPS",
+        "Niveau": 1,
+        "Portee": "0",
+        "Duree": "2 heures/niveau",
+        "Zone_effet": "23 km2",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide est sûr à 100% du temps qu'il fera (ciel, température, précipitations) dans une zone de 23 km2 centrée sur le druide. Pour chaque niveau d'expérience du druide, le temps peut être prédit 2 heures à l'avance, donc 4 heures à l'avance pour un druide niveau 2, etc. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "PURIFICATION DE L'EAU",
+        "Niveau": 1,
+        "Portee": "4”",
+        "Duree": "Permanente",
+        "Zone_effet": "27 dm3/niveau dans 9m3",
+        "Composantes": "V, S",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, de l'eau sale, contaminée, polluée est rendue claire, pure et potable. Le druide peut ainsi purifier 27 dm3 par niveau. L'inverse du sort, corruption de l'eau, agit de la même manière, mais en sens inverse, et même de l'eau bénite/maudite peut être polluée. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "SHILLELAGH",
+        "Niveau": 1,
+        "Portee": "Au toucher",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Une massue normale en chêne",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 segment",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au druide de transformer sa massue en chêne en une arme magiqué + 1 au toucher, infligeant de 2 à 8 points de dégâts (2d4) sur les ennemis de taille humaine maximum et de 2 à 5 (1d4+ 1) Sur les opposants de plus grande taille. Le druide doit bien sûr savoir manier la massue. Les composantes matérielles de ce sort sont une massue en chêne, du gui et une feuille de trèfle. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "AQUAGENÈSE",
+        "Niveau": 2,
+        "Portee": "1”",
+        "Duree": "Permanente",
+        "Zone_effet": "27 dm3/niveau",
+        "Composantes": "V, S",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Le druide, avec ce sort, peut créer de l'eau pure et potable. Il crée 27 dm3 pour chaque niveau d'expérience qu'il possède. L'eau peut être créée à une distance maximum de 1” du druide. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "CATALEPSIE",
+        "Niveau": 2,
+        "Portee": "1”",
+        "Duree": "4 rounds + 2 rounds/niveau",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": " Aucun",
+        "Explication": "Excepté ci-dessus, ce sort est le même que le sort de niveau 3 de magicien catalepsie. La composante matérielle est une feuille morte de chêne (et du gui). ",
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "CHARME-PERSONNES OU MAMMIFÈRES",
+        "Niveau": 2,
+        "Portee": "8”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Une personne ou un mammifère",
+        "Composantes": "V, S",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Ce sort affectera toute personne ou tout mammifère sur lequel il sera lancé. La créature considèrera alors le druide comme un ami sincère et s'alliera à lui pour l'aider et le protéger. Le sort ne permet pas au druide de contrôler la créature comme si elle était un automate, mais ses paroles et ses actes seront vus d'un bon œil. Ainsi, une créature charmée n'obéira pas à une demande de suicide, mais pourra croire le druide si celui-ci lui assure que le seul moyen de sauver sa vie est que la créature aille créature charmée, en dehors de ceux qu'il parle. La durée du sort dépend de l'intelligence de la créature charmée, qui a droit à un jet de protection. Un jet de protection est lancé à des périodes de temps régulières selon l'intelligence de la créature. Si le druide blesse ou tente de blesser la créature charmée de façon évidente, ou si le sort dissipation de la magie (voir) est lancé avec succès sur la créature charmée, le charme est cassé automatiquement. Le sort affecte tous les mammifères et les personnes. Le mot personne inclut tous les humains et les créatures humanoïdes bipèdes de taille humaine environ ou moins, dont celles citées dans le sort paralysie (voir). Si la créature visée réussit son jet de protection, le sort est annulé. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "CROC-EN-JAMBE",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Un objet de 3m de long",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Pour ce sort, le druide doit avoir un sarment de vigne, un bâton, un manche, une corde ou un autre objet similaire sur lequel il lance le sort. L'objet s'élève alors légèrement au-dessus du sol et fait tomber les créatures qui l'emjambent si elles ratent leur jet de protection contre la magie. Un objet de 90 cm peut faire tomber une seule créature de taille humaine. Si la créature se déplace très vite, en courant par exemple, les dégâts qu'elle subit en tombant sont de 1d6 points, et elle est étourdie pendant 2 à 5 rounds (1d4 + 1) si la surface sur laquelle elle tombe est dure ; si la surface n'est pas très dure, elle sera étourdie pour 2 à 5 segments. Des créatures très grandes, un éléphant par exemple, ne sont pas du tout affectées par ce sort. L'objet enchanté continue à faire tomber les créatures qui essayent de le franchir, même le lanceur du sort lui-même, tant que le sort dure. Les créatures averties de la présence de l'objet obtiennent un bonus de + 4 sur leur jet de protection. L'objet est à 80 % indétectable sans moyen de détection magique. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "DISTORSION DU BOIS",
+        "Niveau": 2,
+        "Portee": "1”/niveau",
+        "Duree": "Permanente",
+        "Zone_effet": "Spéciale",
+        "Composantes": " V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide peut faire se tordre et se déformer un volume de bois, de façon permanente, détruisant leur rectitude, leur forme et leur force. La portée du sort est de 1” par niveau du druide. I! affecte environ une longueur de bois de 35 cm pour un diamètre de 2,5 cm, et ce pour chaque niveau du druide. Ainsi, un druide de niveau 1 peut déformer le manche d'une hachette ou 4 carreaux d'arbalète ; au niveau 5, il peut déformer le manche d'une lance de fantassin magique. Les planches et les plaques peuvent aussi être affectées, pour par exemple déformer une porte ou créer une fuite dans un bateau. ",
+        "Type": "(Altération) Composantes : Temps d'incantation :  Jet de protection :"
+    },
+    {
+        "Nom": "FLAMME",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Une flamme brillante, égale à la lueur d'une torche, par niveau du druide. Elle n'est pas dangereuse pour le druide, mais elle peut enflammer les matériaux inflammables (papier, vêtements, bois sec, huile, etc.). Le druide peut lancer cette flamme comme projectile, à une distance de 4”. La flamme explosera au moment de l'impact, enflammant les combustibles dans un rayon de 45 cm par rapport au point d'impact et s'éteindra d'elle même. Le druide peut éteindre la flamme quand il le veut, mais il ne peut pas éteindre les feux causés par cette flamme.  ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "LOCALISATION DES PLANTES",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Cercle de 1” de diamètre/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide est capable de localiser tout type de plante recherchée dans la zone d'effet. Le druide doit se concentrer sur la plante précise qu'il recherche. Le druide est au centre de la zone d'effet qui se déplace avec lui.",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "MÉTAL BRULANT",
+        "Niveau": 2,
+        "Portee": "4”",
+        "Duree": "7 rounds",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide a la possibilité d'exciter les molécules des métaux ferreux (fer, alliages ferreux, acier) et ainsi provoquer une augmentation de la température, qui fait que le métal devient brülant. Au 1°\" round du sort, le métal devient très chaud et difficile à toucher. C'est aussi l'effet qu'aura ce sort à son dernier round de durée. Aux 2e et 6e rounds d'effet, la chaleur est encore plus forte, et des cloques apparaissent, causant des dégâts. Les 3e, 4e et 5e rounds, le métal devient excessivement brûlant (rougi), causant alors des dégâts plus importants et provoquant certaines incapacités, voir tableau. Les matériaux tels que le bois, le cuir ou les vêtements inflammables brûleront s'ils sont au contact de métal rougi, causant ainsi des dégâts au round suivant, s'ils sont en contact avec la chair. Une résistance au feu (potion ou anneau) ou un sort de protection contre le feu annulent totalement les effets du sort, ainsi qu'une immersion dans de l'eau ou de la neige, ou une exposition à des sorts de froid ou de tempête de glace (voir). Pour chaque niveau d'expérience du druide qui lance le sort, ce dernier peut affecter le métal que porte une créature de taille humaine, c-à-d. une masse de métal d'environ 500 po en poids, cumulative. L'inverse, métal glacial, annule les effets d'un métal brûlant, ou agit sur le métal de la même façon que l'inverse du sort. Le sort de métal glacial est annulé par le sort résistance au froid ou par un dégagement de chaleur importante, par exemple, une épée flamboyante, un mur de feu, etc. ",
+        "Tableau": {
+            "titles": [
+                "Température du métal",
+                "Dégats (par round de contact)",
+                "Incapacités"
+            ],
+            "data": [
+                [
+                    "Très chaud / Froid",
+                    "aucun",
+                    "aucune"
+                ],
+                [
+                    "Brûlant / Glacé",
+                    "1 à 2 PV",
+                    "aucune"
+                ],
+                [
+                    "Très brûlant / Gelé",
+                    "1 à 4 PV",
+                    "Mains ou pieds 2 à 8 jours; tête 1 à 4 tours (inconscience); corps 1 à 4 jours\nAmputation des doigts, orteis, nez ou oreilles"
+                ]
+            ]
+        },
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "OBSCURCISSEMENT",
+        "Niveau": 2,
+        "Portee": "0",
+        "Duree": "4 rounds/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort crée une vapeur brumeuse qui s'élève autour du druide. Elle persiste à cet endroit pendant 4 rounds par niveau du (2d4 x 30 cm). La zone d'effet a une progression cubique dont le volume augmente avec les niveaux d'expérience du druide : cube de 1” d'arête au 1er niveau, de 2” au 2e, de 3” au 3e, etc. En intérieur, la vapeur est limitée à une hauteur de 1”, bien que la longueur et la largeur ne soit pas limitées. Un vent puissant réduira la durée du sort de 75 %. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PEAU D'ÉCORCE",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "4 rounds + 1 round/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand le druide lance ce sort sur une créature, cette créature obtient un bonus de 1 sur sa classe d'armure, la peau devenant aussi dure que de l'écorce. En plus, le bonus de 1 s'applique aussi aux jets de protection contre toutes les formes d'attaque, sauf la magie. Ce sort peut être lancé sur le druide lui-même ou sur une autre personne. En plus du gui, comme composante matérielle, le druide doit avoir une poignée d'écorce de chêne. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PIÈGE A FEU",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "Permanente jusqu'à décharge",
+        "Zone_effet": "Objet touché",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "1/2",
+        "Explication": "Ce sort est le même que le sort de niveau 4 de magicien piège à feu (voir) excepté ci-dessus, et pour le fait que les composantes matérielles sont des baies de houx et un morceau de charbon avec lequel le druide doit surligner la fermeture. ",
+        "Type": "(Évocation)"
+    },
+    {
+        "Nom": "SOINS MINEURS",
+        "Niveau": 2,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Personnage touché",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "4 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "A part le fait que le druide doive utiliser du gui (de n'importe quelle sorte), ce sort est le même que le sort de niveau 1 de clerc soins mineurs. SORTS DE NIVEAU 3: ARBRE (Altération) Miveau : 3 Composantes : V, S, M Portée : 0 Temps d'incantation : 5 segments Durée : 6 tours + 1 tour/niveau Zone d'effet : Personnelle Jet de protection : Aucuri Explication/Description : avec ce sort, le druide est capable de prendre fapparence d'un petit arbre, d'un arbrisseau vivant, ou d'un tronc mort avec æelques branches. Bien que l'inspection la plus minutieuse ne révèle rien, le æuide peut observer tout ce qui ce passe autour de lui, comme le ferait un homme normal. Le lanceur du sort peut annuler ce pouvoir magique à s'importe quel moment, se transformant instantanément de l'arbre en homme, et possédant toutes ses capacités pour entreprendre des actions. Tous les vêtements et l'équipement portés par le druide se transforment æec lui. Les composantes matérielles de ce sort sont du gui et une petite Branche d'arbre. CONTRE:-POISON (Altération) Réversible Miveau : 3 Portée : Au toucher Durée : Permanente Zone d'effet : Créature touchée Composantes : V, S Temps d'incantation : 5 segments Jet de protection : Aucun Explication/Description : ce sort est le même que le sort de niveau 4 de clerc contre-poison (voir). ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "ARBRE",
+        "Niveau": 3,
+        "Portee": "0",
+        "Duree": "6 tours + 1 tour/niveau",
+        "Zone_effet": "Personnelle",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide est capable de prendre l'apparence d'un petit arbre, d'un arbrisseau vivant, ou d'un tronc mort avec quelques branches. Bien que l'inspection la plus minutieuse ne révèle rien, le druide peut observer tout ce qui ce passe autour de lui, comme le ferait un homme normal. Le lanceur du sort peut annuler ce pouvoir magique à s'importe quel moment, se transformant instantanément de l'arbre en homme, et possédant toutes ses capacités pour entreprendre des actions. Tous les vêtements et l'équipement portés par le druide se transforment æec lui. Les composantes matérielles de ce sort sont du gui et une petite Branche d'arbre. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "CONTRE-POISON",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touché",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est le même que le sort de niveau 4 de clerc contre-poison (voir). ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "EMBROUSSAILLEMENT",
+        "Niveau": 3,
+        "Portee": "16”",
+        "Duree": "Permanente",
+        "Zone_effet": "Surface de 2''x2\"/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide provoque une poussée de la végétation ; les végétaux poussent, s'emmélent, s'enchevêtrent pour former un fourré très dense, que les créatures doivent tailler ou écarter de force si elles veulent en sortir. Leur vitesse de déplacement dans ces fourrés est de 1” pour les créatures de taille humaine ou moins et de 2” pour les créatures de plus grande taille. À noter que la zone affectée doit avoir des buissons et des arbres pour que le sort soit efficace. Les ronces, buissons, plantes rampantes, lianes, racines, arbustes, chardons, épineux, æbres, vignes, mauvaises herbes deviennent assez épais et hauts pour former une barrière. La zone d'effet est de 2” x 2” par niveau du druide, sur une surface carrée ou rectangulaire, au choix du druide. Ainsi, un druide niveau 8 peut affecter une surface maximum de 16”x16”, 32x8”, 64”x4”, 128”x 2”, etc. Les effets du sort durent jusqu'à ce qu'ils soient annulés par un débrouissaillement dû au travail, au feu ou à un moyen magique, dissipation de la magie (voir) par exemple. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "GUÉRISON DES MALADIES",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est le même que le sort de niveau 3 de clerc Quérison des maladies (voir), excepté le fait que le druide doit avoir du gui. L'inverse, contamination, inflige les maladies aussi. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "INVOCATION DE LA FOUDRE",
+        "Niveau": 3,
+        "Portee": "0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "72” de diamètre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "7/2",
+        "Explication": "Pour que ce sort puisse être lancé, il doit y avoir des conditions climatiques précises du type tempête dans la zone d'effet : une averse importante, des nuages et du vent, un temps chaud et nuageux ou même une tornade. Le druide est alors capable de provoquer des éclairs qui viendront frapper le sol. Chaque éclair causera les dégâts suivants : 2d8 + 1d8 pour chaque niveau du druide ; ainsi, un druide de niveau 4 peut créer un éclair qui provoquera 6d8 de dégâts. L'éclair frappe perpendiculairement au sol, là où le druide le désire, jusqu'à une distance de 36” maximum de rayon. Toute créature se trouvant au point d'impact ou à moins de 1” du point d'impact de l'éclair subira des dégâts entiers, à moins qu'elle ne réussisse son jet de protection ; dans ce cas, elle ne subira que la moitié des dégâts. Le jet de protection, selon qu'il est raté ou réussi, indique le nombre de d8 qui seront lancés pour indiquer les dégâts : dans le cas d'un druide niveau 6 lançant le sort : 8d8 si le jet de protection est raté, 4d8 si le jet de protection est réussi. Le druide peut appeler un éclair par tour et il peut appeler autant d'éclairs qu'il a de niveaux, avec 1 tour de préparation entre chaque éclair. Ce sort n'est utilisable qu'en extérieur. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "INVOCATION D'INSECTES",
+        "Niveau": 3,
+        "Portee": "3”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide à 70 % de chances d'attirer des insectes volants. Les insectes invoqués sont des mouches, des abeilles, des bourdons ou des guëêpes si ce sont des insectes volants ; des fourmis ou des coléoptères (scarabées) si ce sont des insectes rampants. Un nuage d'insectes volants, ou un essaim de rampants, apparaîtra après le lancement du sort. Ils attaqueront la créature que désignera le druide. La créature attaquée subira 2 points de dégâts par round de combat et elle ne peut rien faire d'autre que d'essayer de s'éloigner des insectes pendant le temps où elle se fait attaquer. Les insectes peuvent ensuite attaquer une autre créature mais il se passe 1 round entre le moment où ils laissent la première victime pour attaquer la deuxième ; les insectes rampants ne se déplacent que de 3,60 m par round (vitesse maximum sur un sol lisse). En intérieur et sous-sol, le druide a 30 % de chances d'invoquer de 1 à 4 fourmis géantes, à moins que des fourmis géantes soient proches. Les composantes matérielles pour ce sort sont du gui, un pétale de fleur et un peu de boue ou d'argile humide. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "LITHOMORPHOSE",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "81 dm3 + 27 dm3/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est exactement le même que le sort de niveau 5 de magicien, lithomorphose (voir), excepté ci-dessus et le fait que le druide a besoin de gui comme composante matérielle supplémentaire. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PARALYSIE ANIMALE",
+        "Niveau": 3,
+        "Portee": "8”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Un à quatre animaux",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Avec ce sort, le druide peut paralyser de 1 à 4 animaux. Les animaux affectés sont normaux ou de taille géante : mammifères, oiseaux, reptiles. Les monstres ne sont pas affectés par ce sort, comme les centaures, gorgones, harpies, naga, etc. Les aigles, castors géants, chiens, crocodiles, ours, renards, singes et animaux similaires y seront sensibles. Le sort dure 2 rounds par niveau du druide. C'est au druide de choisir le nombre d'animaux qu'il désire paralyser, mais plus il y en a, plus ils auront de chance de ne pas être touchés par le sort. Un poids maximum de 200 kg (50 kg pour les non-mammifères) par animal par niveau peut être affecté, donc un druide de niveau 8 peut affecter jusqu'à 1 600 kg de mammifères ou 400 kg de non-mammifères, comme des oiseaux ou des reptiles. Chaque animal a droit à un jet de protection : si un seul animal est visé par le druide, il subit un malus de — 4 sur son jet de protection ; si deux sont visés, leur malus est de — 2; si trois sont visés, leur malus est de — 1 ; et si quatre sont visés, leur jet de protection est normal. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "PIÈGE SYLVESTRE",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Permanente jusqu'à décharge",
+        "Zone_effet": "Cercle de 60 cm de diamètre + 5cm/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "3 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au druide de fabriquer un collet, à 90 % indétectable sans moyen magique. Le collet peut être fait avec une liane ou équivalent, une courroie ou une corde. Quand le sort est lancé sur cet objet, il se confond avec l'endroit où il se trouve. Un des bouts du collet se termine en nœud coulant qui pourra s'enrouler autour d'un ou plusieurs membres de la créature marchant à l'intérieur du cercle. (La tête d'un ver ou d'un serpent peut être pris ainsi). Si un arbre résistant et flexible est proche, le collet y sera attaché et le pouvoir magique du sort fera que l'arbre se courbera puis se raidira quand la boucle se sera resserrée causant ainsi 1 à 6 points de dégâts à la créature prise ; cette dernière se trouvera suspendue par le membre attrapé (ou étranglé si c'est la tête ou le cou qui est pris). Si aucun arbre n'est à proximité, la corde s'enroulera autour du corps de la créature, ne lui causant aucun dégât, mais l'immobilisant. Le collet est magique ; ainsi, pendant une heure, il n'est cassable que par une force très importante, celle d'un géant des tempêtes ou plus (23) ; à chaque heure suivante, la magie perd de sa puissance, ce qui fait qu'une force moindre est suffisante pour briser le collet — 22 après 2 heures, 21 après 3 heures, 20 après 4 heures — jusqu'à ce que 6 heures se soient écoulées ; à ce moment, une force de 18 pourra briser le collet. Après une période de 12 heures, le collet perd ses propriétés magiques, le nœud s'ouvre, libérant ce qu'il tenait. En plus du gui, le druide doit posséder une peau de serpent et un morceau de muscle d'une créature forte qu'il intègrera au collet. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "PROTECTION CONTRE LE FEU",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "Spéciale",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Les effets de ce sort diffèrent selon qu'il est lancé sur une créature ou sur le druide lui-même. S'il est lancé sur le druide, il lui confère une invulnérabilité totale aux feux normaux (torches, feu de camp, huile en feu, etc.), et aux feux magiques comme ceux des démons, mains brûlantes, souffle de dragon, boule de feu, graines de feu, tempête de feu, pilier de feu, souffle de cerbère, nuée de météores, souffle de pyrohydre, etc., jusqu'à accumulation de 12 points de vie de dégâts par niveau du druide absorbés par le sort ; à ce moment, le sort n'est plus effectif. Autrement, le sort dure 1 tour par niveau du druide. Si le sort est lancé sur une autre personne que le druide, il donne l'invulnérabilité aux feux normaux, donne un bonus de + 4 sur les jets de protections lancés contre les attaques de feu et réduit les dégâts subis de 50 %. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "PYROTECHNIE",
+        "Niveau": 3,
+        "Portee": "16”",
+        "Duree": "Spéciale",
+        "Zone_effet": "10 ou 100 fois la source de feu",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort peut avoir deux effets différents : il produit un feu d'artifice en l'air, coloré, brillant et explosant qui dure 1 segment par niveau du druide et aveugle temporairement les créatures dans la zone d'effet, ou en dessous, ou celles qui se trouvent à une distance de 12” maximum (et dans tous les cas, dans le champ de vision, si celui-ci n'est pas bouché.). Ou alors il provoque l'apparition d'une masse de fumée qui s'élève de la source de feu pour former un nuage suffoquant qui persiste pendant 1 round par niveau d'expérience du druide, prenant une forme vaguement cir- culaire à partir du sol, ou prenant la forme du local dans lequel se trouve la zone d'effet ; cette fumée obscurcit la vision à 0,60 m. Ce sort demande la présence d'un feu dans la zone autorisée. La zone d'effet de ce sort est 10 fois le volume de la source de feu en ce qui concerne le feu d'artifice, 100 fois pour la fumée. Dans les deux cas, la source de feu s'éteint immédiatement quand le sort est lancé. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "RESPIRATION AQUATIQUE",
+        "Niveau": 3,
+        "Portee": "Au toucher",
+        "Duree": "6 tours/niveau",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Le destinataire de ce sort est capable de respirer sous l'eau, pendant la durée du sort, c'est-à-dire 6 tours par niveau du druide.",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "CONTRÔLE DE LA TEMPÉRATURE SUR 3 MÈTRES",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "4 tours + 1 tour/niveau",
+        "Zone_effet": "Sphère de 6m dediamètre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, la température de la zone entourant le druide peut être changée de 5 °Celsius en hausse ou en baisse par niveau du druide lançant ce sort. Ainsi, un druide de niveau 10 pourra augmenter ou baisser la température de 1 °C à 50 °C maximum. Le sort dure 4 tours plus 1 tour par niveau du druide, c-à-d. que, lancé par un druide de niveau 10, ce sort durera 14 tours. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "DISSIPATION DE LA MAGIE",
+        "Niveau": 4,
+        "Portee": "8”",
+        "Duree": "Permanente",
+        "Zone_effet": "Cube de 4” d'arête",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "excepté ci-dessus, ce sort est le même que le sort de niveau 3 de clerc dissipation de la magie (voir). ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "EMBRASEMENT",
+        "Niveau": 4,
+        "Portee": "4”",
+        "Duree": "1 round",
+        "Zone_effet": "Carré de 3,60 m de côté",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Par ce sort, le druide crée un feu d'environ 3,60 m de côté, c'est-à-dire à peu près 13 m3. Ce feu ne dure qu'un round, mais il inflige de 1 à 4 points de dégâts aux créatures se trouvant dans la zone d'effet ; de plus, les matériaux comme les vêtements, l'huile, le papier, le parchemin, le bois et en général les matières inflammables prendront feu. L'inverse du sort, extinction, éteint n'importe quel feu normal (charbon, huile, cire, bois, etc.) dans la zone d'effet. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "FORÊT HALLUCINATOIRE",
+        "Niveau": 4,
+        "Portee": "8”",
+        "Duree": "Permanente",
+        "Zone_effet": "Carré de 4” de côté/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le druide fait apparaître une forêt hallucinatoire. Cette forêt illusoire semble tout à fait naturelle et est indiscernable d'une forêt normale. D'autres druides, ainsi que des créatures comme les centaures, dryades, dragon verts, nymphes, satyres et sylvaniens verront la forêt comme ce qu'elle est vraiment, à savoir une illusion. Toutes les autres créatures seront sujettes à l'illusion ; les mouvements et les ordres de marche seront affectés en conséquence. Cette forêt persiste jusqu'à ce qu'un sort dissipation de la magie soit lancé dessus ou alors que l'inverse de ce sort soit lancé. La forme de la zone d'effet est soit carrée, soit rectangulaire, avec une profondeur d'au moins 4” dans tous les cas ; cette zone peut être créée là où le druide le désire, et il n'est pas obligé de la faire la plus étendue possible. Une des lisières de la forêt apparaîtra à 8” du druide maximum, selon sa volonté. ",
+        "Type": "(IIlusion/Fantasme) Réversible"
+    },
+    {
+        "Nom": "INVOCATION ANIMALE 1",
+        "Niveau": 4,
+        "Portee": "4'/niveau",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide peut invoquer jusqu'à 8 animaux du type qu'il désire et annonce, quand l'invocation est faite, si le type d'animal est dans la portée du sort. Ces animaux ne peuvent avoir plus de 4 dés de vie chacun. Ils aideront le druide par les moyens qu'ils possèdent, restant jusqu'à la fin d'un combat, jusqu'à ce qu'une mission spécifique soit accomplie, jusqu'à ce que le druide soit en sécurité ou jusqu'à ce qu'il les renvoie: Le druide peut tenter d'invoquer 3 différentes sortes d'animaux ; par exemple, le druide invoque des chiens sauvages, mais il n'y en a pas, puis il appelle des faucons, sans succès, enfin il tente de faire venir des chevaux sauvages. Ensuite, il n'a plus droit à d'autres tentatives. Le Maître de Donjon déterminera les probabilités de présence de l'animal invoqué par le druide. Hormis les animaux de classe géante, les monstres et animaux fantastiques ne peuvent être invoqués, donc pas de chimères, de dragons, de gorgones ou de manticores, etc. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "INVOCATION DES CRÉATURES SYLVESTRES",
+        "Niveau": 4,
+        "Portee": "12”+ 1'/niveau",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "Spécial",
+        "Jet_protection": "Annule",
+        "Explication": "Par ce sort, le druide est capable d'invoquer certaines créatures sylvestres. Naturellement ce sort ne marche qu'en extérieur, mais pas forcément dans les zones forestières. Le druide commence l'incantation et la continue sans interruption jusqu'à ce qu'une créature apparaisse ou que deux tours se soient écoulés (la verbalisation et les gestes sont faciles et donc pas fatigants pour le lanceur du sort). Un seul type des créatures citées ci-dessous peut être invoqué ; les créatures viendront seulement si elles sont dans la portée du sort : 1-4 centaures; 2-8 lutins; 1-4 dryades; 1-8 pixies; 1-6 esprits follets; 1-4 satyrs; 1 licorne; 1 sylvanien (Le Maître de Donjon consultera sa carte des extérieurs ou déterminera la probabilité de présence des types de créatures cités à l'intérieur de la portée du sort, au moment où le sort est lancé). La(les) créature(s) appelée(s) a (ont) droit à un jet de protection, mais avec un malus de — 4, pour échapper à l'invocation. Toute créature sylvestre invoquée sera disposée favorablement envers le druide, et apportera l'aide qu'elle peut. Cependant, si le lanceur du sort, ou un des compagnons du lanceur du sort, est mauvais dans son alignement, les créatures invoquées on droit à un autre jet de protection, mais cette fois avec un bonus de + 4, ceci quand elles arrivent à moins de 1” de la personne mauvaise ; si le jet de protection est réussi, les créatures chercheront immédiatement à s'enfuir. Dans tous les cas, si le druide demande aux créatures de combattre pour lui, elles lanceront un dé de pourcentage de réaction à la loyauté basée sur le charisme du druide et sur les rapports que le druide a eu avec ces créatures. Les composantes matérielles sont une pomme de pin et 8 baies de houx. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "LANGAGE DES PLANTES",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Cercle de 8” de diamètre",
+        "Composantes": ". V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Excepté ci-dessus, et le fait que la composante matérielle est typiquement druidique (à savoir du gui), ce sort est le même que le sort de niveau 4 de clerc langage des plantes. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PARALYSIE VÉGÉTALE",
+        "Niveau": 4,
+        "Portee": "8”",
+        "Duree": "7 round/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Ce sort affecte les végétaux de la façon suivante:\n\t1) il stoppe les plantes mobiles ;\n\t2) il empêche les végétaux de s'emmêler, pousser, se développer ou se rapprocher ;\n\t3) il empêche les matières végétales de faire du bruit et de bouger par un moyen autre que le vent.\n\nCe sort s'applique à toute forme de végétaux, y compris les plantes parasites et les champignons, et aussi ceux animés magiquement et ceux qui ont reçu un pouvoir magique. Ce sort affecte aussi les monstres comme les limons verts, les moisissures, les tertres errants, les criards, les sylvaniens, etc. Ce sort affecte de 1 à 4 plantes ou de 4 à 16 m2 de terrain d'herbe ou de moisissures. Si une seule plante (ou 4 m2 de terrain) est choisie comme cible par le druide, le jet de protection de la plante est lancé avec un malus de — 4 ; si 2 plantes (ou 8 m2) sont visées, les jets de protection sont à — 2; si 3 plantes (ou 12 m2) sont visées, le jet de protection est à — 1 ; et si le maximum de 4 plantes (ou 16 m2) est choisi par le druide, le jet de protection est normal. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "PORTE VÉGÉTALE",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort crée un passage, une porte magique à travers les arbres, les sous-bois, les fourrés ou toute autre végétation similaire, y compris celle de nature magique. Ce passage est ouvert uniquement pour le druide qui lance ce sort, pour des druides de niveau supérieur ou des dryades. Cette porte permet même au druide d'entrer dans un tronc d'arbre et d'y rester jusqu'à la fin du sort. Si l'arbre est coupé ou brûlé, le druide doit quitter cet arbre avant qu'il ne tombe ou soit consumé ou alors il sera tué aussi. La durée du sort est de 1 tour par niveau du lanceur du sort. Si le druide choisit de rester dans un chêne, le sort dure 9 fois plus longtemps ; si l'arbre choisi est le frêne, il dure 3 fois plus longtemps. Le passage créé par le druide fait au maximum 1,20 m de large, 2,40 m de haut sur 3,60 m de long/niveau d'expérience du druide. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "PROTECTION CONTRE LA FOUDRE",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "Spéciale",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est exactement le même que le sort de niveau 3, protection contre le feu, sauf qu'il s'applique à l'électricité et à la foudre. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "RÉPULSION DES INSECTES",
+        "Niveau": 4,
+        "Portee": "0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "3 m de rayon autour du lanceur de sort",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, le druide crée une barrière invisible qui fait que tout insecte normal ne peut s'approcher à moins de 3m du lanceur du sort, bien que les insectes avec 2 dés de vie ou plus, s'ils réussissent leur jet de protection contre la magie, puissent passer ; mais même dans ce cas là, ils subiront de 1 à 6 points de dégâts. Ce sort n'a aucun pouvoir sur les arachnides, les myriapodes et autres créatures similaires ; il affecte seulement les vrais insectes. Les composantes matérielles sont du gui et une des composantes suivantes : plusieurs soucis écrasés, un poireau écrasé, 7 feuilles de navet écrasées ou un peu de résine d'arbre à camphre. ",
+        "Type": "(Abjuration-Altération)Jet de protection : Aucun"
+    },
+    {
+        "Nom": "SOINS MAJEURS",
+        "Niveau": 4,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est le même que le sort de niveau 4 de clerc,Soint majeurs (voir), mais le druide doit utiliser du gui de n'importe quelle sorte comme composante matérielle. ",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "BÂTONS A SERPENTS",
+        "Niveau": 5,
+        "Portee": "4”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Cube de 1” d'arête",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "excepté ci-dessus et le fait que le druide doive utiliser du gui comme composante matérielle, ce sort est le même que le sort de niveau 4 de clerc bâtons à serpents (voir). ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "BOUCLIER ANTI-PLANTES",
+        "Niveau": 5,
+        "Portee": "0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Hémisphère de 4,80 m de diamètre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort crée une barrière invisible qui maintient à l'écart les créatures et projectiles de matière végétale vivante. Ainsi, le druide (et les autres personnes à l'intérieur de l'hémisphère) est protégé des attaques des plantes et des créatures végétales comme les tertres errants ou les sylvaniens. Le sort dure pendant un tour par niveau d'expérience du druide. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "COMMUNION AVEC LA NATURE",
+        "Niveau": 5,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort permet au druide de ne faire qu'un avec lanature environnante ; il obtient alors le pouvoir de connaître l'histoire de cette zone. Pour chaque niveau d'expérience, le druide peut connaître un fait, c-à-d. le sol, la végétation, les minéraux, les cours d'eau, les gens habitant dans la zone, etc., tout cela devant lui, à gauche ou à droite. Le sort n'est effectif qu'en extérieur, et il agit sur un rayon de 800 m pour chaque niveau du druide. ",
+        "Type": "(Divination)"
+    },
+    {
+        "Nom": "CONTRÔLE DES VENTS",
+        "Niveau": 5,
+        "Portee": "0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Hémisphère de 4” de rayon/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Par ce sort, le druide peut changer la force du vent dans la zone d'effet. Pour chaque niveau d'expérience, il peut augmenter ou baisser la vitesse du vent de 5 km/h. Les vents supérieurs à 48 km/h gênent les petites créatures volantes (celles de la taille d'un aigle et moins) et limitent sérieusement le jet de projectiles. Les vents supérieurs à 72 km/h repoussent les créatures volantes de taille humaine. Ceux supérieurs à 96 km/h déroutent toutes les créatures volantes de leur vol, déracinent les petits arbres, renversent les constructions en bois, arrachent les toits, etc. Les vents supérieurs à 120 km/h ont la force d'un ouragan et dévastent tout, sauf les constructions en pierre les plus résistantes. Un vent supérieur à 48 km/h rend la navigation difficile. Un vent supérieur à 72 km/h provoque des dégâts mineurs aux petits navires ; supérieur à 96 km/h met en danger tous les navires ; supérieur à 120 km/h fait sombrer tous les bateaux. Il y a un « œil » de 4” de rayon autour du druide dans lequel le vent est calme. Un druide de niveau supérieur peut utiliser ce sort pour contrer les effets d'un sort lancé par un druide de niveau inférieur (voir contrôle du climat). Le sort garde son pouvoir pendant 1 tour par niveau du druide. Une fois que le sort est lancé, le vent augmente sa vitesse de 5 km/h par round, jusqu'à ce que la vitesse maximum soit atteinte. Quand la durée du sort est achevée, le vent faiblit à la même vitesse. Si le sort est utilisé en intérieur, l'œil se rétrécira selon les dimensions du local dans lequel souffle le vent : si la zone d'effet est de 48” de rayon, et que le local permettre seulement un rayon de 46”, l'œil aura 2” de rayon, et tout espace inférieur à 44” n'autorisera pas la présence de l'œil, soumettant le lanceur du sort aux effets du vent. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "CROISSANCE ANIMALE",
+        "Niveau": 5,
+        "Portee": "8”",
+        "Duree": "2 rounds/niveau",
+        "Zone_effet": "Jusqu'à 8 animaux dans un carré de 2” de côté",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide peut doubler la taille de 8 animaux maximum, dans une zone de 2” x 2”. Il a aussi pour effet de doubler le nombre de leurs dés de vie (ce qui améliore leur potentiel d'attaque) et de doubler les dégâts infligés dans un combat. Le sort dure 2 rounds par niveau du druide. Ce sort est particulièrement efficace et utile quand il est lancé après le sort charme-personnes ou mammifères ou le sort langage animal. L'inverse du sort réduit la taille par 2 ainsi que les dés de vie, les dégâts, etc. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "FLÉAU D'INSECTES",
+        "Niveau": 5,
+        "Portee": "32”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Nuage de 32” de diamètre sur 4” de haut",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Excepté ci-dessus et le fait que la composante matérielle soit du gui ou son substitut, le houx ou les feuilles de chêne, ce sort est le même que le sort de niveau 5 de clerc fléau d'insectes (voir). ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "INVOCATION ANIMALE II",
+        "Niveau": 5,
+        "Portee": "6”/niveau",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort à la même durée et les mêmes effets que le sort de niveau 4, invocation animale I, sauf que le druide peut invoquer jusqu'à 6 animaux de 8 dés de vie maximum chacun ou 12 animaux de 4 dés de vie maximum chacun. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "MUR DE FEU",
+        "Niveau": 5,
+        "Portee": "8”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort crée un rideau de feu magique de couleur chatoyante, vert-jaune ou ambre pour les druides. Ce mur de feu inflige de 4 à 16 (4d4) points de dégâts plus 1 point par niveau du druide, sur toute créature passant à travers. Les créatures à moins de 1” du mur subissent de 2 à 8 points de dégâts, celles à moins de 2”, 1 à 4 points. Les créatures très sensibles au feu subissent des dégâts additionnels et les morts-vivants subissent toujours le double des dégâts. Seule la face du mur opposée au druide provoque les dommages. Ce mur opaque dure tant que le druide se concentre pour le maintenir ou alors 1 round par niveau si le druide ne se concentre pas. Le mur créé fait 2” de côté par niveau du druide, ou alors se forme en anneau d'un rayon de 1/2” maximum par niveau, et dans les 2 cas a une hauteur de 2”. Le mur est immobile, mais l'anneau se déplace avec le druide. ",
+        "Type": "(Évocation)"
+    },
+    {
+        "Nom": "PASSE-PLANTES",
+        "Niveau": 5,
+        "Portee": "Au toucher",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec ce sort, le druide peut entrer dans un arbre etse transporter à l'intérieur d'un autre arbre du même type, qui se trouve environ dans la direction choisie par lui et à la distance suivante (voir tableau). L'arbre de départ et celui d'arrivée doivent être du même type, vivants et d'une circonférence au moins égale au druide. Si le druide entre dans un frêne et désire aller au nord aussi loin que possible (54”) mais que le seul frêne à la distance appropriée est au sud, le druide passera dans le frêne qui est au sud. Un passage dure un segment (6 secondes). Le druide peut, s'il le veut, rester dans l'arbre de réception, pendant un round par niveau au maximum. Autrement, il peut en sortir immédiatement. S'il n'y a pas l'arbre désiré à la distance voulue, le druide reste simplement dans l'arbre de départ et en sort au bout d'un nombre de round donné par son niveau (ou moins s'il le veut) (voir le sort porte végétale pour les effets d'une coupe ou d'un feu sur un tel arbre).",
+        "Tableau": {
+            "titles": [
+                "Type d'arbre",
+                "Distance maximale"
+            ],
+            "data": [
+                [
+                    "Chêne",
+                    "60”"
+                ],
+                [
+                    "Frêne",
+                    "54”"
+                ],
+                [
+                    "If",
+                    "48”"
+                ],
+                [
+                    "Orme",
+                    "42”"
+                ],
+                [
+                    "Tilleul",
+                    "36”"
+                ],
+                [
+                    "Caduc",
+                    "30”"
+                ],
+                [
+                    "Conifère",
+                    "24”"
+                ],
+                [
+                    "Autre",
+                    "18”"
+                ]
+            ]
+        },
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "TRANSMUTATION DE PIERRE EN BOUE",
+        "Niveau": 5,
+        "Portee": "16”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Cube de 2” d'arête/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort transforme la pierre naturelle, de n'importe quel type, en un volume égal de boue. La profondeur de la boue ne doit jamais excéder la moitié de sa longueur et/ou de sa largeur. S'il est lancé sur un rocher par exemple, le rocher se transforme en boue et s'étale. Les créatures incapables de léviter, voler ou de se sortir de la boue s'y enfonceront et étoufferont, sauf en ce qui concerne les créatures légères qui peuvent normalement passer sur une telle matière. La boue persiste à moins que le sort dissipation de la magie soit lancé dessus ou que l'inverse du sort transmutation de boue en pierre soit lancé et transforme la boue en pierre, mais sans lui redonner sa forme initiale. L'évaporation transformera la boue en poussière et il faudra de 1 à 6 jours pour l'évaporation de 27 m3 de boue. Le temps exact dépend de l'exposition au soleil, du vent et du drainage de l'humidité. L'inverse du sort, transmutation de boue en pierre, transforme la boue en pierre tendre (du grès ou un minéral similaire), de façon permanente, à moins d'un autre changement magique. ",
+        "Type": "(Altération) Réversible"
+    },
+    {
+        "Nom": "BOUCLIER ANTI-ANIMAL",
+        "Niveau": 6,
+        "Portee": "O0",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Hémisphère de 6m de diamètre",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le druide crée un champ de force en forme de demi-sphère qui interdit l'entrée à n'importe quelle matière vivante de nature normale (non magique). Ainsi, un géant est arrêté, mais un mort-vivant peut passer, ainsi que des monstres comme : les démons, diables, serviteurs aériens, etc. Cette protection dure pendant un tour par niveau que le druide a atteint. ",
+        "Type": "(Abjuration)"
+    },
+    {
+        "Nom": "DÉBILITÉ MENTALE",
+        "Niveau": 6,
+        "Portee": "16”",
+        "Duree": "Permanente",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Annule",
+        "Explication": "C'est un sort qui est uniquement employé contre les créatures et personnes qui utilisent des sorts magiques ; il transforme le cerveau de la personne visée en celui d'un enfant attardé mentalement. La victime reste dans cet état à moins qu'un sort de guérison, de restauration ou de souhait majeur soit lancé pour annuler les effets du sort. Ce sort est d'une telle nature que la probabilité d'affecter la victime est augmentée, c'est-à-dire que le jet de protection est amoindri. Ce sort n'a pas de composante matérielle.",
+        "Tableau": {
+            "titles": [
+                "Types de sorts utilisés par la victime",
+                "Ajustement du jet de protection"
+            ],
+            "data": [
+                [
+                    "Clerc",
+                    "+1"
+                ],
+                [
+                    "Druide",
+                    "-1"
+                ],
+                [
+                    "Magicien (humain)",
+                    "-4"
+                ],
+                [
+                    "Illusionniste",
+                    "-5"
+                ],
+                [
+                    "Combinaison ou non-humain",
+                    "-2"
+                ]
+            ]
+        },
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "GRAINES DE FEU",
+        "Niveau": 6,
+        "Portee": "4”",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 round/graine",
+        "Jet_protection": "1/2",
+        "Explication": "Ce sort crée des projectiles spéciaux ou des foyers incendiaires qui brûlent en dégageant énormément de chaleur. Le druide houx sont utilisées comme foyers incendiaires. Le sort crée jusqu'à 4 glands-graines de feu ou 8baies de houx-graines de feu. Les glands s'enflamment en frappant la cible, causant 2 à 16 (2d8) points de vie de dégâts et enflammant les matières inflammables, dans un diamètre de 1 autour du point d'impact. Les baies de houx sont trop légères pour en faire des projectiles ; elles peuvent être placées ou lancées jusqu'à 1,80 met elles s'enflamment à la prononciation d'un mot de commande. Les baies causent de 1 à 8 points de dégâts à toute créature se trouvant au maximum à 1/2” du foyer et les matières inflammables prennent feu. La portée du mot de commande pour les baies est de 4”. Toutes les graines de feu perdent leur pouvoir après une période d'un tour par niveau du druide ; c'est-à-dire qu'un druide de niveau 13 peut utiliser des graines de feu qui resteront efficaces pendant 13 tours maximum. Les cibles des glands doivent être touchées par eux. Si le jet de protection est réussi, les créatures se trouvant dans la zone d'effet subissent seulement la moitié des dégâts, mais les créatures touchées directement subissent les dégâts sans jet de protection. A noter que les composantes matérielles de ce sort ne sont que des glands de chène et/ou des baies de houx. ",
+        "Type": "(Conijuration)"
+    },
+    {
+        "Nom": "INVOCATION ANIMALE III",
+        "Niveau": 6,
+        "Portee": "8”/niveau",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort a la même durée et les même effets que le sort de niveau 4 invocation animale I, sauf que le druide peut invoquer 4 animaux de 16 dés de vie chacun maximum, 8 animaux de 8 dés de vie maximum chacun ou 16 animaux de 4 dés de vie chacun maximum. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "INVOCATION D'UN ÉLÉMENTAL DU FEU",
+        "Niveau": 6,
+        "Portee": "8”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "6 rounds",
+        "Jet_protection": "Aucun",
+        "Explication": "En lançant ce sort, le druide ouvre une porte sur le Plan Élémentaire du Feu et un puissant élémental du feu (voir Règles AVANCÉES de DONJONS & DRAGONS, MANUEL DES MONSTRES) est invoqué pour venir près du druide. Voici les chances de trouver ces différentes créature : 01-85 élemental du feu de 16 dés de vie 86-94 2 à 4 salamandres (voir) 95-98 un efrit (voir) 99-00 élémental du feu surpuissant : de 21 à 24 dés de vie (d4 + 20) A cause des relations entre le druide et les forces naturelles et élémentaires, le lanceur du sort n'a pas à craindre que l'élémental se retourne contre lui; donc, la concentration sur les activités de l'élémental du feu (ou des autres créatures invoquées) et la protection d'un cercle magique ne sont pas nécessaires. L'élémental invoqué aidera le druide de toutes ses possibilités, même en attaquant les ennemis du lanceur du sort. La créature invoquée reste pour un maximum de 1 tour par niveau du druide, à moins qu'il soit renvoyé dans son Plan à cause d'une attaque, par un sort dissipation de la magie où part l'inverse du sort, dissipation d'un élémental du feu. Seul un druide peut renvoyer, par le sort inversé, les salamandres, les efrits ou les élémentaux surpuissants. ",
+        "Type": "(Conjuration/Appel) Réversible"
+    },
+    {
+        "Nom": "INVOCATION DU TEMPS",
+        "Niveau": 6,
+        "Portee": "0",
+        "Duree": "Spéciale",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est similaire au sort de clerc contrôle du climat (voir). En lançant ce sort, le druide est capable de créer des conditions climatiques spéciales, mais en rapport avec la saison et le climat de la région où il se trouve. Ainsi, au printemps, le druide peut créer une tornade, un orage, une tempête de neige fondue ou une vague de froid. En été, il peut créer une pluie torrentielle, une vague de canicule, une averse de grèle, etc. En automne, il peut invoquer une vague de froid ou de chaleur, du brouillard, de la neige, etc. Et en hiver, il peut créer une vague de froid intense, du blizzard, etc. Les vents de puissance exceptionnelle (les ouragans) peuvent être invoqués près des côtes, à la fin de l'hiver ou au début du printemps Le temps ainsi créé n'est pas sous le contrôle du druide. La durée du temps créé dépend de ses caractéristiques : une tornade ne durera qu'un tour, plusieurs heures ou jours dans certains cas. La zone d'effet également est variable : elle va de 2,6 km2 à 260 km2 ou plus. Plusieurs druides peuvent agir de concert pour que le changement de temps soit plus important. Dans une période de 4 tours après le lancement du sort, le changement du climat commence à se faire sentir ; le ciel s'éclaircit, l'air devient plus chaud, le vent se lève, etc. Le temps invoqué par le druide se met définitivement en place 6 à 17 tours (d12+ 5) après le lancement du sort. Tout autre gui que du gui majeur diminuera les effets du sort.",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "MUR D'ÉPINES",
+        "Niveau": 6,
+        "Portee": "8”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Cube de 1” d'arête/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort crée une barrière de buissons et de fourrés très épais, remplis de ronces excessivement coupantes et longues comme un doigt humain. Toute créature essayant de passer à travers ce mur (ou simplement le percutant) subit 8 points de vie de dégâts plus un nombre depoints égaux à sa classe d'armure ; donc, 10 points ou moins ; une classe d'armure négative fait que la personne subit 8 points de dégâts moins sa classe d'armure. Toute créature se trouvant dans la zone d'effet quand le sort est lancé est considérée avoir percuté le mur d'épines et en plus elle doit s'en dégager. Les dégâts sont basés pour chaque tranche de 1” d'épaisseur du mur. Il faut au moins 4 tours pour se dégager du mur en le tailladant, si le mur fait 1' d'épaisseur. Les feux normaux n'ont aucun effet sur les ronces, mais un feu magique les brûlera en 2 tours ; mais à ce moment, il y aura un mur de feu à la place (voir le sort mur de feu). Le côté le plus proche du mur peut apparaître jusqu'à une distance maximum de 8”, selon le désir du druide. Le sort dure 1 tour par niveau du druide. Le mur couvre un volume de 1” x 1” x 1” par niveau du druide ; donc, un druide niveau 14 pourra créer un mur, de la forme qu'il veut ; par exemple : 7” de long, 2” de haut (ou profondeur) et 1” de profondeur (ou hauteur). Le druide forme son mur selon l'utilisation qu'il veut en faire. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "RÉPULSION DU BOIS",
+        "Niveau": 6,
+        "Portee": "0",
+        "Duree": "4 rounds/niveau",
+        "Zone_effet": "12” de large sur 2” de long/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé, des vagues de force roulent devant le druide, se déplaçant dans la direction vers laquelle il fait face et qui fait que tous les objets en bois qui se trouvent dans la zone d'effet du sort sont écartés du druide jusqu'à la limite de cette zone d'effet. Les objets de bois de plus de 8cm de diamètre, fixés solidement au sol ne sont pas affectés par le sort, mais les objets mobiles (tours de siège, panneaux mobiles, etc.) reculent. Les objets de moins de 8 cm de diamètre et qui sont fixés se brisent en éclats et les morceaux se déplacent avec la vague de force. Ainsi, les objets comme les boucliers en bois, les lances de fantassin, les manches d'armes, les flèches et les carreaux seront affectés par ce sort, entraînant ceux qui les portent ; si une lance de fantassin est plantée pour résister au mouvement, elle se cassera. La durée du sort est de 4 rounds par niveau du druide et les vagues de force continueront à agir pendant ce temps. Les objets se déplacent à la vitesse 4” par round. La largeur de la zone d'effet est de 12” et la longueur évolue avec le niveau du druide, 2” par niveau ; donc, un druide de niveau 14 affectera une zone de 12” de large et de 28” de long et le sort durera 56 rounds. Le druide a besoin, pour lancer son sort, de gui et pour que les effets soient au maximum possible, il faut du gui majeur. Après avoir lancé ce sort, la zone d'effet est bien en place et le druide peut faire autre chose ou s'en aller sans pour autant affecter l'efficacité du sort. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "SOIN ULTIME",
+        "Niveau": 6,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "8 segments",
+        "Jet_protection": "Aucun",
+        "Explication": " ce sort est le même que le sort de niveau 5 de clerc soin ultime, excepté le fait que le druide doit utiliser du gui (n'importe lequel).",
+        "Type": "(Nécromancie) Réversible"
+    },
+    {
+        "Nom": "TRANSIT VÉGÉTAL",
+        "Niveau": 6,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Créature touchée",
+        "Composantes": "6",
+        "Temps_incantation": "Au toucher",
+        "Jet_protection": "Spéciale",
+        "Explication": "Par ce sort, le druide est capable d'entrer dans n'importe quelle grande plante et de parcourir n'importe quelle distance, jusqu'à une autre plante de la même espèce, en 1 round. La plante d'accueil doit être vivante. Le druide n'est pas obligé de connaître l'endroit où se trouve la plante d'arrivée, mais cette dernière doit être également vivante. Si le druide n'est pas certain de l'endroit où se trouve la plante de réception, il peut simplement indiquer la direction et la distance et le pouvoir du sort le transportera le plus près possible de l'endroit désiré. Il y a 20 % de chances, — 1 % par niveau du druide, que le voyage l'emmène jusque dans une plante de famille voisine, éloignée de 1,6 à 160 km de l'endroit d'arrivée voulu. Si une plante de réception particulière est désirée, mais que la plante est morte, le sort échoue et le druide doit sortir de la plante de départ dans les 24 heures. Une blessure infligée à une plante portant un druide peut affecter le druide lui-même (voir porte végétale). ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "ANIMATION DE LA ROCHE",
+        "Niveau": 7,
+        "Portee": "4”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "54 dm'/niveau",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Avec se sort, le druide peut faire bouger des objetsen pierre (voir le sort de niveau 6 de clerc, animation des objets). Le morceau de pierre visé doit être séparé de tout bloc important. Il réagira selon les désirs du druide : attaquer, casser des objets, bloquer, ceci tant que dure le sort. Une pierre animée n'a aucune intelligence ni volonté, mais elle suivra les instructions au pied de la lettre. Un seul ordre peut être donné pour chaque action (le tout doit être très simple et bref, 12 mots maximum). Pour chaque niveau d'expérience, le druide peut animer 54dm3 de pierre ; donc, un druide de niveau 12 pourra animer 648dm3 de pierre environ. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "CHARIOT DE SUSTARRE",
+        "Niveau": 7,
+        "Portee": "1”",
+        "Duree": "6tours + 1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand ce sort est lancé par un druide, il crée un grand chariot de feu tiré par 2 chevaux fougueux, qui apparaît dans un grondement de tonnerre et entouré d'une fumée épaisse. Ce véhicule se déplace à 24” à terre et 48” en vol, et il peut transporter le druide et 8 autres créatures maximum de taille humaine, créatures que le druide aura touchées auparavant pour qu'elles puissent monter à bord de l'engin de feu. Les créatures, autres que le druide et ses passagers désignés, subiront des dégâts égaux à ceux que peut provoquer le sort mur de feu, si elles sont à moins de 1,50 m du chariot par commande verbale, ordonnant aux destriers de feu d'avancer, le chariot par commande verbale, ordonnant aux destriers de feu d'avancer, de s'arrêter, d'aller au pas, au trot, au galop, de voler, à droite, à gauche, selon les désirs du lanceur du sort. Ce chariot est une manifestation physique et peut donc subir des dégâts. Le véhicule et les chevaux ne peuvent être touchés que par arme magique ou par de l'eau (1 litre d'eau infligeant 1 point de dégâts) ; leur classe d'armure est de 2 ; chaque cheval et le chariot peuvent encaisser 30 points de vie de dégâts avant d'être dissipés. Naturellement, le feu n'a aucun effet, ni sur le chariot, ni sur les chevaux, mais un feu magique peut affecter les passagers. En plus du gui, le druide a besoin, pour lancer ce sort, d'un petit morceau de bois, de 2 baies de houx et d'une source de feu au moins égale à celle d'une torche. ",
+        "Type": "(Évocation)"
+    },
+    {
+        "Nom": "CONFUSION",
+        "Niveau": 7,
+        "Portee": "8”",
+        "Duree": "1 round/niveau",
+        "Zone_effet": "4” x 4” maximum",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Spécial",
+        "Explication": "Ce sort provoque une confusion chez les créatures présentes dans la zone d'effet. Les créatures confuses réagiront comme décrit dans le tableau. Ce sort dure 1 round par niveau d'expérience du druide. Il peut affecter de 2 à 8 créatures, plus un nombre additionnel possible, déterminé en retranchant le nombre de dés de vie de la créature la plus forte dans la zone d'effet de ceux du druide. Si un nombre positif en résulte, il est ajouté au nombre de créatures atteintes par le jet des dés ; on ne tient pas compte d'un nombre négatif. Chaque créature affectée lance un jet de protection chaque round (sauf pour la créature qui erre pendant un tour, elle s'éloigne alors du druide æussi loin que possible en 1 tour de déplacement normal, tant que la situation le permet). Les créatures affectées sont celles qui se trouvent le plus près du druide. Tous les jets de protection ont un malus de — 2. Les créatures confuses agissent selon le tableau, mais les jets de protection et les actions possibles sont lancés au début de chaque round. ",
+        "Tableau": {
+            "titles": [
+                "Résultat du d100",
+                "Action"
+            ],
+            "data": [
+                [
+                    "1-10",
+                    "errance pendant 1 tour"
+                ],
+                [
+                    "11-60",
+                    "rester sur place confus pendant 1 round"
+                ],
+                [
+                    "61-80",
+                    "attaquer la créature la plus proche pendant 1 round"
+                ],
+                [
+                    "81-100",
+                    "attaquer le druide ou son groupe pendant 1 round"
+                ]
+            ]
+        },
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "CONTRÔLE DU CLIMAT",
+        "Niveau": 7,
+        "Portee": "0",
+        "Duree": "8-96 heures",
+        "Zone_effet": "10 à 80 km2",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Ce sort est plus puissant que le sort de niveau 7 declerc contrôle du climat. Il peut changer le temps de 2 catégories par rapport aux conditions climatiques en vigueur si le druide utilise du gui majeur. Dans les autres cas, le sort est le même que le sort de niveau 7 de clerc contrôle du climat. ",
+        "Type": "(Altération)"
+    },
+    {
+        "Nom": "DOIGT DE MORT",
+        "Niveau": 7,
+        "Portee": "6”",
+        "Duree": "Permanente",
+        "Zone_effet": "Une créature",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "5 segments",
+        "Jet_protection": "Annule",
+        "Explication": "Ce sort provoque un arrêt du cœur chez la victime. Le druide prononce l'incantation, pointe son doigt vers la créature, qui meurt à moins qu'elle ne réussisse son jet de protection, auquel cas le sort est annulé. ",
+        "Type": "(Enchantement/Charme)"
+    },
+    {
+        "Nom": "INVOCATION D'UN ÉLÉMENTAL DE TERRE",
+        "Niveau": 7,
+        "Portee": "4”",
+        "Duree": "1 tour/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "1 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand un druide lance se sort, il invoque un élémental de terre de 16 dés de vie. La druide n'a qu'à le commander et il obtient ce qu'il désire, car l'élémental ne considère pas le druide comme un ennemi. L'élémental reste jusqu'à ce qu'il soit détruit, dissipé ou renvoyé par le lancement de ce sort inversé. (Voir invocation d'un élémental du feu). ",
+        "Type": "(Conjuration/Appel) Réversible"
+    },
+    {
+        "Nom": "MORT RAMPANTE",
+        "Niveau": 7,
+        "Portee": "0",
+        "Duree": "4 rounds/niveau",
+        "Zone_effet": "Spéciale",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Aucun",
+        "Explication": "Quand le druide lance se sort, il fait venir une masse de 500 à 1 000 (d6 + 4) insectes, araignées et myriapodes mordants, venimeux et piquants. Cette masse se forme en un essaim de 2” x 2”, et sur simple commande du druide, rampe à la vitesse de 1” par round vers n'importe quelle proie se trouvant à 8” maximum. La mort rampante tuera toute créature sujette aux attaques normales : chacune de ces petites horreurs inflige 1 point de dégâts (et meurt ensuite), donc les dégâts maximums sont de 1 000 points de dégâts. Si l'essaim dépasse la distance de 8” entre lui et le druide, il perd 50 bestioles par tranche de 1” après les 8” de distance de la zone d'effet, c.-à-d. qu'à 10”, l'essaim a diminué de 100. Il existe plusieurs moyens pour détruire l'essaim, ils sont souvent évidents. ",
+        "Type": "(Conjuration/Appel)"
+    },
+    {
+        "Nom": "RÉINCARNATION",
+        "Niveau": 7,
+        "Portee": "Au toucher",
+        "Duree": "Permanente",
+        "Zone_effet": "Personne touchée",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "7 tour",
+        "Jet_protection": "Aucun",
+        "Explication": "Les druides possèdent le pouvoir, avec ce sort, de ramener les morts à la vie dans un autre corps, si la mort ne remonte pas à plus d'une semaine. La personne réincarnée se rappellera la majorité de ses souvenirs et de son ancienne vie, mais sa nouvelle classe, s'il y en a une, pourra être différente. Les habilités et la langue sont aussi souvent changées. La table ci-dessous donne les réincarnations possibles. Toute sorte de Personnage Joueur peut être réincarnée. Si les dés désignent un elfe, un gnome ou un humain, le personnage doit être créé. Quand le cadavre est touché, la nouvelle incarnation apparaît dans une période allant de 1 à 6 tours. (Voir le sort de niveau 6 de magicien réincarnation). ",
+        "Tableau": {
+            "titles": [
+                "Résultat du d100",
+                "Réincarnation"
+            ],
+            "data": [
+                [
+                    "01-03",
+                    "blaireau"
+                ],
+                [
+                    "04-08",
+                    "ours noir"
+                ],
+                [
+                    "09-12",
+                    "ours brun"
+                ],
+                [
+                    "13-16",
+                    "sanglier sauvage"
+                ],
+                [
+                    "17-19",
+                    "centaure"
+                ],
+                [
+                    "20-23",
+                    "dryade"
+                ],
+                [
+                    "24-28",
+                    "aigle"
+                ],
+                [
+                    "29-31",
+                    "elfe"
+                ],
+                [
+                    "32-34",
+                    "faune"
+                ],
+                [
+                    "35-36",
+                    "renard"
+                ],
+                [
+                    "37-40",
+                    "gnome"
+                ],
+                [
+                    "41-44",
+                    "faucon"
+                ],
+                [
+                    "45-58",
+                    "humain"
+                ],
+                [
+                    "59-61",
+                    "lynx"
+                ],
+                [
+                    "62-64",
+                    "hiboux"
+                ],
+                [
+                    "65-68",
+                    "pixie"
+                ],
+                [
+                    "69-70",
+                    "raton-laveur"
+                ],
+                [
+                    "71-75",
+                    "cerf"
+                ],
+                [
+                    "76-80",
+                    "loup"
+                ],
+                [
+                    "81-85",
+                    "glouton"
+                ],
+                [
+                    "86-100",
+                    "utiliser la table de réincarnation du magicien"
+                ]
+            ]
+        },
+        "Type": "(Nécromancie)"
+    },
+    {
+        "Nom": "TEMPÊTE DE FEU",
+        "Niveau": 7,
+        "Portee": "16”",
+        "Duree": "1 round",
+        "Zone_effet": "54m3/niveau, 432m3 minimum",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "1/2",
+        "Explication": "Quand ce sort est lancé, le druide crée des langues de feu rugissantes qui équivalent à un mur de feu (voir) dans ses effets. Les créatures se trouvant dans la zone d'effet du feu et celles à moins de 1” du bord de la zone affectée subissent de 2 à 16 points de dégâts plus des dégâts additionnels correspondant au niveau du druide, c'est-à-dire 13 points en plus si le druide est niveau 13. Si les créatures réussissent leur jet de protection, les dégâts sont divisés par 2. La zone d'effet occupe un volume de 54m par niveau du druide ; donc un druide niveau 13 pourra créer une tempête de 39m x 6m x 3m. La hauteur de la tempête étant toujours de 3 ou 6 métres, le reste de la zone d'effet se répartira sur la longueur et la largeur. L'inverse du sort, dissipation du feu, étouffe les feux dans une zone double que celle du sort normal ; il y a 5 % de chances par niveau du lanceur du sort d'éteindre des feux magiques (tels que des tempête de feu), mais à ce moment dans une zone d'effet comparable à celle du sort non-inversé. ",
+        "Type": "(Évocation) Réversible"
+    },
+    {
+        "Nom": "TRANSMUTATION DU MÉTAL EN BOIS",
+        "Niveau": 7,
+        "Portee": "8”",
+        "Duree": "Permanente",
+        "Zone_effet": "Un objet en métal",
+        "Composantes": "V, S, M",
+        "Temps_incantation": "9 segments",
+        "Jet_protection": "Spécial",
+        "Explication": "Ce sort permet au druide de transformer un objet demétal en bois. Le volume transformable est égal à un maximum de 80 po en poids par niveau du druide. Les objets magiques en métal ont 10 % de chances d'être affectés par ce sort. Même le sort dissipation de la magie ne peut inverser les effets de ce sort. Donc, une porte de métal changée en bois restera toujours en bois. ",
+        "Type": "(Altération)"
+    }
+]

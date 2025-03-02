@@ -1,0 +1,1268 @@
+{
+    "clerc": {
+        "1": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "2": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "3": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "4": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "5": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "6": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "7": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "8": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "9": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "10": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "11": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "12": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "13": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "14": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "15": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "16": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "17": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "18": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "19": {
+            "ppm": 2,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 8,
+            "sort": 7
+        },
+        "max_niveau": 19
+    },
+    "druide": {
+        "1": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "2": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "3": {
+            "ppm": 10,
+            "pa": 13,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "4": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "5": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "6": {
+            "ppm": 9,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 15,
+            "sort": 14
+        },
+        "7": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "8": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "9": {
+            "ppm": 7,
+            "pa": 10,
+            "bbb": 11,
+            "souffle": 13,
+            "sort": 12
+        },
+        "10": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "11": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "12": {
+            "ppm": 6,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 12,
+            "sort": 12
+        },
+        "13": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "14": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "15": {
+            "ppm": 5,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 11,
+            "sort": 10
+        },
+        "16": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "17": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "18": {
+            "ppm": 4,
+            "pa": 7,
+            "bbb": 8,
+            "souffle": 10,
+            "sort": 9
+        },
+        "19": {
+            "ppm": 2,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 8,
+            "sort": 7
+        },
+        "max_niveau": 19
+    },
+    "guerrier": {
+        "1": {
+            "ppm": 14,
+            "pa": 15,
+            "bbb": 16,
+            "souffle": 17,
+            "sort": 17
+        },
+        "2": {
+            "ppm": 14,
+            "pa": 15,
+            "bbb": 16,
+            "souffle": 17,
+            "sort": 17
+        },
+        "3": {
+            "ppm": 13,
+            "pa": 14,
+            "bbb": 15,
+            "souffle": 16,
+            "sort": 16
+        },
+        "4": {
+            "ppm": 13,
+            "pa": 14,
+            "bbb": 15,
+            "souffle": 16,
+            "sort": 16
+        },
+        "5": {
+            "ppm": 11,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 13,
+            "sort": 14
+        },
+        "6": {
+            "ppm": 11,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 13,
+            "sort": 14
+        },
+        "7": {
+            "ppm": 10,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 12,
+            "sort": 13
+        },
+        "8": {
+            "ppm": 10,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 12,
+            "sort": 13
+        },
+        "9": {
+            "ppm": 8,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 9,
+            "sort": 11
+        },
+        "10": {
+            "ppm": 8,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 9,
+            "sort": 11
+        },
+        "11": {
+            "ppm": 7,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 8,
+            "sort": 10
+        },
+        "12": {
+            "ppm": 7,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 8,
+            "sort": 10
+        },
+        "13": {
+            "ppm": 5,
+            "pa": 6,
+            "bbb": 7,
+            "souffle": 5,
+            "sort": 8
+        },
+        "14": {
+            "ppm": 5,
+            "pa": 6,
+            "bbb": 7,
+            "souffle": 5,
+            "sort": 8
+        },
+        "15": {
+            "ppm": 4,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 4,
+            "sort": 7
+        },
+        "16": {
+            "ppm": 4,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 4,
+            "sort": 7
+        },
+        "17": {
+            "ppm": 3,
+            "pa": 4,
+            "bbb": 5,
+            "souffle": 4,
+            "sort": 6
+        },
+        "max_niveau": 17
+    },
+    "paladin": {
+        "1": {
+            "ppm": 14,
+            "pa": 15,
+            "bbb": 16,
+            "souffle": 17,
+            "sort": 17
+        },
+        "2": {
+            "ppm": 14,
+            "pa": 15,
+            "bbb": 16,
+            "souffle": 17,
+            "sort": 17
+        },
+        "3": {
+            "ppm": 13,
+            "pa": 14,
+            "bbb": 15,
+            "souffle": 16,
+            "sort": 16
+        },
+        "4": {
+            "ppm": 13,
+            "pa": 14,
+            "bbb": 15,
+            "souffle": 16,
+            "sort": 16
+        },
+        "5": {
+            "ppm": 11,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 13,
+            "sort": 14
+        },
+        "6": {
+            "ppm": 11,
+            "pa": 12,
+            "bbb": 13,
+            "souffle": 13,
+            "sort": 14
+        },
+        "7": {
+            "ppm": 10,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 12,
+            "sort": 13
+        },
+        "8": {
+            "ppm": 10,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 12,
+            "sort": 13
+        },
+        "9": {
+            "ppm": 8,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 9,
+            "sort": 11
+        },
+        "10": {
+            "ppm": 8,
+            "pa": 9,
+            "bbb": 10,
+            "souffle": 9,
+            "sort": 11
+        },
+        "11": {
+            "ppm": 7,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 8,
+            "sort": 10
+        },
+        "12": {
+            "ppm": 7,
+            "pa": 8,
+            "bbb": 9,
+            "souffle": 8,
+            "sort": 10
+        },
+        "13": {
+            "ppm": 5,
+            "pa": 6,
+            "bbb": 7,
+            "souffle": 5,
+            "sort": 8
+        },
+        "14": {
+            "ppm": 5,
+            "pa": 6,
+            "bbb": 7,
+            "souffle": 5,
+            "sort": 8
+        },
+        "15": {
+            "ppm": 4,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 4,
+            "sort": 7
+        },
+        "16": {
+            "ppm": 4,
+            "pa": 5,
+            "bbb": 6,
+            "souffle": 4,
+            "sort": 7
+        },
+        "17": {
+            "ppm": 3,
+            "pa": 4,
+            "bbb": 5,
+            "souffle": 4,
+            "sort": 6
+        },
+        "max_niveau": 17
+    },
+    "magicien": {
+        "1": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "2": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "3": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "4": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "5": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "6": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "7": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "8": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "9": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "10": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "11": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "12": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "13": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "14": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "15": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "16": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "17": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "18": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "19": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "20": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "21": {
+            "ppm": 8,
+            "pa": 5,
+            "bbb": 3,
+            "souffle": 7,
+            "sort": 4
+        },
+        "max_niveau": 21
+    },
+    "illusionniste": {
+        "1": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "2": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "3": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "4": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "5": {
+            "ppm": 14,
+            "pa": 13,
+            "bbb": 11,
+            "souffle": 15,
+            "sort": 12
+        },
+        "6": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "7": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "8": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "9": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "10": {
+            "ppm": 13,
+            "pa": 11,
+            "bbb": 9,
+            "souffle": 13,
+            "sort": 10
+        },
+        "11": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "12": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "13": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "14": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "15": {
+            "ppm": 11,
+            "pa": 9,
+            "bbb": 7,
+            "souffle": 11,
+            "sort": 8
+        },
+        "16": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "17": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "18": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "19": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "20": {
+            "ppm": 10,
+            "pa": 7,
+            "bbb": 5,
+            "souffle": 9,
+            "sort": 6
+        },
+        "21": {
+            "ppm": 8,
+            "pa": 5,
+            "bbb": 3,
+            "souffle": 7,
+            "sort": 4
+        },
+        "max_niveau": 21
+    },
+    "voleur": {
+        "1": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "2": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "3": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "4": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "5": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "6": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "7": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "8": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "9": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "10": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "11": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "12": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "13": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "14": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "15": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "16": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "17": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "18": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "19": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "20": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "21": {
+            "ppm": 8,
+            "pa": 7,
+            "bbb": 4,
+            "souffle": 11,
+            "sort": 5
+        },
+        "max_niveau": 21
+    },
+    "assassin": {
+        "1": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "2": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "3": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "4": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "5": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "6": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "7": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "8": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "9": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "10": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "11": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "12": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "13": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "14": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "15": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "16": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "17": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "18": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "19": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "20": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "21": {
+            "ppm": 8,
+            "pa": 7,
+            "bbb": 4,
+            "souffle": 11,
+            "sort": 5
+        },
+        "max_niveau": 21
+    },
+    "moine": {
+        "1": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "2": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "3": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "4": {
+            "ppm": 13,
+            "pa": 12,
+            "bbb": 14,
+            "souffle": 16,
+            "sort": 15
+        },
+        "5": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "6": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "7": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "8": {
+            "ppm": 12,
+            "pa": 11,
+            "bbb": 12,
+            "souffle": 15,
+            "sort": 13
+        },
+        "9": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "10": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "11": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "12": {
+            "ppm": 11,
+            "pa": 10,
+            "bbb": 10,
+            "souffle": 14,
+            "sort": 11
+        },
+        "13": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "14": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "15": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "16": {
+            "ppm": 10,
+            "pa": 9,
+            "bbb": 8,
+            "souffle": 13,
+            "sort": 9
+        },
+        "17": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "18": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "19": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "20": {
+            "ppm": 9,
+            "pa": 8,
+            "bbb": 6,
+            "souffle": 12,
+            "sort": 7
+        },
+        "21": {
+            "ppm": 8,
+            "pa": 7,
+            "bbb": 4,
+            "souffle": 11,
+            "sort": 5
+        },
+        "max_niveau": 21
+    }
+}

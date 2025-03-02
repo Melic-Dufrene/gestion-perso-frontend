@@ -1,0 +1,387 @@
+{
+    "strength": {
+        "3": {
+            "hit_bonus": "- 3",
+            "damage_bonus": "- 1",
+            "weight_bonus": "- 350",
+            "open_doors": "1",
+            "twist_bars": "0%"
+        },
+        "4": {
+            "hit_bonus": "- 2",
+            "damage_bonus": "- 1",
+            "weight_bonus": "- 250",
+            "open_doors": "1",
+            "twist_bars": "0%"
+        },
+        "5": {
+            "hit_bonus": "- 2",
+            "damage_bonus": "- 1",
+            "weight_bonus": "- 250",
+            "open_doors": "1",
+            "twist_bars": "0%"
+        },
+        "6": {
+            "hit_bonus": "- 1",
+            "damage_bonus": "0",
+            "weight_bonus": "- 150",
+            "open_doors": "1",
+            "twist_bars": "0%"
+        },
+        "7": {
+            "hit_bonus": "- 1",
+            "damage_bonus": "0",
+            "weight_bonus": "- 150",
+            "open_doors": "1",
+            "twist_bars": "0%"
+        },
+        "8": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "0",
+            "open_doors": "1-2",
+            "twist_bars": "1%"
+        },
+        "9": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "0",
+            "open_doors": "1-2",
+            "twist_bars": "1%"
+        },
+        "10": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "0",
+            "open_doors": "1-2",
+            "twist_bars": "2%"
+        },
+        "11": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "0",
+            "open_doors": "1-2",
+            "twist_bars": "2%"
+        },
+        "12": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "+ 100",
+            "open_doors": "1-2",
+            "twist_bars": "4%"
+        },
+        "13": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "+ 100",
+            "open_doors": "1-2",
+            "twist_bars": "4%"
+        },
+        "14": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "+ 200",
+            "open_doors": "1-2",
+            "twist_bars": "7%"
+        },
+        "15": {
+            "hit_bonus": "0",
+            "damage_bonus": "0",
+            "weight_bonus": "+ 200",
+            "open_doors": "1-2",
+            "twist_bars": "7%"
+        },
+        "16": {
+            "hit_bonus": "0",
+            "damage_bonus": "+ 1",
+            "weight_bonus": "+ 350",
+            "open_doors": "1-3",
+            "twist_bars": "10%"
+        },
+        "17": {
+            "hit_bonus": "+ 1",
+            "damage_bonus": "+ 1",
+            "weight_bonus": "+ 500",
+            "open_doors": "1-3",
+            "twist_bars": "13%"
+        },
+        "18": {
+            "hit_bonus": "+ 1",
+            "damage_bonus": "+ 2",
+            "weight_bonus": "+ 750",
+            "open_doors": "1-3",
+            "twist_bars": "16%"
+        },
+        "18/01-50": {
+            "hit_bonus": "+ 1",
+            "damage_bonus": "+ 3",
+            "weight_bonus": "+ 1000",
+            "open_doors": "1-3",
+            "twist_bars": "20%"
+        },
+        "18/11-75": {
+            "hit_bonus": "+ 2",
+            "damage_bonus": "+ 3",
+            "weight_bonus": "+ 1250",
+            "open_doors": "1-4",
+            "twist_bars": "25%"
+        },
+        "18/76-90": {
+            "hit_bonus": "+ 2",
+            "damage_bonus": "+ 4",
+            "weight_bonus": "+ 1500",
+            "open_doors": "1-4",
+            "twist_bars": "30%"
+        },
+        "18/91-99": {
+            "hit_bonus": "+ 2",
+            "damage_bonus": "+ 5",
+            "weight_bonus": "+ 2000",
+            "open_doors": "1-4(1)*",
+            "twist_bars": "35%"
+        },
+        "18/00": {
+            "hit_bonus": "+ 3",
+            "damage_bonus": "+ 6",
+            "weight_bonus": "+ 3000",
+            "open_doors": "1-5(2)*",
+            "twist_bars": "40%"
+        }
+    },
+    "intelligence": {
+        "9": {
+            "spell_understanding": "35%",
+            "nb_spell_allowed": "6"
+        },
+        "10": {
+            "spell_understanding": "45%",
+            "nb_spell_allowed": "7"
+        },
+        "11": {
+            "spell_understanding": "45%",
+            "nb_spell_allowed": "7"
+        },
+        "12": {
+            "spell_understanding": "45%",
+            "nb_spell_allowed": "7"
+        },
+        "13": {
+            "spell_understanding": "55%",
+            "nb_spell_allowed": "9"
+        },
+        "14": {
+            "spell_understanding": "55%",
+            "nb_spell_allowed": "9"
+        },
+        "15": {
+            "spell_understanding": "65%",
+            "nb_spell_allowed": "11"
+        },
+        "16": {
+            "spell_understanding": "65%",
+            "nb_spell_allowed": "11"
+        },
+        "17": {
+            "spell_understanding": "75%",
+            "nb_spell_allowed": "14"
+        },
+        "18": {
+            "spell_understanding": "85%",
+            "nb_spell_allowed": "18"
+        },
+        "19": {
+            "spell_understanding": "95%",
+            "nb_spell_allowed": "Tous"
+        }
+    },
+    "wisdom": {
+        "3":  {
+            "magic_ajust": "- 3"
+        },
+        "4":  {
+            "magic_ajust": "- 2"
+        },
+        "5":  {
+            "magic_ajust": "- 1"
+        },
+        "6":  {
+            "magic_ajust": "- 1"
+        },
+        "7":  {
+            "magic_ajust": "- 1"
+        },
+        "13": {
+            "additional_spell": 1
+        },
+        "14": {
+            "additional_spell": 2
+        },
+        "15": {
+            "additional_spell": 3,
+            "magic_ajust": "+ 1"
+        },
+        "16": {
+            "additional_spell": 4,
+            "magic_ajust": "+ 2"
+        },
+        "17": {
+            "additional_spell": 5,
+            "magic_ajust": "+ 3"
+        },
+        "18": {
+            "additional_spell": 6,
+            "magic_ajust": "+ 4"
+        }
+    },
+    "constitution": {
+        "3": {
+            "hp_bonus": "-2",
+            "trauma_resist": "35%",
+            "resurrect": "40%"
+        },
+        "4": {
+            "hp_bonus": "-1",
+            "trauma_resist": "40%",
+            "resurrect": "45%"
+        },
+        "5": {
+            "hp_bonus": "-1",
+            "trauma_resist": "45%",
+            "resurrect": "50%"
+        },
+        "6": {
+            "hp_bonus": "-1",
+            "trauma_resist": "50%",
+            "resurrect": "55%"
+        },
+        "7": {
+            "hp_bonus": "0",
+            "trauma_resist": "55%",
+            "resurrect": "60%"
+        },
+        "8": {
+            "hp_bonus": "0",
+            "trauma_resist": "60%",
+            "resurrect": "65%"
+        },
+        "9": {
+            "hp_bonus": "0",
+            "trauma_resist": "65%",
+            "resurrect": "70%"
+        },
+        "10": {
+            "hp_bonus": "0",
+            "trauma_resist": "70%",
+            "resurrect": "75%"
+        },
+        "11": {
+            "hp_bonus": "0",
+            "trauma_resist": "75%",
+            "resurrect": "80%"
+        },
+        "12": {
+            "hp_bonus": "0",
+            "trauma_resist": "80%",
+            "resurrect": "85%"
+        },
+        "13": {
+            "hp_bonus": "0",
+            "trauma_resist": "85%",
+            "resurrect": "90%"
+        },
+        "14": {
+            "hp_bonus": "0",
+            "trauma_resist": "88%",
+            "resurrect": "92%"
+        },
+        "15": {
+            "hp_bonus": "+ 1",
+            "trauma_resist": "91%",
+            "resurrect": "94%"
+        },
+        "16": {
+            "hp_bonus": "+ 2",
+            "trauma_resist": "95%",
+            "resurrect": "96%"
+        },
+        "17": {
+            "hp_bonus": "+ 2",
+            "trauma_resist": "97%",
+            "resurrect": "98%"
+        },
+        "18": {
+            "hp_bonus": "+ 2",
+            "trauma_resist": "99%",
+            "resurrect": "100%"
+        }
+    },
+    "dexterity": {
+        "3": {
+            "throw_react_bonus": "- 3",
+            "ac_bonus": "+ 4"
+        },
+        "4": {
+            "throw_react_bonus": "- 2",
+            "ac_bonus": "+ 3"
+        },
+        "5": {
+            "throw_react_bonus": "- 1",
+            "ac_bonus": "+ 2"
+        },
+        "6": {
+            "throw_react_bonus": "0",
+            "ac_bonus": "+ 1"
+        },
+        "15": {
+            "throw_react_bonus": "0",
+            "ac_bonus": "-1"
+        },
+        "16": {
+            "throw_react_bonus": "+ 1",
+            "ac_bonus": "- 2"
+        },
+        "17": {
+            "throw_react_bonus": "+ 2",
+            "ac_bonus": "- 3"
+        },
+        "18": {
+            "throw_react_bonus": "+ 3",
+            "ac_bonus": "- 4"
+        }
+    },
+    "charisma": {
+        "3": {
+            "reaction_bonus": "- 25%"
+        },
+        "4": {
+            "reaction_bonus": "- 20%"
+        },
+        "5": {
+            "reaction_bonus": "- 15%"
+        },
+        "6": {
+            "reaction_bonus": "- 10%"
+        },
+        "7": {
+            "reaction_bonus": "- 05%"
+        },
+        "13": {
+            "reaction_bonus": "+ 05%"
+        },
+        "14": {
+            "reaction_bonus": "+ 10%"
+        },
+        "15": {
+            "reaction_bonus": "+ 15%"
+        },
+        "16": {
+            "reaction_bonus": "+ 25%"
+        },
+        "17": {
+            "reaction_bonus": "+ 30%"
+        },
+        "18": {
+            "reaction_bonus": "+ 35%"
+        }
+    }
+}

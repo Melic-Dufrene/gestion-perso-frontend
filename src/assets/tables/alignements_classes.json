@@ -1,0 +1,12 @@
+{
+    "clerc": "Tout sauf neutre",
+    "druide": "Neutre/Neutre",
+    "guerrier": "Tout",
+    "paladin": "Loyal/Bon",
+    "ranger": "Bon",
+    "magicien": "Tout",
+    "illusionniste": "Tout",
+    "voleur": "Neutre à mauvais",
+    "assassin": "mauvais",
+    "moine": "loyal"
+}

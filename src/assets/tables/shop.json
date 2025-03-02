@@ -1,0 +1,682 @@
+{
+    "Armes": [
+        {
+            "name": "Arbalète légère",
+            "price": "12po"
+        },
+        {
+            "name": "Arbalète lourde",
+            "price": "20po"
+        },
+        {
+            "name": "Arc composé court",
+            "price": "75po"
+        },
+        {
+            "name": "Arc composé long",
+            "price": "100po"
+        },
+        {
+            "name": "Arc cour",
+            "price": "15po"
+        },
+        {
+            "name": "Arc long",
+            "price": "60po"
+        },
+        {
+            "name": "Bardiche",
+            "price": "7po"
+        },
+        {
+            "name": "Bec de corbin",
+            "price": "6po"
+        },
+        {
+            "name": "Billes de fronde (20)",
+            "price": "10pa"
+        },
+        {
+            "name": "Carreau léger (unité)",
+            "price": "1pa"
+        },
+        {
+            "name": "Carreau lourd (20)",
+            "price": "2po"
+        },
+        {
+            "name": "Chauve-souris",
+            "price": "4po"
+        },
+        {
+            "name": "Cimeterre",
+            "price": "15po"
+        },
+        {
+            "name": "Corsèque",
+            "price": "3po"
+        },
+        {
+            "name": "Couteau de Brèche",
+            "price": "6po"
+        },
+        {
+            "name": "Daque et fourreau",
+            "price": "2po"
+        },
+        {
+            "name": "Epée batarde et fourreau",
+            "price": "25po"
+        },
+        {
+            "name": "Epée courte et fourreau",
+            "price": "8po"
+        },
+        {
+            "name": "Epée large et fourreau",
+            "price": "10po"
+        },
+        {
+            "name": "Epée longue et fourreau",
+            "price": "15po"
+        },
+        {
+            "name": "Epieu (cavalier)",
+            "price": "5po"
+        },
+        {
+            "name": "Epieu (fantassin)",
+            "price": "8po"
+        },
+        {
+            "name": "Espadon, épée à 2 mains",
+            "price": "30po"
+        },
+        {
+            "name": "Etoile du matin",
+            "price": "5po"
+        },
+        {
+            "name": "Fauchard",
+            "price": "3po"
+        },
+        {
+            "name": "Fléau (cavalier)",
+            "price": "8po"
+        },
+        {
+            "name": "Fléau (fantassin)",
+            "price": "3po"
+        },
+        {
+            "name": "Flèche normale (unité)",
+            "price": "2pa"
+        },
+        {
+            "name": "Flèches normales (12)",
+            "price": "1po"
+        },
+        {
+            "name": "Flèche argent (unité)",
+            "price": "1po"
+        },
+        {
+            "name": "Fléchette",
+            "price": "5pa"
+        },
+        {
+            "name": "Fourche",
+            "price": "4po"
+        },
+        {
+            "name": "Fourche fauchard",
+            "price": "8po"
+        },
+        {
+            "name": "Fronde + 12 billes",
+            "price": "15pa"
+        },
+        {
+            "name": "Glève guisarme",
+            "price": "10po"
+        },
+        {
+            "name": "Guisarme",
+            "price": "5po"
+        },
+        {
+            "name": "Guisarme voulge",
+            "price": "7po"
+        },
+        {
+            "name": "Hache d'arme",
+            "price": "5po"
+        },
+        {
+            "name": "Hachette de jet",
+            "price": "1po"
+        },
+        {
+            "name": "Hallebarde",
+            "price": "9po"
+        },
+        {
+            "name": "Javelot",
+            "price": "10pa"
+        },
+        {
+            "name": "Lance (cavalier)",
+            "price": "6po"
+        },
+        {
+            "name": "Lance (fantassin)",
+            "price": "1po"
+        },
+        {
+            "name": "Marteau de guerre",
+            "price": "1po"
+        },
+        {
+            "name": "Marteau de Lucerne",
+            "price": "7po"
+        },
+        {
+            "name": "Masse d'arme (cavalier)",
+            "price": "4po"
+        },
+        {
+            "name": "Masse d'arme (fantassin)",
+            "price": "8po"
+        },
+        {
+            "name": "Pertuisane",
+            "price": "10po"
+        },
+        {
+            "name": "Pique",
+            "price": "3po"
+        },
+        {
+            "name": "Serpe Guisarme",
+            "price": "6po"
+        },
+        {
+            "name": "Trident",
+            "price": "4po"
+        },
+        {
+            "name": "Voulge",
+            "price": "2po"
+        }
+    ],
+    "Armures": [
+        {
+            "name": "Bouclier, grand",
+            "price": "15po"
+        },
+        {
+            "name": "Bouclier, petit",
+            "price": "10po"
+        },
+        {
+            "name": "Bouclier, petit en bois",
+            "price": "1po"
+        },
+        {
+            "name": "Broigne",
+            "price": "30po"
+        },
+        {
+            "name": "Cotte de maille",
+            "price": "75po"
+        },
+        {
+            "name": "Cuir",
+            "price": "5po"
+        },
+        {
+            "name": "Cuir clouté",
+            "price": "15po"
+        },
+        {
+            "name": "Heaume, grand",
+            "price": "15po"
+        },
+        {
+            "name": "Heaume, petit",
+            "price": "10po"
+        },
+        {
+            "name": "Harnois",
+            "price": "90po"
+        },
+        {
+            "name": "Hoqueton",
+            "price": "4po"
+        },
+        {
+            "name": "Lorica",
+            "price": "45po"
+        },
+        {
+            "name": "Plate",
+            "price": "400po"
+        },
+        {
+            "name": "Plate feuilletée",
+            "price": "80po"
+        }
+    ],
+    "Bétail": [
+        {
+            "name": "Ane",
+            "price": "8po"
+        },
+        {
+            "name": "Boeuf",
+            "price": "15po"
+        },
+        {
+            "name": "Cheval de guerre (léger)",
+            "price": "150po"
+        },
+        {
+            "name": "Cheval de guerre (lourd)",
+            "price": "300po"
+        },
+        {
+            "name": "Cheval de guerre (moyen)",
+            "price": "225po"
+        },
+        {
+            "name": "Cheval de selle (léger)",
+            "price": "25po"
+        },
+        {
+            "name": "Cheval de trait",
+            "price": "30po"
+        },
+        {
+            "name": "Chèvre",
+            "price": "1po"
+        },
+        {
+            "name": "Chien de chasse",
+            "price": "17po"
+        },
+        {
+            "name": "Chien de garde",
+            "price": "25po"
+        },
+        {
+            "name": "Cochon de lait",
+            "price": "1po"
+        },
+        {
+            "name": "Faucon (grand)",
+            "price": "40po"
+        },
+        {
+            "name": "Faucon (petit)",
+            "price": "18po"
+        },
+        {
+            "name": "Mouton",
+            "price": "2po"
+        },
+        {
+            "name": "Mule",
+            "price": "20po"
+        },
+        {
+            "name": "Oiseau chanteur",
+            "price": "4pc"
+        },
+        {
+            "name": "Pigeon",
+            "price": "2pc"
+        },
+        {
+            "name": "Poney",
+            "price": "15po"
+        },
+        {
+            "name": "Porc",
+            "price": "3po"
+        },
+        {
+            "name": "Poulet",
+            "price": "3pc"
+        },
+        {
+            "name": "Vache",
+            "price": "10po"
+        }
+    ],
+    "Divers": [
+        {
+            "name": "Briquet, pierre et mèches",
+            "price": "1po"
+        },
+        {
+            "name": "Boîte en fer (grande)",
+            "price": "28po"
+        },
+        {
+            "name": "Boîte en fer (petite)",
+            "price": "9po"
+        },
+        {
+            "name": "Bougie",
+            "price": "1pa"
+        },
+        {
+            "name": "Bourse (grande)",
+            "price": "1po"
+        },
+        {
+            "name": "Bourse (petite)",
+            "price": "15pa"
+        },
+        {
+            "name": "Carquois (10 carreaux)",
+            "price": "15pa"
+        },
+        {
+            "name": "Carquois (20 carreaux)",
+            "price": "1po"
+        },
+        {
+            "name": "Carquois (12 flèches)",
+            "price": "8pa"
+        },
+        {
+            "name": "Carquois (20 flèches)",
+            "price": "12pa"
+        },
+        {
+            "name": "Chandelle",
+            "price": "1pc"
+        },
+        {
+            "name": "Corde (15m)",
+            "price": "4pa"
+        },
+        {
+            "name": "Coffre en bois (grand)",
+            "price": "17pa"
+        },
+        {
+            "name": "Coffre en bois (petit)",
+            "price": "8pa"
+        },
+        {
+            "name": "Etui en cuir + carte ou parchemin",
+            "price": "15pa"
+        },
+        {
+            "name": "Etui en os + carte ou parchemin",
+            "price": "5po"
+        },
+        {
+            "name": "Gourde, eau ou vin",
+            "price": "15pa"
+        },
+        {
+            "name": "Huile (flasque)",
+            "price": "1po"
+        },
+        {
+            "name": "Lanterne à faisceau",
+            "price": "12po"
+        },
+        {
+            "name": "Lanterne à capuchon",
+            "price": "7po"
+        },
+        {
+            "name": "Miroir en métal (grand)",
+            "price": "10po"
+        },
+        {
+            "name": "Miroir en argent (petit)",
+            "price": "20po"
+        },
+        {
+            "name": "Outils de voleur",
+            "price": "30po"
+        },
+        {
+            "name": "Perche (3m)",
+            "price": "3pc"
+        },
+        {
+            "name": "Piton en fer (grand)",
+            "price": "1pc"
+        },
+        {
+            "name": "Sac (grand)",
+            "price": "16pc"
+        },
+        {
+            "name": "Sac (petit)",
+            "price": "10pc"
+        },
+        {
+            "name": "Sac à dos",
+            "price": "2po"
+        },
+        {
+            "name": "Torche",
+            "price": "1pc"
+        }
+    ],
+    "Harnais": [
+        {
+            "name": "Barde en cuir",
+            "price": "100po"
+        },
+        {
+            "name": "Barde maille",
+            "price": "250po"
+        },
+        {
+            "name": "Barde plate",
+            "price": "500po"
+        },
+        {
+            "name": "Bride et mors",
+            "price": "15pa"
+        },
+        {
+            "name": "Couverture de selle",
+            "price": "3pa"
+        },
+        {
+            "name": "Harnais",
+            "price": "12pa"
+        },
+        {
+            "name": "Sacoche de selle (grande)",
+            "price": "4po"
+        },
+        {
+            "name": "Sacoche de selle (petite)",
+            "price": "3po"
+        },
+        {
+            "name": "Selle",
+            "price": "10po"
+        }
+    ],
+    "Herbes": [
+        {
+            "name": "Aconit (le brin)",
+            "price": "10pa"
+        },
+        {
+            "name": "Ail (la gousse)",
+            "price": "5pc"
+        },
+        {
+            "name": "Belladonne (le brin)",
+            "price": "4pa"
+        }
+    ],
+    "Objets sacrés": [
+        {
+            "name": "Chapelet de prière",
+            "price": "1po"
+        },
+        {
+            "name": "Encens (batonnêt)",
+            "price": "1po"
+        },
+        {
+            "name": "Eau bénite (la fiole)",
+            "price": "25po"
+        },
+        {
+            "name": "Symbole béni (argent)",
+            "price": "50po"
+        },
+        {
+            "name": "Symbole béni (bois)",
+            "price": "7pa"
+        },
+        {
+            "name": "Symbol béni (fer)",
+            "price": "2po"
+        }
+    ],
+    "Provisions": [
+        {
+            "name": "Ale (1/2L)",
+            "price": "1pa"
+        },
+        {
+            "name": "Bière (1/2L)",
+            "price": "5pc"
+        },
+        {
+            "name": "Grain pour cheval (1 jour)",
+            "price": "1pa"
+        },
+        {
+            "name": "Hydromel (1/2L)",
+            "price": "5pa"
+        },
+        {
+            "name": "Rations séchées (1 semaine)",
+            "price": "5po"
+        },
+        {
+            "name": "Rations standards (1 semaine)",
+            "price": "3po"
+        },
+        {
+            "name": "Repas de marchand",
+            "price": "1pa"
+        },
+        {
+            "name": "Repas copieux",
+            "price": "1po"
+        },
+        {
+            "name": "Vin, bon (1/2L)",
+            "price": "10pa"
+        },
+        {
+            "name": "Vin, coupé (1/2L)",
+            "price": "5pa"
+        }
+    ],
+    "Transport": [
+        {
+            "name": "Barge (ou radeau) (petite)",
+            "price": "50po"
+        },
+        {
+            "name": "Bateau (grand)",
+            "price": "150po"
+        },
+        {
+            "name": "Bateau (petit)",
+            "price": "75po"
+        },
+        {
+            "name": "Charrette",
+            "price": "50po"
+        },
+        {
+            "name": "Charriot",
+            "price": "150po"
+        },
+        {
+            "name": "Galère (grande)",
+            "price": "25 000po"
+        },
+        {
+            "name": "Galère (petite)",
+            "price": "10 000po"
+        },
+        {
+            "name": "Navire (guerre)",
+            "price": "20 000po"
+        },
+        {
+            "name": "Navire marchand (grand)",
+            "price": "15 000po"
+        },
+        {
+            "name": "Navire marchand (petit)",
+            "price": "5 000po"
+        }
+    ],
+    "Vêtements": [
+        {
+            "name": "Bonnet",
+            "price": "1pa"
+        },
+        {
+            "name": "Bottes basses (dures)",
+            "price": "1po"
+        },
+        {
+            "name": "Bottes basses (souples)",
+            "price": "8pa"
+        },
+        {
+            "name": "Bottes hautes (dures)",
+            "price": "2po"
+        },
+        {
+            "name": "Bottes hautes (souples)",
+            "price": "1po"
+        },
+        {
+            "name": "Cape",
+            "price": "5pa"
+        },
+        {
+            "name": "Ceinture",
+            "price": "3pa"
+        },
+        {
+            "name": "Ceinturon (large)",
+            "price": "2po"
+        },
+        {
+            "name": "Ceinturon (normal)",
+            "price": "10pa"
+        },
+        {
+            "name": "Chapeau",
+            "price": "7pa"
+        },
+        {
+            "name": "Robe",
+            "price": "6pa"
+        }
+    ]
+}
