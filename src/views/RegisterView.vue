@@ -32,6 +32,17 @@
           Register
         </v-btn>
       </v-form>
+
+      <!-- Error Message Display -->
+      <v-alert
+        v-if="registerError"
+        type="error"
+        class="mt-4"
+        dismissible
+      >
+        {{ registerError }}
+      </v-alert>
+
       <v-card-actions class="justify-center">
         <p class="mt-4 text-sm">
           Already have an account?
@@ -49,11 +60,12 @@
 
 <script setup>
 import { ref } from 'vue';
-import { VContainer, VCard, VCardTitle, VForm, VTextField, VBtn, VCardActions } from 'vuetify/components';
+import { VContainer, VCard, VCardTitle, VForm, VTextField, VBtn, VCardActions, VAlert } from 'vuetify/components';
 import api from "../plugins/axios";
 
 const username = ref('');
 const password = ref('');
+const registerError = ref(''); // Variable to store error message
 
 const handleRegister = async () => {
   try {
@@ -61,8 +73,12 @@ const handleRegister = async () => {
       username: username.value,
       password: password.value,
     });
+    // Handle successful registration here, if needed (e.g., redirect to login or profile page)
+    // For now, we're not doing anything after successful registration
   } catch (error) {
-    alert('Register failed', error);
+    // Capture and display the error message
+    registerError.value = error.response?.data?.message || 'Registration failed, please try again';
+    console.error('Registration failed', error);
   }
 };
 </script>

@@ -1,4 +1,3 @@
-<!--src/pages/LoginPage.vue-->
 <template>
   <v-container class="fill-height d-flex flex-column align-center justify-center">
     <v-card
@@ -34,6 +33,17 @@
           Login
         </v-btn>
       </v-form>
+
+      <!-- Error Message Display -->
+      <v-alert
+        v-if="loginError"
+        type="error"
+        class="mt-4"
+        dismissible
+      >
+        {{ loginError }}
+      </v-alert>
+
       <v-card-actions class="justify-center">
         <p class="mt-4 text-sm">
           Don't have an account?
@@ -51,11 +61,13 @@
 
 <script setup>
 import { ref } from 'vue';
-import { VContainer, VCard, VCardTitle, VForm, VTextField, VBtn, VCardActions } from 'vuetify/components';
+import { VContainer, VCard, VCardTitle, VForm, VTextField, VBtn, VCardActions, VAlert } from 'vuetify/components';
 import api from "../plugins/axios";
 import router from '../router';
+
 const username = ref('');
 const password = ref('');
+const loginError = ref(''); // Add a variable to store login error message
 
 const handleLogin = async () => {
   try {
@@ -63,12 +75,13 @@ const handleLogin = async () => {
       username: username.value,
       password: password.value,
     });
-    console.log("Login:",username,password)
     // Save token in local storage
     localStorage.setItem('token', response.data.token);
-    // Redirect to character page
+    // Redirect to profile page
     router.push('/profile');
   } catch (error) {
+    // Check if error response exists and has a message
+    loginError.value = error.response?.data?.message || 'Login failed, please try again';
     console.error('Login failed', error);
   }
 };
