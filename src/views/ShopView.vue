@@ -39,7 +39,6 @@ export default {
     const tab = ref('Armes');
 
     function changeView(key) {
-      console.log("Clicked: ", key);
       shoptab.value = key;
     }
 

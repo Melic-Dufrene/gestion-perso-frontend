@@ -27,19 +27,19 @@
         <v-icon left>
           mdi-account
         </v-icon>
-        Character
+        Personnage
       </v-tab>
       <v-tab to="/shop">
         <v-icon left>
           mdi-sack
         </v-icon>
-        Shop
+        Boutique
       </v-tab>
       <v-tab to="/spells">
         <v-icon left>
           mdi-magic-staff
         </v-icon>
-        Spells
+        Sorts
       </v-tab>
       <v-tab to="/uploads">
         <v-icon left>
@@ -51,7 +51,7 @@
         <v-icon left>
           mdi-shield-account
         </v-icon>
-        Profile
+        Profil
       </v-tab>
     </v-tabs>
   </v-app-bar>

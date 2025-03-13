@@ -30,6 +30,16 @@ export const useCharacterStore = defineStore('characterStore', {
         charisma: 8,
         beauty: 8
       },
+      inventory: {
+        bursary: {
+          pc:0,
+          pa:0,
+          po:0,
+          pp:0
+        },
+        on: [],
+        bag:[]
+      },
       abilities: [
         "Résistance aux sorts de sommeil et de charme 90%",
         "Infrarouge à 20m",
@@ -82,15 +92,14 @@ export const useCharacterStore = defineStore('characterStore', {
       compareObjects(this.character, this.originalCharacter);
 
       if (Object.keys(updatedFields).length === 0) {
-        console.log('No changes detected.');
         return;
       }
 
       try {
         const response = await api.patch('/character/', {...updatedFields, "_id":this.character._id});
-        console.log('Updated fields:', response.data);
         // Update the original character data with the new changes
         this.originalCharacter = JSON.parse(JSON.stringify(this.character));
+        console.log(response);
       } catch (error) {
         console.error('Failed to update character', error);
       }

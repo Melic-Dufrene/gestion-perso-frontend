@@ -25,7 +25,7 @@
     },
     {
         "Nom": "AMITIÉ",
-        "Niveau": 7,
+        "Niveau": 1,
         "Portee": "0",
         "Duree": "1 round/niveau",
         "Zone_effet": "Sphère d'un rayon de 1” + 1”/niveau",
@@ -37,7 +37,7 @@
     },
     {
         "Nom": "AURA MAGIQUE DE NYSTUL",
-        "Niveau": 7,
+        "Niveau": 1,
         "Portee": "Au toucher",
         "Duree": "1 jour/niveau",
         "Zone_effet": "Spéciale",
@@ -128,7 +128,7 @@
         "Composantes": "V, S, M",
         "Temps_incantation": "1 round",
         "Jet_protection": "Spécial",
-        "Explication": "Avec ce sort, le magicien est capable d'inscrire un sort qu'il ne peut comprendre à cet instant (soit à cause de son niveau, soit à cause d'un manque d'intelligence) sur son livre ou sur un autre objet qu'il utilise pour inscrire les sorts qu'il connaît. Le magicien doit lancer un jet de protection contre la magie pour essayer la transcription ; ce jet de protection obtient un bonus de + 2 si le sort à transcrire est supérieur de seulement 1 niveau à ceux qu'il peut utiliser ; si le sort est supérieur de 2 niveaux, le jet de protection est normal et il y a un malus de — 1 pour chaque niveau supérieur à partir de 3 niveaux au dessus. Si ce jet de protection est raté, le magicien subit 1d4 points de vie de dégâts pour chaque niveau du sort qu'il tentait de transcrire ; de plus, il tombe inconscient pour un nombre égal de tours. Ces dégâts, s'ils n'ont pas été fatals, peuvent être soignés seulement au rythme de 1 à 4 points par jour, car ce sont des dégâts corporels et mentaux. La transcription d'un sort prend une heure par niveau du sort et pendant cette période, le magicien est en état de transe, il peut toujours se faire surprendre par un ennemi. En plus de la surface d'écriture, le magicien doit utiliser une encre fine faite de substances rares (coût minimum 200 po par flacon, si le magicien ne l'a pas fabriquée). EFFACEMENT (Altération) Niveai Portée : 3” Durée : Permanente Zone d'effet: Un parchemin ou 2 pages en regard Composantes : V, S Temps d'incantation : 1 segment Jet de protection : Annule Explication/Description : ce sort efface les écrits de nature magique ou nor- male sur un parchemin ou sur 1 à 2 pages ou feuilles de papier, parchemin ou surface similaire. 1! ne peut par contre effacer des runes explosives ou un symbole (voir ces sorts plus loin). ll y a une chance de base de 50 % + 2 % par niveau du magicien pour les écrits magiques ou + 4 % par niveau pour les écrits normaux. Ce pourcentage représente un jet de protection et tout résultat supérieur au nombre nécessaire indique un échec. ",
+        "Explication": "Avec ce sort, le magicien est capable d'inscrire un sort qu'il ne peut comprendre à cet instant (soit à cause de son niveau, soit à cause d'un manque d'intelligence) sur son livre ou sur un autre objet qu'il utilise pour inscrire les sorts qu'il connaît. Le magicien doit lancer un jet de protection contre la magie pour essayer la transcription ; ce jet de protection obtient un bonus de + 2 si le sort à transcrire est supérieur de seulement 1 niveau à ceux qu'il peut utiliser ; si le sort est supérieur de 2 niveaux, le jet de protection est normal et il y a un malus de — 1 pour chaque niveau supérieur à partir de 3 niveaux au dessus. Si ce jet de protection est raté, le magicien subit 1d4 points de vie de dégâts pour chaque niveau du sort qu'il tentait de transcrire ; de plus, il tombe inconscient pour un nombre égal de tours. Ces dégâts, s'ils n'ont pas été fatals, peuvent être soignés seulement au rythme de 1 à 4 points par jour, car ce sont des dégâts corporels et mentaux. La transcription d'un sort prend une heure par niveau du sort et pendant cette période, le magicien est en état de transe, il peut toujours se faire surprendre par un ennemi. En plus de la surface d'écriture, le magicien doit utiliser une encre fine faite de substances rares (coût minimum 200 po par flacon, si le magicien ne l'a pas fabriquée). ",
         "Type": "(Évocation)"
     },
     {
@@ -410,7 +410,7 @@
     },
     {
         "Nom": "SOMMEIL",
-        "Niveau": 7,
+        "Niveau": 1,
         "Portee": "3”+ 1”/niveau",
         "Duree": "5 rounds/niveau",
         "Zone_effet": "Spéciale",

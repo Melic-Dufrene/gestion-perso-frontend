@@ -221,6 +221,9 @@ export default {
 .v-table {
   text-align: center;
   border: 1px solid #fafafa;
+  overflow-x: hidden !important;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .v-table table {

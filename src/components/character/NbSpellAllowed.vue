@@ -22,7 +22,14 @@
                 >
                   <thead>
                     <tr>
-                      <th />
+                      <th>
+                        <v-icon
+                          :icon="hovered ? 'mdi-book-open-page-variant' : 'mdi-book-open-variant'"
+                          @mouseover="hovered = true"
+                          @mouseleave="hovered = false"
+                          @click="openSpellBook"
+                        />
+                      </th>
                       <th
                         v-for="lvl in [...Array(professionData[key]['lvl_spell_max'])].map((_, index) => index + 1)"
                         :key="lvl"
@@ -42,8 +49,7 @@
                         :key="lvl"
                         class="text-center"
                       >
-                        {{ getSpellCount(professionData[key], character.lvl, lvl)
-                        }}
+                        {{ getSpellCount(professionData[key], character.lvl, lvl) }}
                       </td>
                     </tr>
                   </tbody>
@@ -61,15 +67,14 @@
 </template>
 
 <script>
-import { reactive, onMounted, watch } from 'vue';
+import { ref, reactive, onMounted, watch, computed } from 'vue';
 import { useCharacterStore } from '@/stores/characterStore';
-
-
 
 export default {
   setup() {
     const store = useCharacterStore();
     let professionData = reactive({});
+    const hovered = ref(false);
 
     async function loadNbSpellsData(prof) {
       try {
@@ -78,22 +83,22 @@ export default {
         }
         const data = await import('@/assets/character/spells/' + prof + '_base_nb_spell.json')
         Object.assign(professionData, data.default);
-        console.log(professionData);
+
       } catch (error) {
         console.error("Error loading json nb_spell_data:", error)
       }
     }
-    function toDisplay() {
-      console.log("ToDisplay: ", Object.keys(professionData).length > 0 && store.character);
-      return Object.keys(professionData).length > 0 && store.character;
-    }
 
-    onMounted(async () => {
-      loadNbSpellsData();
+    const toDisplay = computed(() => {
+      return Object.keys(professionData).length > 0 && store.character;
     });
 
-    watch(() => store.character.profession, (value) => {
-      loadNbSpellsData(value.toLowerCase());
+    onMounted(async () => {
+      await loadNbSpellsData(store.character.profession.toLowerCase());
+    });
+
+    watch(() => store.character.profession, async (value) => {
+      await loadNbSpellsData(value.toLowerCase());
     });
 
     const getSpellCount = (data, niveau, lvl) => {
@@ -127,12 +132,12 @@ export default {
 
     };
 
-
     return {
       character: store.character,
       professionData,
       getSpellCount,
-      toDisplay
+      toDisplay,
+      hovered
     }
   },
 };

@@ -32,9 +32,6 @@ export default {
     }
   },
 
-  mounted: function () {
-    console.log("Shoptable:",this.datajson);
-  }
 }
 </script>
 
