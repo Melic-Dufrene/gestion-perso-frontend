@@ -51,8 +51,6 @@
 <script>
 import {
   computed,
-  onMounted,
-  onBeforeUnmount
 } from 'vue';
 import {
   useCharacterStore
@@ -102,7 +100,7 @@ export default {
 
     return {
       character,
-      saves,
+      saves
     };
   }
 };
@@ -110,34 +108,7 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-.v-table {
-  text-align: center;
-  border: 1px solid #fafafa;
-}
-
-.v-table table {
-  table-layout: fixed;
-  width: 100%
-}
-
-.v-table th {
-  background-color: #efefef;
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.v-table th,
-.v-table td {
-  border: 1px solid #404040;
-  text-align: center !important;
-  width: 20%;
-}
-
-.v-table td {
-  background-color: #fff;
+  text-align: center;
 }
 </style>

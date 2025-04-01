@@ -16,7 +16,7 @@
       >
         <v-card @dblclick="viewImage(image)">
           <v-img
-            :src="image.url"
+            :src="getImage(image)"
             height="100px"
             contain
           />
@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import api from "../plugins/axios";
 
 export default {
   data() {
@@ -72,10 +72,14 @@ export default {
     this.fetchImages();
   },
   methods: {
+    async getImage(url) {
+      return api.get(url);
+    },
     async fetchImages() {
       try {
-        const response = await axios.get('/api/images');
-        this.images = response.data;
+        const response = await api.get('/images/all');
+        this.images = response.data.images;
+        console.log(this.images);
       } catch (error) {
         console.error("Error fetching images:", error);
       }
@@ -86,12 +90,12 @@ export default {
         const formData = new FormData();
         formData.append("image", file);
         try {
-          const response = await axios.post('/api/upload', formData, {
+          const response = await api.post('/images/upload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
             }
           });
-          this.images.push(response.data);
+          this.images.push(response.data.filePath);
         } catch (error) {
           console.error("Error uploading image:", error);
         }
@@ -99,7 +103,7 @@ export default {
     },
     async removeImage(id) {
       try {
-        await axios.delete(`/api/images/${id}`);
+        await api.delete(`/images/one/${id}`);
         this.images = this.images.filter(image => image.id !== id);
       } catch (error) {
         console.error("Error deleting image:", error);

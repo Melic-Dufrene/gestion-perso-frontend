@@ -5,56 +5,13 @@ import api from '../plugins/axios';
 
 export const useCharacterStore = defineStore('characterStore', {
   state: () => ({
-    character: reactive ({
-      lvl: 1,
-      exp: 0,
-      name: "Name",
-      race: "Elfe",
-      profession: "Guerrier",
-      hp: 1,
-      age: 0,
-      weight: 0,
-      height: 0,
-      ac: {
-        front: 10,
-        back: 10,
-        front_w_shield: 10
-      },
-      alignement: "Neutre/Neutre",
-      stats: {
-        strength: 8,
-        intelligence: 8,
-        wisdom: 8,
-        constitution: 8,
-        dexterity: 8,
-        charisma: 8,
-        beauty: 8
-      },
-      inventory: {
-        bursary: {
-          pc:0,
-          pa:0,
-          po:0,
-          pp:0
-        },
-        on: [],
-        bag:[]
-      },
-      abilities: [
-        "Résistance aux sorts de sommeil et de charme 90%",
-        "Infrarouge à 20m",
-        "Détection des portes cachées 16% sans recherche, 50% avec recherche",
-        "Détection des portes secrètes 33% avec recherche",
-        "Bonus d'attaque avec épées et arcs +1",
-        "Surprise ennemie: 66% sans bruit, 33% en ouvrant une porte"
-      ]
-    }),
+    character: reactive({}),
     originalCharacter: null
   }),
   actions: {
-    async getCharacter() {
+    async getCharacter(id) {
       try {
-        const response = await api.get('/character/');
+        const response = await api.get('/character/one/' + id.toString());
         // Replace our character with the response
         Object.assign(this.character, response.data);
         this.originalCharacter = JSON.parse(JSON.stringify(response.data));
@@ -62,14 +19,35 @@ export const useCharacterStore = defineStore('characterStore', {
         console.error('Failed to get character', error);
       }
     },
-    async postCharacter() {
+    async deleteCharacter(id)  {
       try {
-        await api.post('/character/', this.character);
+        await api.delete('/character/one/' + id.toString());
+      } catch (error) {
+        console.error('Failed to get character', error);
+      }
+    },
+    async postCharacter(id) {
+      try {
+        await api.post('/character/one/' + id.toString(), this.character);
       } catch (error) {
         console.error('Failed to post character', error);
       }
     },
-    async updateCharacter() {
+    async newCharacter() {
+      try {
+        const response = await api.get('/character/new');
+        // Replace our character with the response
+        Object.assign(this.character, response.data);
+        this.originalCharacter = JSON.parse(JSON.stringify(response.data));
+      } catch (error) {
+        console.error('Failed to create a new character: ', error);
+      }
+    },
+    setCurrentCharacter(character) {
+      Object.assign(this.character, character);
+      this.originalCharacter = JSON.parse(JSON.stringify(character));
+    },
+    async updateCharacter(id) {
       if (!this.originalCharacter) {
         console.warn('Character data has not been retrieved from the backend.');
         return;
@@ -89,20 +67,21 @@ export const useCharacterStore = defineStore('characterStore', {
         }
       };
 
-      compareObjects(this.character, this.originalCharacter);
+      compareObjects(this.character.value, this.originalCharacter);
 
       if (Object.keys(updatedFields).length === 0) {
         return;
       }
 
       try {
-        const response = await api.patch('/character/', {...updatedFields, "_id":this.character._id});
+        const response = await api.patch('/character/one/' + id.toString(), {...updatedFields, "_id":this.character._id});
         // Update the original character data with the new changes
-        this.originalCharacter = JSON.parse(JSON.stringify(this.character));
+        this.originalCharacter = JSON.parse(JSON.stringify(this.character.value));
         console.log(response);
       } catch (error) {
         console.error('Failed to update character', error);
       }
     }
-  }
+  },
+  persist: true,
 });

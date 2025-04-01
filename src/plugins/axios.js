@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://mondonjon.ddns.net/api", // Backend URL
+  baseURL: "http://localhost:3000/api", // Backend URL
   headers: { "Content-Type": "application/json" }
 });
 

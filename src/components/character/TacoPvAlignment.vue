@@ -190,6 +190,10 @@ export default {
       editableFields.value[field] = !editableFields.value[field];
     }
 
+    const saveChanges = debounce(async (field) => {
+      await updateCharacter(character._id);
+    }, 300);
+
     // Lifecycle hooks
     onMounted(() => {
       // Initialize editableFields for all fields and abilities
@@ -207,44 +211,23 @@ export default {
       editableFields,
       taco,
       toggleEditable,
+      saveChanges,
     };
   }
 };
+
+function debounce(func, wait) {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
+  };
+}
 </script>
 
 <style scoped>
 .title {
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-.v-table {
-  text-align: center;
-  border: 1px solid #fafafa;
-  overflow-x: hidden !important;
-  width: 100%;
-  table-layout: fixed;
-}
-
-.v-table table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-.v-table th {
-  background-color: #b4b4b4;
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.v-table th,
-.v-table td {
-  border: 1px solid #404040;
-  text-align: center !important;
-  width: 16%;
-}
-
-.v-table td {
-  background-color: #fff;
+  text-align: center;
 }
 </style>

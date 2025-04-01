@@ -71,7 +71,8 @@ export default {
     // Access the store
     const characterStore = useCharacterStore();
     const {
-      character
+      character,
+      updateCharacter
     } = characterStore;
 
     // Initialize abilities array if it doesn't exist or is empty
@@ -113,7 +114,6 @@ export default {
       return arr2;
     }
 
-
     // Lifecycle hooks
     onMounted(() => {
       ensureEvenLength(character.abilities);
@@ -137,33 +137,8 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.v-table {
-  border: 1px solid #fafafa;
-}
-
-.v-table table {
-  table-layout: fixed;
-  width: 100%
-}
-
-.v-table th {
-  background-color: #b4b4b4;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.v-table th,
-.v-table td {
-  border: 1px solid #404040;
-
-  width: 20%;
-}
-
-.v-table td {
-  background-color: #fff;
-}
 </style>

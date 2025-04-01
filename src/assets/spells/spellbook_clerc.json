@@ -1,0 +1,92 @@
+{
+    "Niveau 1": [
+        "APAISEMENT",
+        "AQUAGENÈSE",
+        "BÉNÉDICTION",
+        "DÉTECTION DE LA MAGIE",
+        "DÉTECTION DU MAL",
+        "INJONCTION",
+        "LUMIÈRE",
+        "PROTECTION CONTRE LE MAL",
+        "PURIFICATION DE L'EAU ET DES ALIMENTS",
+        "RESISTANCE AU FROID",
+        "SANCTUAIRE",
+        "SOINS MINEURS"
+    ],
+    "Niveau 2": [
+        "AUGURE",
+        "CANTIQUE",
+        "CHARME-SERPENTS",
+        "DÉTECTION DES CHARMES",
+        "DÉTECTION DES PIÈGES",
+        "LANGAGE ANIMAL",
+        "MARTEAU SPIRITUEL",
+        "PARALYSIE",
+        "PERCEPTION DES ALIGNEMENTS",
+        "RÉSISTANCE AU FEU",
+        "RETARDEMENT DU POISON",
+        "SILENCE SUR 5 MÈTRES"
+    ],
+    "Niveau 3": [
+        "CATALEPSIE",
+        "DÉSENVOÜTEMENT",
+        "DISSIPATION DE LA MAGIE",
+        "GLYPHE DE GARDE",
+        "GUÉRISON DE LA CÉCITÉ",
+        "GUÉRISON DES MALADIES",
+        "LOCALISATION D'OBJETS",
+        "LUMIÈRE ÉTERNELLE",
+        "MANNE",
+        "NÉCRO-ANIMATION",
+        "NÉCROMANCIE",
+        "PRIÈRE"
+    ],
+    "Niveau 4": [
+        "ABAISSEMENT DES EAUX",
+        "BÂTONS A SERPENTS",
+        "CONTRE-POISON",
+        "DÉTECTION DES MENSONGES",
+        "DIVINATION",
+        "EXORCISME",
+        "LANGAGE DES PLANTES",
+        "LANGUES",
+        "PROTECTION CONTRE LE MAL SUR 3 METRES",
+        "SOINS MAJEURS"
+    ],
+    "Niveau 5": [
+        "CHANGEMENT DE PLAN",
+        "COMMUNION",
+        "DISSIPATION DU MAL",
+        "EXPIATION",
+        "FLÉAU D'INSECTES",
+        "PILIER DE FEU",
+        "QUETE RELIGIEUSE",
+        "RAPPEL A LA VIE",
+        "SOIN ULTIME",
+        "VISION RÉELLE"
+    ],
+    "Niveau 6": [
+        "ANIMATION DES OBJETS",
+        "BARRIÈRE DE LAMES",
+        "GUÉRISON",
+        "INVOCATION DES ANIMAUX",
+        "LANGAGE DES MONSTRES",
+        "LITHOMANCIE",
+        "ORIENTATION",
+        "RAPPEL",
+        "SÉPARATION DES EAUX",
+        "SERVITEUR AÉRIEN"
+    ],
+    "Niveau 7": [
+        "CONTRÔLE DU CLIMAT",
+        "MARCHE DES VENTS",
+        "PAROLE SACRÉE/MAUDITE",
+        "RÉGÉNÉRATION",
+        "RESTAURATION",
+        "RÉSURRECTION",
+        "SEUIL",
+        "SORT ASTRAL",
+        "SYMBOLE",
+        "TREMBLEMENT DE TERRE"
+    ]
+}

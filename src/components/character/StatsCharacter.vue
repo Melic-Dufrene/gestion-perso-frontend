@@ -267,7 +267,8 @@ export default {
     // Access the store
     const characterStore = useCharacterStore();
     const {
-      character
+      character,
+      updateCharacter
     } = characterStore;
 
     // Computed properties for bonuses and other values:
@@ -333,6 +334,9 @@ export default {
       editableFields.value[field] = !editableFields.value[field];
     }
 
+    const saveChanges = debounce(async (field) => {
+      await updateCharacter(character._id);
+    }, 300);
 
     // Lifecycle hooks
     onMounted(() => {
@@ -367,37 +371,20 @@ export default {
       throw_react_bonus,
       armor_class_bonus,
       reaction_bonus,
-      toggleEditable
+      toggleEditable,
+      saveChanges
     };
   }
 };
+
+function debounce(func, wait) {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
+  };
+}
 </script>
 
-<style scoped>
-.v-table {
-  text-align: center;
-  border: 1px solid #fafafa;
-}
-
-.v-table table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-.v-table th {
-  background-color: #f4f4f4;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.v-table th,
-.v-table td {
-  border: 1px solid #404040;
-  text-align: center !important;
-  width: 14%;
-}
-
-.v-table td {
-  background-color: #fff;
-}
+<style>
 </style>

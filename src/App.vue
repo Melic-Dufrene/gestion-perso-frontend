@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <template v-if="showNavbar">
-      <Navbar />
+      <Navbar class="navbar" />
     </template>
     <v-main>
       <router-view /><!-- This will display the content for each tab -->
@@ -12,7 +12,10 @@
 <script>
 import Navbar from './components/NavBar.vue';
 import {
-  computed
+  ref,
+  onMounted,
+  onUnmounted,
+  watch
 } from 'vue';
 import {
   useRoute
@@ -25,7 +28,24 @@ export default {
   },
   setup() {
     const route = useRoute();
-    const showNavbar = computed(() => !['/login', '/register'].includes(route.path));
+    const showNavbar = ref(true);
+
+    const updateNavbarVisibility = () => {
+      showNavbar.value = !['/login', '/register'].includes(route.path) && !window.matchMedia("print").matches;
+    };
+
+    onMounted(() => {
+      const mediaQuery = window.matchMedia("print");
+      mediaQuery.addEventListener("change", updateNavbarVisibility);
+      updateNavbarVisibility(); // Ensure correct initial state
+    });
+
+    onUnmounted(() => {
+      const mediaQuery = window.matchMedia("print");
+      mediaQuery.removeEventListener("change", updateNavbarVisibility);
+    });
+
+    watch(route, updateNavbarVisibility);
     return {
       showNavbar
     };
