@@ -16,9 +16,10 @@
       >
         <v-card @dblclick="viewImage(image)">
           <v-img
-            :src="getImage(image)"
+            :src="imageBlobUrls[image.id]"
+            alt="Image"
             height="100px"
-            contain
+            style="object-fit: contain;"
           />
           <v-card-actions>
             <v-btn
@@ -47,7 +48,7 @@
         </v-card-title>
         <v-card-text class="d-flex justify-center">
           <v-img
-            :src="selectedImage"
+            :src="imageBlobUrls[selectedImage]"
             max-height="80vh"
             contain
           />
@@ -58,12 +59,14 @@
 </template>
 
 <script>
+import { reactive } from "vue";
 import api from "../plugins/axios";
 
 export default {
   data() {
     return {
       images: [],
+      imageBlobUrls: reactive({}), // Store blob URLs for images
       dialog: false,
       selectedImage: null
     };
@@ -72,14 +75,24 @@ export default {
     this.fetchImages();
   },
   methods: {
-    async getImage(url) {
-      return api.get(url);
+    async fetchImageBlob(imageUrl, imageId) {
+      try {
+        const response = await api.get(imageUrl, {
+          responseType: 'blob'
+        });
+        const blobUrl = URL.createObjectURL(response.data);
+        this.imageBlobUrls[imageId] = blobUrl; // Dynamically add blob URL
+      } catch (error) {
+        console.error("Error fetching image blob:", error);
+      }
     },
     async fetchImages() {
       try {
         const response = await api.get('/images/all');
         this.images = response.data.images;
-        console.log(this.images);
+        for (const image of this.images) {
+          await this.fetchImageBlob(image.url, image.id);
+        }
       } catch (error) {
         console.error("Error fetching images:", error);
       }
@@ -95,7 +108,8 @@ export default {
               'Content-Type': 'multipart/form-data'
             }
           });
-          this.images.push(response.data.filePath);
+          this.images.push(response.data);
+          await this.fetchImageBlob(response.data.url, response.data.id); // Fetch blob for the new image
         } catch (error) {
           console.error("Error uploading image:", error);
         }
@@ -105,12 +119,13 @@ export default {
       try {
         await api.delete(`/images/one/${id}`);
         this.images = this.images.filter(image => image.id !== id);
+        delete this.imageBlobUrls[id]; // Remove blob URL
       } catch (error) {
         console.error("Error deleting image:", error);
       }
     },
     viewImage(image) {
-      this.selectedImage = image.url;
+      this.selectedImage = image.id;
       this.dialog = true;
     }
   }
