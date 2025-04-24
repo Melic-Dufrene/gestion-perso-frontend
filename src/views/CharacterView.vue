@@ -192,6 +192,11 @@
     </v-row>
     <v-row dense>
       <v-col cols="12">
+        <SpeedAndWeapons />
+      </v-col>
+    </v-row>
+    <v-row dense>
+      <v-col cols="12">
         <SavesCharacter />
       </v-col>
     </v-row>
@@ -225,6 +230,7 @@ import StatsCharacter from '@/components/character/StatsCharacter.vue';
 import SavesCharacter from '@/components/character/SavesCharacter.vue';
 import TacoPvAlignment from '@/components/character/TacoPvAlignment.vue';
 import AdditionnalAbilities from '@/components/character/AdditionnalAbilities.vue';
+import SpeedAndWeapons from '@/components/character/SpeedAndWeapons.vue';
 
 export default {
   name: 'CharacterView',
@@ -233,7 +239,8 @@ export default {
     TacoPvAlignment,
     SavesCharacter,
     NbSpellAllowed,
-    AdditionnalAbilities
+    AdditionnalAbilities,
+    SpeedAndWeapons
   },
   setup() {
     const editableFields = ref({});

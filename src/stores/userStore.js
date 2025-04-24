@@ -13,9 +13,7 @@ export const useUserStore = defineStore('userStore', {
         async getCharacters() {
             try {
                 const response = await api.get('/character/all');
-                console.log(response)
                 Object.assign(this.char_list, response.data);
-                console.log(this.char_list);
             } catch (error) {
                 console.error('Failed to get characters', error);
             }

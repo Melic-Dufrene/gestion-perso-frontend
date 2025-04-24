@@ -76,9 +76,7 @@ export default {
 
     const characterStore = useCharacterStore();
     const {
-      character,
-      getCharacter,
-      updateCharacter
+      character
     } = characterStore;
 
     const saves = computed(() => {

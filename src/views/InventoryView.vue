@@ -164,7 +164,7 @@
                     mdi-information
                   </v-icon>
                 </template>
-                <span>{{ item.description }}</span>
+                <span>{{ item.desc }}</span>
               </v-tooltip>
               <v-icon
                 class="ml-2"
@@ -253,15 +253,29 @@
       </v-dialog>
     </v-container>
     <h2>Dans le sac</h2>
+    <v-container>
+      <InventoryTable
+        v-if="character.inventory.bag !== undefined"
+        :items="character.inventory.bag"
+      />
+    </v-container>
+    <v-container style="align-content: center;">
+      <h2>Poids total</h2>
+      {{ total_weight }}
+    </v-container>
   </v-container>
 </template>
 
 <script>
-import { ref, reactive } from 'vue';
+import { ref, reactive, computed } from 'vue';
 import { useCharacterStore } from '@/stores/characterStore';
+import InventoryTable from '@/components/character/InventoryTable.vue';
 
 export default {
   name: "InventoryView",
+  components: {
+    InventoryTable
+  },
   setup() {
     const characterStore = useCharacterStore();
     const { character } = characterStore;
@@ -296,7 +310,6 @@ export default {
         Object.assign(character.inventory.on[index], { ...selectedItem });
       } else {
         character.inventory.on.push({ ...selectedItem, id: character.inventory.on.length });
-        console.log({ ...selectedItem, id: character.inventory.on.length })
       }
       editDialog.value = false;
       resetSelectedItem();
@@ -315,6 +328,19 @@ export default {
       selectedItem.desc = '';
     }
 
+    const total_weight = computed(() => {
+      let weight = 0;
+      for (const index in character.inventory.on) {
+        weight += parseFloat(character.inventory.on[index].weight);
+      }
+
+      for (const index in character.inventory.bag) {
+        weight += character.inventory.bag[index].weight;
+      }
+      return weight;
+    }
+    );
+
     return {
       character,
       editDialog,
@@ -324,7 +350,8 @@ export default {
       saveChanges,
       openEditDialog,
       cancelEdit,
-      resetSelectedItem
+      resetSelectedItem,
+      total_weight
     };
   }
 };

@@ -200,7 +200,8 @@ export default {
     }
 
     async function saveChanges() {
-      await updateCharacter(editedCharacter.value._id);
+      Object.assign(character, { ...editedCharacter.value }); // Update the character object
+      await updateCharacter(character._id);
       await getCharacters(); // Refresh the character list
       editDialog.value = false;
     }
